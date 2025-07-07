@@ -1,0 +1,64 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon Jun 30 22:20:14 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : param_multiplier
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 a[5]
+                            (input port)
+  Destination:            product[6]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        11.216ns  (logic 5.345ns (47.656%)  route 5.871ns (52.344%))
+  Logic Levels:           11  (CARRY4=5 IBUF=1 LUT4=2 LUT6=2 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    P26                                               0.000     0.000 r  a[5] (IN)
+                         net (fo=0)                   0.000     0.000    a[5]
+    P26                  IBUF (Prop_ibuf_I_O)         0.914     0.914 r  a_IBUF[5]_inst/O
+                         net (fo=20, routed)          1.574     2.488    a_IBUF[5]
+    SLICE_X4Y110         LUT6 (Prop_lut6_I3_O)        0.105     2.593 r  product_OBUF[14]_inst_i_8/O
+                         net (fo=2, routed)           0.867     3.460    product_OBUF[14]_inst_i_8_n_0
+    SLICE_X3Y111         LUT6 (Prop_lut6_I0_O)        0.105     3.565 r  product_OBUF[14]_inst_i_12/O
+                         net (fo=1, routed)           0.000     3.565    product_OBUF[14]_inst_i_12_n_0
+    SLICE_X3Y111         CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.332     3.897 r  product_OBUF[14]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000     3.897    product_OBUF[14]_inst_i_3_n_0
+    SLICE_X3Y112         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     4.162 r  product_OBUF[15]_inst_i_23/O[1]
+                         net (fo=2, routed)           0.661     4.823    product_OBUF[15]_inst_i_23_n_6
+    SLICE_X3Y113         LUT4 (Prop_lut4_I3_O)        0.264     5.087 f  product_OBUF[15]_inst_i_10/O
+                         net (fo=3, routed)           0.527     5.613    product_OBUF[15]_inst_i_10_n_0
+    SLICE_X3Y114         LUT4 (Prop_lut4_I2_O)        0.275     5.888 r  product_OBUF[15]_inst_i_2/O
+                         net (fo=1, routed)           0.575     6.463    product_OBUF[15]_inst_i_2_n_0
+    SLICE_X2Y112         CARRY4 (Prop_carry4_DI[3]_CO[3])
+                                                      0.327     6.790 r  product_OBUF[15]_inst_i_1/CO[3]
+                         net (fo=1, routed)           0.000     6.790    product_OBUF[15]_inst_i_1_n_0
+    SLICE_X2Y113         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100     6.890 r  product_OBUF[5]_inst_i_1/CO[3]
+                         net (fo=1, routed)           0.000     6.890    product_OBUF[5]_inst_i_1_n_0
+    SLICE_X2Y114         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.178     7.068 r  product_OBUF[6]_inst_i_1/O[0]
+                         net (fo=1, routed)           1.667     8.736    product_OBUF[6]
+    P20                  OBUF (Prop_obuf_I_O)         2.480    11.216 r  product_OBUF[6]_inst/O
+                         net (fo=0)                   0.000    11.216    product[6]
+    P20                                                               r  product[6] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

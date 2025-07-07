@@ -1,0 +1,40 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 09:07:08 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : param_comparator
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 Less_reg/G
+                            (positive level-sensitive latch)
+  Destination:            Less
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        4.386ns  (logic 2.712ns (61.834%)  route 1.674ns (38.166%))
+  Logic Levels:           2  (LDCE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y110         LDCE                         0.000     0.000 r  Less_reg/G
+    SLICE_X0Y110         LDCE (EnToQ_ldce_G_Q)        0.370     0.370 r  Less_reg/Q
+                         net (fo=1, routed)           1.674     2.044    Less_OBUF
+    P19                  OBUF (Prop_obuf_I_O)         2.342     4.386 r  Less_OBUF_inst/O
+                         net (fo=0)                   0.000     4.386    Less
+    P19                                                               r  Less (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

@@ -1,0 +1,43 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 19:38:44 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : seven_seg_display
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 data[1]
+                            (input port)
+  Destination:            seg[3]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.408ns  (logic 3.572ns (55.742%)  route 2.836ns (44.258%))
+  Logic Levels:           3  (IBUF=1 LUT4=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    R23                                               0.000     0.000 r  data[1] (IN)
+                         net (fo=0)                   0.000     0.000    data[1]
+    R23                  IBUF (Prop_ibuf_I_O)         0.896     0.896 r  data_IBUF[1]_inst/O
+                         net (fo=7, routed)           1.327     2.224    data_IBUF[1]
+    SLICE_X0Y105         LUT4 (Prop_lut4_I3_O)        0.119     2.343 r  seg_OBUF[3]_inst_i_1/O
+                         net (fo=1, routed)           1.509     3.851    seg_OBUF[3]
+    T25                  OBUF (Prop_obuf_I_O)         2.556     6.408 r  seg_OBUF[3]_inst/O
+                         net (fo=0)                   0.000     6.408    seg[3]
+    T25                                                               r  seg[3] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

@@ -1,0 +1,44 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 17:21:42 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : bidir_pin
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 dir
+                            (input port)
+  Destination:            pin[0]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        5.755ns  (logic 3.420ns (59.429%)  route 2.335ns (40.571%))
+  Logic Levels:           3  (IBUF=1 LUT1=1 OBUFT=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    T23                                               0.000     0.000 r  dir (IN)
+                         net (fo=0)                   0.000     0.000    dir
+    T23                  IBUF (Prop_ibuf_I_O)         0.908     0.908 r  dir_IBUF_inst/O
+                         net (fo=2, routed)           0.870     1.778    data_in_TRI[0]
+    SLICE_X0Y102         LUT1 (Prop_lut1_I0_O)        0.105     1.883 f  pin_IOBUF[0]_inst_i_1/O
+                         net (fo=1, routed)           1.465     3.348    pin_IOBUF[0]_inst/T
+    R22                  OBUFT (TriStatE_obuft_T_O)
+                                                      2.407     5.755 r  pin_IOBUF[0]_inst/OBUFT/O
+                         net (fo=1, unset)            0.000     5.755    pin[0]
+    R22                                                               r  pin[0] (INOUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

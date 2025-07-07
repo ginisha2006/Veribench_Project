@@ -1,0 +1,121 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon Jun 30 23:07:30 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : param_divider
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 divisor[2]
+                            (input port)
+  Destination:            remainder[0]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        21.417ns  (logic 10.591ns (49.451%)  route 10.826ns (50.549%))
+  Logic Levels:           32  (CARRY4=20 IBUF=1 LUT2=7 LUT3=2 LUT6=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    N26                                               0.000     0.000 f  divisor[2] (IN)
+                         net (fo=0)                   0.000     0.000    divisor[2]
+    N26                  IBUF (Prop_ibuf_I_O)         0.920     0.920 f  divisor_IBUF[2]_inst/O
+                         net (fo=13, routed)          1.857     2.777    divisor_IBUF[2]
+    SLICE_X2Y114         LUT6 (Prop_lut6_I1_O)        0.105     2.882 f  remainder_OBUF[7]_inst_i_3/O
+                         net (fo=3, routed)           0.233     3.116    remainder_OBUF[7]_inst_i_3_n_0
+    SLICE_X2Y114         LUT3 (Prop_lut3_I1_O)        0.105     3.221 r  remainder_OBUF[7]_inst_i_2/O
+                         net (fo=22, routed)          0.679     3.900    p_1_in[7]
+    SLICE_X2Y115         LUT2 (Prop_lut2_I1_O)        0.105     4.005 r  remainder_OBUF[6]_inst_i_10/O
+                         net (fo=1, routed)           0.259     4.264    remainder_OBUF[6]_inst_i_10_n_0
+    SLICE_X0Y115         CARRY4 (Prop_carry4_DI[0]_CO[3])
+                                                      0.436     4.700 r  remainder_OBUF[6]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000     4.700    remainder_OBUF[6]_inst_i_3_n_0
+    SLICE_X0Y116         CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     4.916 r  remainder_OBUF[6]_inst_i_2/CO[0]
+                         net (fo=13, routed)          0.853     5.769    p_1_in[6]
+    SLICE_X1Y113         LUT2 (Prop_lut2_I1_O)        0.309     6.078 r  remainder_OBUF[5]_inst_i_14/O
+                         net (fo=1, routed)           0.000     6.078    remainder_OBUF[5]_inst_i_14_n_0
+    SLICE_X1Y113         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     6.535 r  remainder_OBUF[5]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000     6.535    remainder_OBUF[5]_inst_i_6_n_0
+    SLICE_X1Y114         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     6.633 r  remainder_OBUF[5]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000     6.633    remainder_OBUF[5]_inst_i_3_n_0
+    SLICE_X1Y115         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     6.765 r  remainder_OBUF[5]_inst_i_2/CO[1]
+                         net (fo=13, routed)          0.932     7.697    p_1_in[5]
+    SLICE_X0Y111         LUT2 (Prop_lut2_I1_O)        0.275     7.972 r  remainder_OBUF[4]_inst_i_14/O
+                         net (fo=1, routed)           0.000     7.972    remainder_OBUF[4]_inst_i_14_n_0
+    SLICE_X0Y111         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     8.429 r  remainder_OBUF[4]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000     8.429    remainder_OBUF[4]_inst_i_6_n_0
+    SLICE_X0Y112         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     8.527 r  remainder_OBUF[4]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000     8.527    remainder_OBUF[4]_inst_i_3_n_0
+    SLICE_X0Y113         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132     8.659 r  remainder_OBUF[4]_inst_i_2/CO[1]
+                         net (fo=13, routed)          0.861     9.520    p_1_in[4]
+    SLICE_X3Y111         LUT2 (Prop_lut2_I1_O)        0.275     9.795 r  remainder_OBUF[3]_inst_i_14/O
+                         net (fo=1, routed)           0.000     9.795    remainder_OBUF[3]_inst_i_14_n_0
+    SLICE_X3Y111         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457    10.252 r  remainder_OBUF[3]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000    10.252    remainder_OBUF[3]_inst_i_6_n_0
+    SLICE_X3Y112         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    10.350 r  remainder_OBUF[3]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    10.350    remainder_OBUF[3]_inst_i_3_n_0
+    SLICE_X3Y113         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132    10.482 r  remainder_OBUF[3]_inst_i_2/CO[1]
+                         net (fo=13, routed)          0.838    11.320    p_1_in[3]
+    SLICE_X2Y110         LUT2 (Prop_lut2_I1_O)        0.275    11.595 r  remainder_OBUF[2]_inst_i_14/O
+                         net (fo=1, routed)           0.000    11.595    remainder_OBUF[2]_inst_i_14_n_0
+    SLICE_X2Y110         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.444    12.039 r  remainder_OBUF[2]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000    12.039    remainder_OBUF[2]_inst_i_6_n_0
+    SLICE_X2Y111         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    12.139 r  remainder_OBUF[2]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    12.139    remainder_OBUF[2]_inst_i_3_n_0
+    SLICE_X2Y112         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.131    12.270 r  remainder_OBUF[2]_inst_i_2/CO[1]
+                         net (fo=13, routed)          1.098    13.369    p_1_in[2]
+    SLICE_X4Y110         LUT2 (Prop_lut2_I1_O)        0.277    13.646 r  remainder_OBUF[1]_inst_i_14/O
+                         net (fo=1, routed)           0.000    13.646    remainder_OBUF[1]_inst_i_14_n_0
+    SLICE_X4Y110         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457    14.103 r  remainder_OBUF[1]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000    14.103    remainder_OBUF[1]_inst_i_6_n_0
+    SLICE_X4Y111         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    14.201 r  remainder_OBUF[1]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    14.201    remainder_OBUF[1]_inst_i_3_n_0
+    SLICE_X4Y112         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132    14.333 r  remainder_OBUF[1]_inst_i_2/CO[1]
+                         net (fo=13, routed)          0.731    15.064    p_1_in[1]
+    SLICE_X5Y111         LUT2 (Prop_lut2_I1_O)        0.275    15.339 r  remainder_OBUF[0]_inst_i_14/O
+                         net (fo=1, routed)           0.000    15.339    remainder_OBUF[0]_inst_i_14_n_0
+    SLICE_X5Y111         CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440    15.779 r  remainder_OBUF[0]_inst_i_5/CO[3]
+                         net (fo=1, routed)           0.000    15.779    remainder_OBUF[0]_inst_i_5_n_0
+    SLICE_X5Y112         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    15.877 r  remainder_OBUF[0]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    15.877    remainder_OBUF[0]_inst_i_3_n_0
+    SLICE_X5Y113         CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216    16.093 r  remainder_OBUF[0]_inst_i_2/CO[0]
+                         net (fo=1, routed)           0.790    16.883    p_1_in[0]
+    SLICE_X1Y112         LUT3 (Prop_lut3_I0_O)        0.319    17.202 r  remainder_OBUF[0]_inst_i_1/O
+                         net (fo=1, routed)           1.693    18.895    remainder_OBUF[0]
+    N21                  OBUF (Prop_obuf_I_O)         2.522    21.417 r  remainder_OBUF[0]_inst/O
+                         net (fo=0)                   0.000    21.417    remainder[0]
+    N21                                                               r  remainder[0] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

@@ -1,0 +1,1 @@
+DesignName,DatapathDelay,logic_delay,routing_delay,DynamicPower,static_power,signal_power,logic_power,i_o_power,total_power,f7_muxes,lut_as_memory,lut_as_logic,slice_lut,lut1,lut2,lut3,lut4,lut5,lut6,lut7

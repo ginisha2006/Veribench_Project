@@ -1,0 +1,49 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 16:48:05 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : param_divider
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 dividend[0]
+                            (input port)
+  Destination:            remainder[7]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        7.570ns  (logic 4.196ns (55.428%)  route 3.374ns (44.572%))
+  Logic Levels:           5  (CARRY4=2 IBUF=1 LUT2=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    R18                                               0.000     0.000 r  dividend[0] (IN)
+                         net (fo=0)                   0.000     0.000    dividend[0]
+    R18                  IBUF (Prop_ibuf_I_O)         0.852     0.852 r  dividend_IBUF[0]_inst/O
+                         net (fo=2, routed)           1.462     2.314    dividend_IBUF[0]
+    SLICE_X0Y112         LUT2 (Prop_lut2_I0_O)        0.105     2.419 r  remainder_OBUF[5]_inst_i_5/O
+                         net (fo=1, routed)           0.000     2.419    remainder_OBUF[5]_inst_i_5_n_0
+    SLICE_X0Y112         CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440     2.859 r  remainder_OBUF[5]_inst_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.859    remainder_OBUF[5]_inst_i_1_n_0
+    SLICE_X0Y113         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     3.124 r  quotient_OBUF[1]_inst_i_1/O[1]
+                         net (fo=1, routed)           1.912     5.036    remainder_OBUF[7]
+    L25                  OBUF (Prop_obuf_I_O)         2.533     7.570 r  remainder_OBUF[7]_inst/O
+                         net (fo=0)                   0.000     7.570    remainder[7]
+    L25                                                               r  remainder[7] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

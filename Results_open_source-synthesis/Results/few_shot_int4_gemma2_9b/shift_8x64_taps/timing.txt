@@ -1,0 +1,40 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon Jun 30 23:35:53 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : shift_8x64_taps
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 shift_reg_reg[30]_lopt_replica/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            sr_tap_two[6]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        4.339ns  (logic 2.740ns (63.157%)  route 1.598ns (36.843%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y131         FDRE                         0.000     0.000 r  shift_reg_reg[30]_lopt_replica/C
+    SLICE_X0Y131         FDRE (Prop_fdre_C_Q)         0.379     0.379 r  shift_reg_reg[30]_lopt_replica/Q
+                         net (fo=1, routed)           1.598     1.977    shift_reg_reg[30]_lopt_replica_1
+    R16                  OBUF (Prop_obuf_I_O)         2.361     4.339 r  sr_tap_two_OBUF[6]_inst/O
+                         net (fo=0)                   0.000     4.339    sr_tap_two[6]
+    R16                                                               r  sr_tap_two[6] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

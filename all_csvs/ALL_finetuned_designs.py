@@ -1,0 +1,27 @@
+import os
+import pandas as pd
+# Base directory where all CSVs are stored
+csv_folder = "/TVLSI_WORK/Sia/finetuning_copy_2"
+excel_file = "verilog_finetuned_designs_file.xlsx"
+
+# All model, quant, and prompting combinations
+models = ["LLaMA3-8B", "Gemma2-9B"]
+prompting = ["zero_shot", "few_shot", "chain_of_thought"]
+
+# Create a writer to write multiple sheets into one Excel file
+with pd.ExcelWriter(excel_file) as writer:
+    for model in models:
+        for pt in prompting:
+                filename = f"{model}_qlora_designs/{pt}_qlora_designs.csv"
+                filepath = os.path.join(csv_folder, filename)
+                try:
+                    df = pd.read_csv(filepath)
+                    sheet_name = f"{pt}_{model}" [:31]  # Limit sheet name to 31 characters
+                    df.to_excel(writer, sheet_name=sheet_name, index=False)
+                    print(f"✅ Added: {sheet_name}")
+                except FileNotFoundError:
+                    print(f"⚠ File not found: {filepath}")
+                except Exception as e:
+                    print(f"❌ Error with file {filepath}: {e}")
+
+print(f"\n📁 Excel file created: {excel_file}")

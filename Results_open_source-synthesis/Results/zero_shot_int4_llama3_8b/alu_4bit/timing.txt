@@ -1,0 +1,47 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 08:13:23 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : alu_4bit
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 a[0]
+                            (input port)
+  Destination:            ALU_Result[3]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        7.905ns  (logic 3.599ns (45.535%)  route 4.305ns (54.465%))
+  Logic Levels:           5  (IBUF=1 LUT5=1 LUT6=2 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    T25                                               0.000     0.000 f  a[0] (IN)
+                         net (fo=0)                   0.000     0.000    a[0]
+    T25                  IBUF (Prop_ibuf_I_O)         0.909     0.909 f  a_IBUF[0]_inst/O
+                         net (fo=11, routed)          1.378     2.287    a_IBUF[0]
+    SLICE_X0Y111         LUT6 (Prop_lut6_I1_O)        0.105     2.392 r  Overflow_OBUF_inst_i_3/O
+                         net (fo=3, routed)           0.672     3.064    Overflow_OBUF_inst_i_3_n_0
+    SLICE_X0Y112         LUT6 (Prop_lut6_I1_O)        0.105     3.169 r  ALU_Result_OBUF[3]_inst_i_2/O
+                         net (fo=1, routed)           0.551     3.720    ALU_Result_OBUF[3]_inst_i_2_n_0
+    SLICE_X0Y112         LUT5 (Prop_lut5_I4_O)        0.105     3.825 r  ALU_Result_OBUF[3]_inst_i_1/O
+                         net (fo=1, routed)           1.704     5.529    ALU_Result_OBUF[3]
+    R22                  OBUF (Prop_obuf_I_O)         2.375     7.905 r  ALU_Result_OBUF[3]_inst/O
+                         net (fo=0)                   0.000     7.905    ALU_Result[3]
+    R22                                                               r  ALU_Result[3] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

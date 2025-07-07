@@ -1,0 +1,52 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon Jun 30 22:24:48 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : param_subtractor
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 a[2]
+                            (input port)
+  Destination:            borrow
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        7.288ns  (logic 4.127ns (56.624%)  route 3.161ns (43.376%))
+  Logic Levels:           6  (CARRY4=3 IBUF=1 LUT2=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    T23                                               0.000     0.000 r  a[2] (IN)
+                         net (fo=0)                   0.000     0.000    a[2]
+    T23                  IBUF (Prop_ibuf_I_O)         0.908     0.908 r  a_IBUF[2]_inst/O
+                         net (fo=1, routed)           1.451     2.359    a_IBUF[2]
+    SLICE_X0Y112         LUT2 (Prop_lut2_I0_O)        0.105     2.464 r  diff_OBUF[3]_inst_i_3/O
+                         net (fo=1, routed)           0.000     2.464    diff_OBUF[3]_inst_i_3_n_0
+    SLICE_X0Y112         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.332     2.796 r  diff_OBUF[3]_inst_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.796    diff_OBUF[3]_inst_i_1_n_0
+    SLICE_X0Y113         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     2.894 r  diff_OBUF[7]_inst_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.894    diff_OBUF[7]_inst_i_1_n_0
+    SLICE_X0Y114         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.180     3.074 r  borrow_OBUF_inst_i_1/O[0]
+                         net (fo=1, routed)           1.710     4.784    borrow_OBUF
+    N21                  OBUF (Prop_obuf_I_O)         2.504     7.288 r  borrow_OBUF_inst/O
+                         net (fo=0)                   0.000     7.288    borrow
+    N21                                                               r  borrow (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

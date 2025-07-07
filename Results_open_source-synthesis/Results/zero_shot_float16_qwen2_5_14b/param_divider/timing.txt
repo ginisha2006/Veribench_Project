@@ -1,0 +1,286 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 06:59:33 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : param_divider
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 divisor[1]
+                            (input port)
+  Destination:            remainder[7]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        47.032ns  (logic 21.599ns (45.923%)  route 25.434ns (54.077%))
+  Logic Levels:           90  (CARRY4=69 IBUF=1 LUT1=1 LUT2=6 LUT3=1 LUT4=2 LUT5=8 LUT6=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    M26                                               0.000     0.000 r  divisor[1] (IN)
+                         net (fo=0)                   0.000     0.000    divisor[1]
+    M26                  IBUF (Prop_ibuf_I_O)         0.926     0.926 r  divisor_IBUF[1]_inst/O
+                         net (fo=41, routed)          3.064     3.991    divisor_IBUF[1]
+    SLICE_X3Y115         LUT4 (Prop_lut4_I2_O)        0.105     4.096 r  quotient_OBUF[7]_inst_i_9/O
+                         net (fo=24, routed)          1.058     5.153    quotient_OBUF[7]_inst_i_9_n_0
+    SLICE_X1Y119         LUT4 (Prop_lut4_I3_O)        0.105     5.258 r  quotient_OBUF[7]_inst_i_17/O
+                         net (fo=1, routed)           0.000     5.258    quotient_OBUF[7]_inst_i_17_n_0
+    SLICE_X1Y119         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457     5.715 r  quotient_OBUF[7]_inst_i_5/CO[3]
+                         net (fo=1, routed)           0.000     5.715    quotient_OBUF[7]_inst_i_5_n_0
+    SLICE_X1Y120         CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216     5.931 r  quotient_OBUF[7]_inst_i_2/CO[0]
+                         net (fo=14, routed)          0.972     6.904    quotient_OBUF[7]_inst_i_2_n_3
+    SLICE_X2Y118         LUT2 (Prop_lut2_I1_O)        0.309     7.213 r  quotient_OBUF[6]_inst_i_15/O
+                         net (fo=1, routed)           0.000     7.213    quotient_OBUF[6]_inst_i_15_n_0
+    SLICE_X2Y118         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.444     7.657 r  quotient_OBUF[6]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000     7.657    quotient_OBUF[6]_inst_i_6_n_0
+    SLICE_X2Y119         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100     7.757 r  quotient_OBUF[6]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000     7.757    quotient_OBUF[6]_inst_i_3_n_0
+    SLICE_X2Y120         CARRY4 (Prop_carry4_CI_CO[2])
+                                                      0.191     7.948 r  quotient_OBUF[6]_inst_i_2/CO[2]
+                         net (fo=16, routed)          0.897     8.845    quotient_OBUF[6]_inst_i_2_n_1
+    SLICE_X3Y118         LUT6 (Prop_lut6_I0_O)        0.252     9.097 r  quotient_OBUF[5]_inst_i_13/O
+                         net (fo=1, routed)           0.000     9.097    quotient_OBUF[5]_inst_i_13_n_0
+    SLICE_X3Y118         CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.332     9.429 r  quotient_OBUF[5]_inst_i_7/CO[3]
+                         net (fo=1, routed)           0.000     9.429    quotient_OBUF[5]_inst_i_7_n_0
+    SLICE_X3Y119         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     9.527 r  quotient_OBUF[5]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000     9.527    quotient_OBUF[5]_inst_i_3_n_0
+    SLICE_X3Y120         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     9.625 r  quotient_OBUF[5]_inst_i_2/CO[3]
+                         net (fo=18, routed)          1.246    10.870    quotient_OBUF[5]_inst_i_2_n_0
+    SLICE_X7Y118         LUT2 (Prop_lut2_I1_O)        0.105    10.975 r  quotient_OBUF[4]_inst_i_22/O
+                         net (fo=1, routed)           0.000    10.975    quotient_OBUF[4]_inst_i_22_n_0
+    SLICE_X7Y118         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457    11.432 r  quotient_OBUF[4]_inst_i_14/CO[3]
+                         net (fo=1, routed)           0.000    11.432    quotient_OBUF[4]_inst_i_14_n_0
+    SLICE_X7Y119         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    11.530 r  quotient_OBUF[4]_inst_i_9/CO[3]
+                         net (fo=1, routed)           0.000    11.530    quotient_OBUF[4]_inst_i_9_n_0
+    SLICE_X7Y120         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    11.628 r  quotient_OBUF[4]_inst_i_4/CO[3]
+                         net (fo=1, routed)           0.000    11.628    quotient_OBUF[4]_inst_i_4_n_0
+    SLICE_X7Y121         CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216    11.844 r  quotient_OBUF[4]_inst_i_2/CO[0]
+                         net (fo=20, routed)          0.883    12.728    quotient_OBUF[4]_inst_i_2_n_3
+    SLICE_X6Y117         LUT2 (Prop_lut2_I1_O)        0.309    13.037 r  quotient_OBUF[3]_inst_i_18/O
+                         net (fo=1, routed)           0.000    13.037    quotient_OBUF[3]_inst_i_18_n_0
+    SLICE_X6Y117         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.444    13.481 r  quotient_OBUF[3]_inst_i_10/CO[3]
+                         net (fo=1, routed)           0.000    13.481    quotient_OBUF[3]_inst_i_10_n_0
+    SLICE_X6Y118         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    13.581 r  quotient_OBUF[3]_inst_i_5/CO[3]
+                         net (fo=1, routed)           0.000    13.581    quotient_OBUF[3]_inst_i_5_n_0
+    SLICE_X6Y119         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    13.681 r  quotient_OBUF[3]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    13.681    quotient_OBUF[3]_inst_i_3_n_0
+    SLICE_X6Y120         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.131    13.812 r  quotient_OBUF[3]_inst_i_2/CO[1]
+                         net (fo=22, routed)          1.350    15.161    quotient_OBUF[3]_inst_i_2_n_2
+    SLICE_X8Y116         LUT2 (Prop_lut2_I1_O)        0.277    15.438 r  quotient_OBUF[2]_inst_i_19/O
+                         net (fo=1, routed)           0.000    15.438    quotient_OBUF[2]_inst_i_19_n_0
+    SLICE_X8Y116         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.444    15.882 r  quotient_OBUF[2]_inst_i_11/CO[3]
+                         net (fo=1, routed)           0.000    15.882    quotient_OBUF[2]_inst_i_11_n_0
+    SLICE_X8Y117         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    15.982 r  quotient_OBUF[2]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000    15.982    quotient_OBUF[2]_inst_i_6_n_0
+    SLICE_X8Y118         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    16.082 r  quotient_OBUF[2]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    16.082    quotient_OBUF[2]_inst_i_3_n_0
+    SLICE_X8Y119         CARRY4 (Prop_carry4_CI_CO[2])
+                                                      0.191    16.273 r  quotient_OBUF[2]_inst_i_2/CO[2]
+                         net (fo=24, routed)          1.130    17.404    quotient_OBUF[2]_inst_i_2_n_1
+    SLICE_X11Y117        LUT3 (Prop_lut3_I0_O)        0.252    17.656 r  quotient_OBUF[1]_inst_i_11/O
+                         net (fo=1, routed)           0.000    17.656    quotient_OBUF[1]_inst_i_11_n_0
+    SLICE_X11Y117        CARRY4 (Prop_carry4_S[0]_CO[3])
+                                                      0.440    18.096 r  quotient_OBUF[1]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    18.096    quotient_OBUF[1]_inst_i_3_n_0
+    SLICE_X11Y118        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    18.194 r  quotient_OBUF[1]_inst_i_2/CO[3]
+                         net (fo=26, routed)          1.400    19.594    quotient_OBUF[1]_inst_i_2_n_0
+    SLICE_X10Y114        LUT2 (Prop_lut2_I1_O)        0.105    19.699 r  quotient_OBUF[0]_inst_i_27/O
+                         net (fo=1, routed)           0.000    19.699    quotient_OBUF[0]_inst_i_27_n_0
+    SLICE_X10Y114        CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.444    20.143 r  quotient_OBUF[0]_inst_i_19/CO[3]
+                         net (fo=1, routed)           0.000    20.143    quotient_OBUF[0]_inst_i_19_n_0
+    SLICE_X10Y115        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    20.243 r  quotient_OBUF[0]_inst_i_14/CO[3]
+                         net (fo=1, routed)           0.000    20.243    quotient_OBUF[0]_inst_i_14_n_0
+    SLICE_X10Y116        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    20.343 r  quotient_OBUF[0]_inst_i_9/CO[3]
+                         net (fo=1, routed)           0.000    20.343    quotient_OBUF[0]_inst_i_9_n_0
+    SLICE_X10Y117        CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    20.443 r  quotient_OBUF[0]_inst_i_4/CO[3]
+                         net (fo=1, routed)           0.000    20.443    quotient_OBUF[0]_inst_i_4_n_0
+    SLICE_X10Y118        CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.207    20.650 r  quotient_OBUF[0]_inst_i_2/CO[0]
+                         net (fo=28, routed)          1.240    21.889    quotient_OBUF[0]_inst_i_2_n_3
+    SLICE_X9Y113         LUT5 (Prop_lut5_I0_O)        0.297    22.186 r  remainder_OBUF[7]_inst_i_23/O
+                         net (fo=1, routed)           0.000    22.186    remainder_OBUF[7]_inst_i_23_n_0
+    SLICE_X9Y113         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457    22.643 r  remainder_OBUF[7]_inst_i_15/CO[3]
+                         net (fo=1, routed)           0.000    22.643    remainder_OBUF[7]_inst_i_15_n_0
+    SLICE_X9Y114         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    22.741 r  remainder_OBUF[7]_inst_i_10/CO[3]
+                         net (fo=1, routed)           0.000    22.741    remainder_OBUF[7]_inst_i_10_n_0
+    SLICE_X9Y115         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    22.839 r  remainder_OBUF[7]_inst_i_5/CO[3]
+                         net (fo=1, routed)           0.000    22.839    remainder_OBUF[7]_inst_i_5_n_0
+    SLICE_X9Y116         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    22.937 r  remainder_OBUF[7]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    22.937    remainder_OBUF[7]_inst_i_3_n_0
+    SLICE_X9Y117         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132    23.069 r  remainder_OBUF[7]_inst_i_2/CO[1]
+                         net (fo=30, routed)          1.432    24.501    remainder_OBUF[7]_inst_i_2_n_2
+    SLICE_X6Y112         LUT5 (Prop_lut5_I0_O)        0.275    24.776 r  remainder_OBUF[6]_inst_i_24/O
+                         net (fo=1, routed)           0.000    24.776    remainder_OBUF[6]_inst_i_24_n_0
+    SLICE_X6Y112         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.444    25.220 r  remainder_OBUF[6]_inst_i_16/CO[3]
+                         net (fo=1, routed)           0.000    25.220    remainder_OBUF[6]_inst_i_16_n_0
+    SLICE_X6Y113         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    25.320 r  remainder_OBUF[6]_inst_i_11/CO[3]
+                         net (fo=1, routed)           0.000    25.320    remainder_OBUF[6]_inst_i_11_n_0
+    SLICE_X6Y114         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    25.420 r  remainder_OBUF[6]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000    25.420    remainder_OBUF[6]_inst_i_6_n_0
+    SLICE_X6Y115         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    25.520 r  remainder_OBUF[6]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    25.520    remainder_OBUF[6]_inst_i_3_n_0
+    SLICE_X6Y116         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.131    25.651 r  remainder_OBUF[6]_inst_i_2/CO[1]
+                         net (fo=30, routed)          1.241    26.893    quotient10_in[6]
+    SLICE_X5Y111         LUT5 (Prop_lut5_I0_O)        0.277    27.170 r  remainder_OBUF[5]_inst_i_24/O
+                         net (fo=1, routed)           0.000    27.170    remainder_OBUF[5]_inst_i_24_n_0
+    SLICE_X5Y111         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457    27.627 r  remainder_OBUF[5]_inst_i_16/CO[3]
+                         net (fo=1, routed)           0.000    27.627    remainder_OBUF[5]_inst_i_16_n_0
+    SLICE_X5Y112         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    27.725 r  remainder_OBUF[5]_inst_i_11/CO[3]
+                         net (fo=1, routed)           0.000    27.725    remainder_OBUF[5]_inst_i_11_n_0
+    SLICE_X5Y113         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    27.823 r  remainder_OBUF[5]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000    27.823    remainder_OBUF[5]_inst_i_6_n_0
+    SLICE_X5Y114         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    27.921 r  remainder_OBUF[5]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    27.921    remainder_OBUF[5]_inst_i_3_n_0
+    SLICE_X5Y115         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132    28.053 r  remainder_OBUF[5]_inst_i_2/CO[1]
+                         net (fo=30, routed)          1.171    29.224    quotient10_in[5]
+    SLICE_X4Y110         LUT5 (Prop_lut5_I0_O)        0.275    29.499 r  remainder_OBUF[4]_inst_i_30/O
+                         net (fo=1, routed)           0.000    29.499    remainder_OBUF[4]_inst_i_30_n_0
+    SLICE_X4Y110         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457    29.956 r  remainder_OBUF[4]_inst_i_22/CO[3]
+                         net (fo=1, routed)           0.000    29.956    remainder_OBUF[4]_inst_i_22_n_0
+    SLICE_X4Y111         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    30.054 r  remainder_OBUF[4]_inst_i_17/CO[3]
+                         net (fo=1, routed)           0.000    30.054    remainder_OBUF[4]_inst_i_17_n_0
+    SLICE_X4Y112         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    30.152 r  remainder_OBUF[4]_inst_i_12/CO[3]
+                         net (fo=1, routed)           0.000    30.152    remainder_OBUF[4]_inst_i_12_n_0
+    SLICE_X4Y113         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    30.250 r  remainder_OBUF[4]_inst_i_9/CO[3]
+                         net (fo=1, routed)           0.000    30.250    remainder_OBUF[4]_inst_i_9_n_0
+    SLICE_X4Y114         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132    30.382 r  remainder_OBUF[4]_inst_i_3/CO[1]
+                         net (fo=30, routed)          0.980    31.362    quotient10_in[4]
+    SLICE_X2Y111         LUT5 (Prop_lut5_I0_O)        0.275    31.637 r  remainder_OBUF[3]_inst_i_24/O
+                         net (fo=1, routed)           0.000    31.637    remainder_OBUF[3]_inst_i_24_n_0
+    SLICE_X2Y111         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.444    32.081 r  remainder_OBUF[3]_inst_i_16/CO[3]
+                         net (fo=1, routed)           0.000    32.081    remainder_OBUF[3]_inst_i_16_n_0
+    SLICE_X2Y112         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    32.181 r  remainder_OBUF[3]_inst_i_11/CO[3]
+                         net (fo=1, routed)           0.000    32.181    remainder_OBUF[3]_inst_i_11_n_0
+    SLICE_X2Y113         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    32.281 r  remainder_OBUF[3]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000    32.281    remainder_OBUF[3]_inst_i_6_n_0
+    SLICE_X2Y114         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.100    32.381 r  remainder_OBUF[3]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    32.381    remainder_OBUF[3]_inst_i_3_n_0
+    SLICE_X2Y115         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.131    32.512 r  remainder_OBUF[3]_inst_i_2/CO[1]
+                         net (fo=30, routed)          1.309    33.821    quotient10_in[3]
+    SLICE_X1Y110         LUT2 (Prop_lut2_I1_O)        0.277    34.098 r  remainder_OBUF[2]_inst_i_21/O
+                         net (fo=1, routed)           0.363    34.461    remainder_OBUF[2]_inst_i_21_n_0
+    SLICE_X1Y111         CARRY4 (Prop_carry4_DI[1]_CO[3])
+                                                      0.418    34.879 r  remainder_OBUF[2]_inst_i_16/CO[3]
+                         net (fo=1, routed)           0.000    34.879    remainder_OBUF[2]_inst_i_16_n_0
+    SLICE_X1Y112         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    34.977 r  remainder_OBUF[2]_inst_i_11/CO[3]
+                         net (fo=1, routed)           0.000    34.977    remainder_OBUF[2]_inst_i_11_n_0
+    SLICE_X1Y113         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    35.075 r  remainder_OBUF[2]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000    35.075    remainder_OBUF[2]_inst_i_6_n_0
+    SLICE_X1Y114         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    35.173 r  remainder_OBUF[2]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    35.173    remainder_OBUF[2]_inst_i_3_n_0
+    SLICE_X1Y115         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132    35.305 r  remainder_OBUF[2]_inst_i_2/CO[1]
+                         net (fo=30, routed)          1.381    36.686    quotient10_in[2]
+    SLICE_X0Y110         LUT5 (Prop_lut5_I0_O)        0.275    36.961 r  remainder_OBUF[1]_inst_i_24/O
+                         net (fo=1, routed)           0.000    36.961    remainder_OBUF[1]_inst_i_24_n_0
+    SLICE_X0Y110         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457    37.418 r  remainder_OBUF[1]_inst_i_16/CO[3]
+                         net (fo=1, routed)           0.000    37.418    remainder_OBUF[1]_inst_i_16_n_0
+    SLICE_X0Y111         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    37.516 r  remainder_OBUF[1]_inst_i_11/CO[3]
+                         net (fo=1, routed)           0.000    37.516    remainder_OBUF[1]_inst_i_11_n_0
+    SLICE_X0Y112         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    37.614 r  remainder_OBUF[1]_inst_i_6/CO[3]
+                         net (fo=1, routed)           0.000    37.614    remainder_OBUF[1]_inst_i_6_n_0
+    SLICE_X0Y113         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    37.712 r  remainder_OBUF[1]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    37.712    remainder_OBUF[1]_inst_i_3_n_0
+    SLICE_X0Y114         CARRY4 (Prop_carry4_CI_CO[1])
+                                                      0.132    37.844 r  remainder_OBUF[1]_inst_i_2/CO[1]
+                         net (fo=29, routed)          1.237    39.080    quotient10_in[1]
+    SLICE_X3Y110         LUT5 (Prop_lut5_I0_O)        0.275    39.355 r  remainder_OBUF[0]_inst_i_22/O
+                         net (fo=1, routed)           0.000    39.355    remainder_OBUF[0]_inst_i_22_n_0
+    SLICE_X3Y110         CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.457    39.812 r  remainder_OBUF[0]_inst_i_15/CO[3]
+                         net (fo=1, routed)           0.000    39.812    remainder_OBUF[0]_inst_i_15_n_0
+    SLICE_X3Y111         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    39.910 r  remainder_OBUF[0]_inst_i_10/CO[3]
+                         net (fo=1, routed)           0.000    39.910    remainder_OBUF[0]_inst_i_10_n_0
+    SLICE_X3Y112         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    40.008 r  remainder_OBUF[0]_inst_i_5/CO[3]
+                         net (fo=1, routed)           0.000    40.008    remainder_OBUF[0]_inst_i_5_n_0
+    SLICE_X3Y113         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098    40.106 r  remainder_OBUF[0]_inst_i_3/CO[3]
+                         net (fo=1, routed)           0.000    40.106    remainder_OBUF[0]_inst_i_3_n_0
+    SLICE_X3Y114         CARRY4 (Prop_carry4_CI_CO[0])
+                                                      0.216    40.322 f  remainder_OBUF[0]_inst_i_2/CO[0]
+                         net (fo=2, routed)           0.264    40.586    quotient10_in[0]
+    SLICE_X2Y116         LUT1 (Prop_lut1_I0_O)        0.309    40.895 r  remainder_OBUF[4]_inst_i_4/O
+                         net (fo=1, routed)           0.269    41.165    remainder_OBUF[4]_inst_i_4_n_0
+    SLICE_X0Y115         CARRY4 (Prop_carry4_CYINIT_CO[3])
+                                                      0.480    41.645 r  remainder_OBUF[4]_inst_i_2/CO[3]
+                         net (fo=1, routed)           0.000    41.645    remainder_OBUF[4]_inst_i_2_n_0
+    SLICE_X0Y116         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.200    41.845 r  quotient_OBUF[0]_inst_i_3/O[2]
+                         net (fo=1, routed)           0.688    42.533    quotient1[7]
+    SLICE_X2Y117         LUT5 (Prop_lut5_I1_O)        0.253    42.786 r  remainder_OBUF[7]_inst_i_1/O
+                         net (fo=1, routed)           1.858    44.644    remainder_OBUF[7]
+    L25                  OBUF (Prop_obuf_I_O)         2.388    47.032 r  remainder_OBUF[7]_inst/O
+                         net (fo=0)                   0.000    47.032    remainder[7]
+    L25                                                               r  remainder[7] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

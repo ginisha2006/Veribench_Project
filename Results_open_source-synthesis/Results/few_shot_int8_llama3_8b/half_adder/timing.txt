@@ -1,0 +1,43 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 03:41:38 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : half_adder
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 a
+                            (input port)
+  Destination:            carry
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        5.897ns  (logic 3.524ns (59.759%)  route 2.373ns (40.241%))
+  Logic Levels:           3  (IBUF=1 LUT2=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    R18                                               0.000     0.000 r  a (IN)
+                         net (fo=0)                   0.000     0.000    a
+    R18                  IBUF (Prop_ibuf_I_O)         0.852     0.852 r  a_IBUF_inst/O
+                         net (fo=2, routed)           0.972     1.825    a_IBUF
+    SLICE_X0Y101         LUT2 (Prop_lut2_I0_O)        0.124     1.949 r  carry_OBUF_inst_i_1/O
+                         net (fo=1, routed)           1.401     3.349    carry_OBUF
+    T23                  OBUF (Prop_obuf_I_O)         2.547     5.897 r  carry_OBUF_inst/O
+                         net (fo=0)                   0.000     5.897    carry
+    T23                                                               r  carry (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

@@ -1,0 +1,44 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 00:14:09 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : ram_infer
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 read_addr[3]
+                            (input port)
+  Destination:            q[7]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.633ns  (logic 3.567ns (53.770%)  route 3.066ns (46.230%))
+  Logic Levels:           3  (IBUF=1 OBUF=1 RAMD32=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    P25                                               0.000     0.000 r  read_addr[3] (IN)
+                         net (fo=0)                   0.000     0.000    read_addr[3]
+    P25                  IBUF (Prop_ibuf_I_O)         0.906     0.906 r  read_addr_IBUF[3]_inst/O
+                         net (fo=8, routed)           1.329     2.236    mem_reg_0_31_6_7__0/DPRA3
+    SLICE_X2Y113         RAMD32 (Prop_ramd32_RADR3_O)
+                                                      0.127     2.363 r  mem_reg_0_31_6_7__0/DP/O
+                         net (fo=1, routed)           1.737     4.100    q_OBUF[7]
+    M21                  OBUF (Prop_obuf_I_O)         2.533     6.633 r  q_OBUF[7]_inst/O
+                         net (fo=0)                   0.000     6.633    q[7]
+    M21                                                               r  q[7] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

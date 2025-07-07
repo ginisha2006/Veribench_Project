@@ -1,0 +1,40 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 20:02:59 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : gray_count
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 gray_count_reg[7]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            gray_count[7]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        4.378ns  (logic 2.889ns (65.979%)  route 1.489ns (34.021%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y107         FDRE                         0.000     0.000 r  gray_count_reg[7]/C
+    SLICE_X0Y107         FDRE (Prop_fdre_C_Q)         0.348     0.348 r  gray_count_reg[7]/Q
+                         net (fo=2, routed)           1.489     1.837    gray_count_OBUF[7]
+    M26                  OBUF (Prop_obuf_I_O)         2.541     4.378 r  gray_count_OBUF[7]_inst/O
+                         net (fo=0)                   0.000     4.378    gray_count[7]
+    M26                                                               r  gray_count[7] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

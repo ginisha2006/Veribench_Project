@@ -1,0 +1,8 @@
+{
+    "learning_rate": 3.731496100664132e-05,
+    "per_device_train_batch_size": 2,
+    "gradient_accumulation_steps": 1,
+    "lora_r": 16,
+    "lora_alpha": 64,
+    "lora_dropout": 0.006380028068034127
+}

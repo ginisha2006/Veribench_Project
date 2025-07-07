@@ -1,0 +1,40 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon Jun 30 23:38:42 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : behav_counter
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 cnt_reg[1]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            cnt[1]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        4.395ns  (logic 2.869ns (65.277%)  route 1.526ns (34.723%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y109         FDRE                         0.000     0.000 r  cnt_reg[1]/C
+    SLICE_X0Y109         FDRE (Prop_fdre_C_Q)         0.348     0.348 r  cnt_reg[1]/Q
+                         net (fo=7, routed)           1.526     1.874    cnt_OBUF[1]
+    P25                  OBUF (Prop_obuf_I_O)         2.521     4.395 r  cnt_OBUF[1]_inst/O
+                         net (fo=0)                   0.000     4.395    cnt[1]
+    P25                                                               r  cnt[1] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

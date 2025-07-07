@@ -1,0 +1,40 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 08:44:24 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : shift_8x64_taps
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 shift
+                            (input port)
+  Destination:            sr_tap_two_reg[7]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        4.466ns  (logic 1.025ns (22.953%)  route 3.441ns (77.047%))
+  Logic Levels:           2  (IBUF=1 LUT3=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    T24                                               0.000     0.000 r  shift (IN)
+                         net (fo=0)                   0.000     0.000    shift
+    T24                  IBUF (Prop_ibuf_I_O)         0.906     0.906 r  shift_IBUF_inst/O
+                         net (fo=88, routed)          2.738     3.645    shift_IBUF
+    SLICE_X0Y123         LUT3 (Prop_lut3_I1_O)        0.119     3.764 r  shift_reg[31]_i_1/O
+                         net (fo=2, routed)           0.703     4.466    shift_reg[31]_i_1_n_0
+    SLICE_X0Y133         FDRE                                         r  sr_tap_two_reg[7]/D
+  -------------------------------------------------------------------    -------------------
+
+
+
+

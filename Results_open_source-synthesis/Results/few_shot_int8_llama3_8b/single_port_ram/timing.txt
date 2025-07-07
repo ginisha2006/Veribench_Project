@@ -1,0 +1,44 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 04:05:19 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : single_port_ram
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 addr[1]
+                            (input port)
+  Destination:            q[4]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        6.527ns  (logic 3.408ns (52.209%)  route 3.119ns (47.791%))
+  Logic Levels:           3  (IBUF=1 OBUF=1 RAMS64E=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    M26                                               0.000     0.000 r  addr[1] (IN)
+                         net (fo=0)                   0.000     0.000    addr[1]
+    M26                  IBUF (Prop_ibuf_I_O)         0.926     0.926 r  addr_IBUF[1]_inst/O
+                         net (fo=8, routed)           1.414     2.340    ram_reg_0_63_4_4/A1
+    SLICE_X2Y110         RAMS64E (Prop_rams64e_ADR1_O)
+                                                      0.105     2.445 r  ram_reg_0_63_4_4/SP/O
+                         net (fo=1, routed)           1.705     4.151    q_OBUF[4]
+    N24                  OBUF (Prop_obuf_I_O)         2.376     6.527 r  q_OBUF[4]_inst/O
+                         net (fo=0)                   0.000     6.527    q[4]
+    N24                                                               r  q[4] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

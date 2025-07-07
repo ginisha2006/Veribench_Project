@@ -1,0 +1,56 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon Jun 30 19:58:24 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : ternary_adder_tree
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 C[5]
+                            (input port)
+  Destination:            OUT_reg[15]/D
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        18.203ns  (logic 2.774ns (15.237%)  route 15.429ns (84.763%))
+  Logic Levels:           8  (CARRY4=4 IBUF=1 LUT3=2 LUT4=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    P23                                               0.000     0.000 r  C[5] (IN)
+                         net (fo=0)                   0.000     0.000    C[5]
+    P23                  IBUF (Prop_ibuf_I_O)         0.896     0.896 r  C_IBUF[5]_inst/O
+                         net (fo=2, routed)           7.464     8.360    C_IBUF[5]
+    SLICE_X163Y124       LUT3 (Prop_lut3_I0_O)        0.115     8.475 r  OUT[11]_i_12/O
+                         net (fo=2, routed)           0.220     8.694    OUT[11]_i_12_n_0
+    SLICE_X163Y124       LUT4 (Prop_lut4_I3_O)        0.275     8.969 r  OUT[11]_i_16/O
+                         net (fo=1, routed)           0.000     8.969    OUT[11]_i_16_n_0
+    SLICE_X163Y124       CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.332     9.301 r  OUT_reg[11]_i_10/CO[3]
+                         net (fo=1, routed)           0.008     9.309    OUT_reg[11]_i_10_n_0
+    SLICE_X163Y125       CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     9.407 r  OUT_reg[15]_i_10/CO[3]
+                         net (fo=1, routed)           0.000     9.407    OUT_reg[15]_i_10_n_0
+    SLICE_X163Y126       CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     9.672 r  OUT_reg[15]_i_9/O[1]
+                         net (fo=2, routed)           7.432    17.104    OUT_reg[15]_i_9_n_6
+    SLICE_X0Y126         LUT3 (Prop_lut3_I0_O)        0.260    17.364 r  OUT[15]_i_2/O
+                         net (fo=2, routed)           0.305    17.670    OUT[15]_i_2_n_0
+    SLICE_X0Y126         CARRY4 (Prop_carry4_DI[2]_O[3])
+                                                      0.533    18.203 r  OUT_reg[15]_i_1/O[3]
+                         net (fo=1, routed)           0.000    18.203    p_0_in[15]
+    SLICE_X0Y126         FDRE                                         r  OUT_reg[15]/D
+  -------------------------------------------------------------------    -------------------
+
+
+
+

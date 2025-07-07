@@ -1,0 +1,42 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 16:31:02 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : fsm_1100
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 FSM_sequential_state_reg[2]/C
+                            (rising edge-triggered cell FDCE)
+  Destination:            pattern_detected
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        4.810ns  (logic 2.869ns (59.657%)  route 1.940ns (40.343%))
+  Logic Levels:           3  (FDCE=1 LUT3=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y101         FDCE                         0.000     0.000 r  FSM_sequential_state_reg[2]/C
+    SLICE_X0Y101         FDCE (Prop_fdce_C_Q)         0.379     0.379 r  FSM_sequential_state_reg[2]/Q
+                         net (fo=4, routed)           0.559     0.938    state[2]
+    SLICE_X0Y101         LUT3 (Prop_lut3_I2_O)        0.105     1.043 r  pattern_detected_OBUF_inst_i_1/O
+                         net (fo=1, routed)           1.381     2.424    pattern_detected_OBUF
+    T23                  OBUF (Prop_obuf_I_O)         2.385     4.810 r  pattern_detected_OBUF_inst/O
+                         net (fo=0)                   0.000     4.810    pattern_detected
+    T23                                                               r  pattern_detected (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

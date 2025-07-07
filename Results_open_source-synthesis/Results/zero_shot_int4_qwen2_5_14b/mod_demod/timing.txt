@@ -1,0 +1,40 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 09:04:19 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : mod_demod
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 modulated_signal_reg[14]_lopt_replica/C
+                            (rising edge-triggered cell FDCE)
+  Destination:            modulated_signal[14]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        4.627ns  (logic 2.761ns (59.668%)  route 1.866ns (40.332%))
+  Logic Levels:           2  (FDCE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X1Y131         FDCE                         0.000     0.000 r  modulated_signal_reg[14]_lopt_replica/C
+    SLICE_X1Y131         FDCE (Prop_fdce_C_Q)         0.379     0.379 r  modulated_signal_reg[14]_lopt_replica/Q
+                         net (fo=1, routed)           1.866     2.245    modulated_signal_reg[14]_lopt_replica_1
+    R14                  OBUF (Prop_obuf_I_O)         2.382     4.627 r  modulated_signal_OBUF[14]_inst/O
+                         net (fo=0)                   0.000     4.627    modulated_signal[14]
+    R14                                                               r  modulated_signal[14] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

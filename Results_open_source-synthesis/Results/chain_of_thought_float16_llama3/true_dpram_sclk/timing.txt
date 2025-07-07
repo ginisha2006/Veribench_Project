@@ -1,0 +1,51 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon Jun 30 15:19:32 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : true_dpram_sclk
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 addr_b[0]
+                            (input port)
+  Destination:            q_b[5]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        11.385ns  (logic 3.749ns (32.930%)  route 7.636ns (67.070%))
+  Logic Levels:           7  (IBUF=1 LUT5=1 LUT6=4 OBUFT=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    P21                                               0.000     0.000 r  addr_b[0] (IN)
+                         net (fo=0)                   0.000     0.000    addr_b[0]
+    P21                  IBUF (Prop_ibuf_I_O)         0.874     0.874 r  addr_b_IBUF[0]_inst/O
+                         net (fo=90, routed)          2.877     3.751    addr_b_IBUF[0]
+    SLICE_X17Y117        LUT6 (Prop_lut6_I3_O)        0.105     3.856 r  q_b_OBUFT[5]_inst_i_12/O
+                         net (fo=1, routed)           0.472     4.328    q_b_OBUFT[5]_inst_i_12_n_0
+    SLICE_X15Y117        LUT5 (Prop_lut5_I4_O)        0.105     4.433 r  q_b_OBUFT[5]_inst_i_7/O
+                         net (fo=1, routed)           0.692     5.125    q_b_OBUFT[5]_inst_i_7_n_0
+    SLICE_X8Y119         LUT6 (Prop_lut6_I5_O)        0.105     5.230 r  q_b_OBUFT[5]_inst_i_3/O
+                         net (fo=1, routed)           0.889     6.119    q_b_OBUFT[5]_inst_i_3_n_0
+    SLICE_X5Y121         LUT6 (Prop_lut6_I4_O)        0.105     6.224 r  q_b_OBUFT[5]_inst_i_2/O
+                         net (fo=1, routed)           0.789     7.013    q_b_OBUFT[5]_inst_i_2_n_0
+    SLICE_X2Y123         LUT6 (Prop_lut6_I5_O)        0.105     7.118 r  q_b_OBUFT[5]_inst_i_1/O
+                         net (fo=1, routed)           1.917     9.035    q_b_OBUF[5]
+    N16                  OBUFT (Prop_obuft_I_O)       2.350    11.385 r  q_b_OBUFT[5]_inst/O
+                         net (fo=0)                   0.000    11.385    q_b[5]
+    N16                                                               r  q_b[5] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+

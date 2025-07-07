@@ -1,0 +1,40 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Jul  1 15:45:29 2025
+| Host         : LAPTOP-H3FE1OBG running 64-bit major release  (build 9200)
+| Command      : report_timing
+| Design       : param_counter
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 count_reg[2]/C
+                            (rising edge-triggered cell FDRE)
+  Destination:            count[2]
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        4.399ns  (logic 2.870ns (65.255%)  route 1.528ns (34.745%))
+  Logic Levels:           2  (FDRE=1 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    SLICE_X0Y101         FDRE                         0.000     0.000 r  count_reg[2]/C
+    SLICE_X0Y101         FDRE (Prop_fdre_C_Q)         0.348     0.348 r  count_reg[2]/Q
+                         net (fo=6, routed)           1.528     1.876    count_OBUF[2]
+    T23                  OBUF (Prop_obuf_I_O)         2.522     4.399 r  count_OBUF[2]_inst/O
+                         net (fo=0)                   0.000     4.399    count[2]
+    T23                                                               r  count[2] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
