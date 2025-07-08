@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/full_adder.v:11: error: 'sum' has already been declared in this scope.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/full_adder.v:5:      : It was declared here as a net.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/full_adder.v:15: error: 'cout' has already been declared in this scope.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/full_adder.v:6:      : It was declared here as a net.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/full_adder.v:10: error: Unknown module type: half_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/full_adder.v:11: error: Unknown module type: half_adder
+3 error(s) during elaboration.
+*** These modules were missing:
+        half_adder referenced 2 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/full_adder.v:11: error: Unknown module type: half_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/full_adder.v:12: error: Unknown module type: half_adder
+3 error(s) during elaboration.
+*** These modules were missing:
+        half_adder referenced 2 times.
+***
+
+

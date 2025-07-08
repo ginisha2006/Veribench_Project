@@ -1,0 +1,39 @@
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/bcd_to_gray_converter.v:2: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/bcd_to_gray_converter.v:9: sorry: constant selects in always_* processes are not currently supported (all bits will be included).
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/bcd_to_gray_converter.v:2: syntax error
+I give up.
+
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bcd_to_gray_converter.v:13: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bcd_to_gray_converter.v:13: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bcd_to_gray_converter.v:13: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bcd_to_gray_converter.v:13: error: Unknown module type: full_adder
+4 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 4 times.
+***
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/bcd_to_gray_converter.v:12: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/bcd_to_gray_converter.v:12: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/bcd_to_gray_converter.v:12: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/bcd_to_gray_converter.v:12: error: Unknown module type: full_adder
+4 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 4 times.
+***
+

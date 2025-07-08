@@ -1,0 +1,21 @@
+
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/fsm__1100_pattern_.v:18: error: Cannot perform procedural assignment to variable 'pattern_detected' because it is also continuously assigned.
+1 error(s) during elaboration.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/fsm__1100_pattern_.v:15: error: 'pattern_detected' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/fsm__1100_pattern_.v:4:      : 'pattern_detected' is declared here as a wire.
+1 error(s) during elaboration.
+
+
+
+
+
+

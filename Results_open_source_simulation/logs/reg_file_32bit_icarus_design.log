@@ -1,0 +1,82 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/32_bit_register_file.v:17: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/32_bit_register_file.v:17: error: Malformed statement
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:1: error: Port we (3) of module reg_file_32bit is not declared within module.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:1: error: no wire/reg we in module reg_file_32bit.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:29: error: Unable to bind wire/reg/memory `we' in `reg_file_32bit'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:29: error: Unable to elaborate condition expression.
+4 error(s) during elaboration.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2: warning: Array dimensions in incomplete port declarations are currently ignored.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2:        : The dimensions specified in the net or variable declaration will be used.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2: warning: Array dimensions in incomplete port declarations are currently ignored.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2:        : The dimensions specified in the net or variable declaration will be used.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2: warning: Array dimensions in incomplete port declarations are currently ignored.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2:        : The dimensions specified in the net or variable declaration will be used.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2: warning: Array dimensions in incomplete port declarations are currently ignored.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2:        : The dimensions specified in the net or variable declaration will be used.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/32_bit_register_file.v:16: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/32_bit_register_file.v:16: error: Malformed statement
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/32_bit_register_file.v:1: syntax error
+I give up.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/32_bit_register_file.v:1: syntax error
+I give up.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/32_bit_register_file.v:18: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/32_bit_register_file.v:18: error: Malformed statement
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/32_bit_register_file.v:17: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/32_bit_register_file.v:17: error: Malformed statement
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:1: error: Port we (3) of module reg_file_32bit is not declared within module.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:1: error: no wire/reg we in module reg_file_32bit.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:29: error: Unable to bind wire/reg/memory `we' in `reg_file_32bit'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:29: error: Unable to elaborate condition expression.
+4 error(s) during elaboration.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2: warning: Array dimensions in incomplete port declarations are currently ignored.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2:        : The dimensions specified in the net or variable declaration will be used.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2: warning: Array dimensions in incomplete port declarations are currently ignored.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2:        : The dimensions specified in the net or variable declaration will be used.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2: warning: Array dimensions in incomplete port declarations are currently ignored.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2:        : The dimensions specified in the net or variable declaration will be used.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2: warning: Array dimensions in incomplete port declarations are currently ignored.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v:2:        : The dimensions specified in the net or variable declaration will be used.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/32_bit_register_file.v:16: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/32_bit_register_file.v:16: error: Malformed statement
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/32_bit_register_file.v:1: syntax error
+I give up.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/32_bit_register_file.v:1: syntax error
+I give up.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/32_bit_register_file.v:18: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/32_bit_register_file.v:18: error: Malformed statement
+
+
+
+

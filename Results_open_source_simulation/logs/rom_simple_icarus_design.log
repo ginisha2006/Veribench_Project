@@ -1,0 +1,42 @@
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/rom.v:12: error: Unable to bind wire/reg/memory `clock' in `rom_simple'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/rom.v:12: error: Failed to evaluate event expression 'posedge clock'.
+2 error(s) during elaboration.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/rom.v:13: syntax error
+I give up.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/rom.v:17: error: Unable to bind wire/reg/memory `clk' in `rom_simple'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/rom.v:17: error: Failed to evaluate event expression 'posedge clk'.
+2 error(s) during elaboration.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/rom.v:13: error: Unable to bind wire/reg/memory `clock' in `rom_simple'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/rom.v:13: error: Failed to evaluate event expression 'posedge clock'.
+2 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/rom.v:13: error: 'data_out' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/rom.v:3:      : 'data_out' is declared here as a wire.
+Elaboration failed
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/rom.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/rom.v:12: error: Unable to bind wire/reg/memory `clk' in `rom_simple'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/rom.v:12: error: Failed to evaluate event expression 'posedge clk'.
+2 error(s) during elaboration.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/rom.v:1: syntax error
+I give up.
+
+
+
+
+
+

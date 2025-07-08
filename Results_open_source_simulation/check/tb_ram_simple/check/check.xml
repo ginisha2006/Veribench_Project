@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2025-06-30T06:41:10" hostname="c12d3109af80" package="check" id="0" name="default" tests="1" errors="1" failures="0" time="0" skipped="0">
+<properties>
+<property name="os" value="Linux"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="ERROR"/>
+</properties>
+<testcase classname="default" name="default" time="0">
+<error type="ERROR"/>
+</testcase>
+<system-out>SBY  6:41:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check'.
+SBY  6:41:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/ram.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check/src/ram.v'.
+SBY  6:41:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/ram_converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check/src/ram_converted.v'.
+SBY  6:41:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] engine_0: smtbmc
+SBY  6:41:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] base: starting process &quot;cd /TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY  6:41:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/ram_converted.v:29: ERROR: syntax error, unexpected '(', expecting TOK_PROPERTY
+SBY  6:41:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] base: finished (returncode=1)
+SBY  6:41:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] base: task failed. ERROR.
+SBY  6:41:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:41:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:41:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:41:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] summary: engine_0 did not produce any traces
+SBY  6:41:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_simple/check] DONE (ERROR, rc=16)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

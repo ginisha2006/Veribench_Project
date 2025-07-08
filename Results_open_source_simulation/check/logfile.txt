@@ -1,0 +1,1 @@
+SBY 10:31:41 [check] Copy '/TVLSI_WORK/Sia/testing/testing/adder.v' to '/TVLSI_WORK/Sia/testing/check/src/adder.v'.

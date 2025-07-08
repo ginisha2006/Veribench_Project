@@ -1,0 +1,262 @@
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:7: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:7: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:8: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:8: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:9: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:9: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:10: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:10: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:11: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:11: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:12: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:12: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:13: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:13: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:14: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:14: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:15: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:15: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:16: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:16: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:17: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:17: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:18: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:18: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:19: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:19: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:20: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:20: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:21: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:21: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:22: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:22: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:23: warning: Extra digits given for sized binary constant.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:7: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:7: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:7: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:8: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:8: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:9: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:9: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:9: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:10: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:10: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:10: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:11: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:11: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:11: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:12: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:12: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:12: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:13: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:13: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:13: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21: warning: Numeric constant truncated to 7 bits.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/7_segment_lcd.v:1: syntax error
+I give up.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/7_segment_lcd.v:1: syntax error
+I give up.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:12: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:12: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:13: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:13: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:14: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:14: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:15: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:15: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:16: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:16: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:17: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:17: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:18: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:18: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:19: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:19: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:22: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:22: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:23: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:23: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:24: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:24: error: Incomprehensible case expression.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:11: warning: ignoring out of bounds l-value array access digit_codes[4].
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:12: warning: ignoring out of bounds l-value array access digit_codes[5].
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:13: warning: ignoring out of bounds l-value array access digit_codes[6].
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:14: warning: ignoring out of bounds l-value array access digit_codes[7].
+
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:7: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:7: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:8: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:8: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:9: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:9: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:10: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:10: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:11: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:11: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:12: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:12: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:13: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:13: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:14: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:14: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:15: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:15: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:16: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:16: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:17: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:17: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:18: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:18: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:19: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:19: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:20: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:20: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:21: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:21: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:22: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:22: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:23: warning: Extra digits given for sized binary constant.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:7: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:7: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:7: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:8: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:8: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:9: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:9: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:9: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:10: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:10: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:10: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:11: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:11: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:11: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:12: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:12: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:12: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:13: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:13: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:13: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20: warning: Numeric constant truncated to 7 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21: warning: Numeric constant truncated to 3 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21: warning: Numeric constant truncated to 7 bits.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/7_segment_lcd.v:1: syntax error
+I give up.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/7_segment_lcd.v:1: syntax error
+I give up.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:12: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:12: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:13: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:13: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:14: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:14: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:15: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:15: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:16: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:16: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:17: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:17: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:18: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:18: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:19: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:19: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:22: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:22: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:23: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:23: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:24: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:24: error: Incomprehensible case expression.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:11: warning: ignoring out of bounds l-value array access digit_codes[4].
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:12: warning: ignoring out of bounds l-value array access digit_codes[5].
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:13: warning: ignoring out of bounds l-value array access digit_codes[6].
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:14: warning: ignoring out of bounds l-value array access digit_codes[7].
+

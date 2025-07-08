@@ -1,0 +1,9 @@
+# running in /TVLSI_WORK/Ginisha/testing_file/check/tb_rom_simple/check/src/
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/rom.v
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/rom_converted.v
+prep -top tb_rom_simple
+
+hierarchy -smtcheck
+rename -witness
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

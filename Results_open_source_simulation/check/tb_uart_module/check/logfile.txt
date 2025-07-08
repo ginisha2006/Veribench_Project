@@ -1,0 +1,60 @@
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check'.
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter_.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check/src/uart_universal_asynchronous_receiver_transmitter_.v'.
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check/src/uart_universal_asynchronous_receiver_transmitter__converted.v'.
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: smtbmc
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] base: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] base: finished (returncode=0)
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] prep: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check/model; yosys -ql design_prep.log design_prep.ys"
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] prep: finished (returncode=0)
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] smt2: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check/model; yosys -ql design_smt2.log design_smt2.ys"
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] smt2: finished (returncode=0)
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check; yosys-smtbmc --presat --unroll --noprogress -t 20  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2"
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Solver: yices
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 1..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 1..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 2..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 2..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 3..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 3..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 4..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 4..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 5..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 5..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 6..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 6..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 7..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 7..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 8..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 8..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 9..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 9..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 10..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 10..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 11..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 11..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 12..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 12..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 13..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 13..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 14..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 14..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 15..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 15..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 16..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 16..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 17..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 17..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 18..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 18..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assumptions in step 19..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Checking assertions in step 19..
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: ##   0:00:00  Status: passed
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: finished (returncode=0)
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] engine_0: Status returned by engine: pass
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] summary: engine_0 (smtbmc) returned pass
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] summary: engine_0 did not produce any traces
+SBY  6:48:03 [/TVLSI_WORK/Ginisha/testing_file/check/tb_uart_module/check] DONE (PASS, rc=0)

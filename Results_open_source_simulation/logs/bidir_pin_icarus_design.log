@@ -1,0 +1,60 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/bidirectional_pin.v:11: error: 'pin' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/bidirectional_pin.v:4:      : 'pin' is declared here as a wire.
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/bidirectional_pin.v:11: error: 'pin' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/bidirectional_pin.v:4:      : 'pin' is declared here as a wire.
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/bidirectional_pin.v:11: error: 'pin' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/bidirectional_pin.v:4:      : 'pin' is declared here as a wire.
+1 error(s) during elaboration.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/bidirectional_pin.v:2: sorry: Inout ports with unpacked dimensions are not supported.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/bidirectional_pin.v:9: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/bidirectional_pin.v:9: error: Malformed event control expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/bidirectional_pin.v:9: error: Invalid event control.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/bidirectional_pin.v:6: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/bidirectional_pin.v:10: error: 'data_in' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/bidirectional_pin.v:5:      : 'data_in' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/bidirectional_pin.v:12: error: 'pin' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/bidirectional_pin.v:2:      : 'pin' is declared here as a wire.
+2 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/bidirectional_pin.v:11: error: 'pin' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/bidirectional_pin.v:2:      : 'pin' is declared here as a wire.
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/bidirectional_pin.v:11: error: 'pin' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/bidirectional_pin.v:4:      : 'pin' is declared here as a wire.
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/bidirectional_pin.v:12: error: 'pin' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/bidirectional_pin.v:4:      : 'pin' is declared here as a wire.
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/bidirectional_pin.v:10: error: 'pin' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/bidirectional_pin.v:2:      : 'pin' is declared here as a wire.
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:2: sorry: Inout ports with unpacked dimensions are not supported.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/bidirectional_pin.v:11: error: 'pin' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/bidirectional_pin.v:4:      : 'pin' is declared here as a wire.
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:9: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:9: error: Malformed event control expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:9: error: Invalid event control.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/bidirectional_pin.v:11: error: 'pin' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/bidirectional_pin.v:4:      : 'pin' is declared here as a wire.
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/bidirectional_pin.v:2: sorry: Inout ports with unpacked dimensions are not supported.
+

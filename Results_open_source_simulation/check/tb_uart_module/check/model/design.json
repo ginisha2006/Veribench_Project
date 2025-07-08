@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/YosysHQ/yosys/main/misc/jny.schema.json",
+  "generator": "Yosys 0.41+24 (git sha1 165791769, clang++ 14.0.0-1ubuntu1.1 -fPIC -Os)",
+  "version": "0.0.1",
+  "invocation": "write_jny -no-connections ../model/design.json ",
+  "features": ["attributes", "properties"],
+  "modules": [
+      {
+        "name": "$paramod\\uart_module\\BAUD_RATE=s32'00000000000000000010010110000000",
+        "cell_sorts": [
+
+        ],
+        "attributes": {
+            "blackbox": "00000000000000000000000000000001",
+            "hdlname": "uart_module",
+            "src": "/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter_.v:1.1-12.10"
+        }
+      },
+      {
+        "name": "tb_uart_module",
+        "cell_sorts": [
+
+        ],
+        "attributes": {
+            "hdlname": "tb_uart_module",
+            "top": "00000000000000000000000000000001",
+            "src": "/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v:1.1-36.10"
+        }
+      }
+  ]
+}

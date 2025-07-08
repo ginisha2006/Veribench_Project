@@ -1,0 +1,174 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:38: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/4_bit_alu.v:36: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/4_bit_alu.v:37: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_llama3_8b/4_bit_alu.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/4_bit_alu.v:12: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_llama3_8b/4_bit_alu.v:11: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/4_bit_alu.v:46: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/4_bit_alu.v:14: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/4_bit_alu.v:12: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/4_bit_alu.v:13: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:10: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/4_bit_alu.v:12: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/4_bit_alu.v:12: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/4_bit_alu.v:13: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/4_bit_alu.v:10: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/4_bit_alu.v:13: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/4_bit_alu.v:12: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:38: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/4_bit_alu.v:36: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/4_bit_alu.v:37: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_llama3_8b/4_bit_alu.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/4_bit_alu.v:12: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_llama3_8b/4_bit_alu.v:11: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/4_bit_alu.v:46: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/4_bit_alu.v:14: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/4_bit_alu.v:12: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/4_bit_alu.v:13: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:10: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/4_bit_alu.v:12: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/4_bit_alu.v:12: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/4_bit_alu.v:13: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/4_bit_alu.v:10: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/4_bit_alu.v:13: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/4_bit_alu.v:12: error: Unknown module type: alu_4bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        alu_4bit referenced 1 times.
+***
+

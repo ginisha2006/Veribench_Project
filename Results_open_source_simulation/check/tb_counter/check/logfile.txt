@@ -1,0 +1,13 @@
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check'.
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/counter_with_asynchronous_reset.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check/src/counter_with_asynchronous_reset.v'.
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/counter_with_asynchronous_reset_converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check/src/counter_with_asynchronous_reset_converted.v'.
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] engine_0: smtbmc
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] base: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/counter_with_asynchronous_reset_converted.v:24: ERROR: syntax error, unexpected '@'
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] base: finished (returncode=1)
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] base: task failed. ERROR.
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] summary: engine_0 did not produce any traces
+SBY  6:30:50 [/TVLSI_WORK/Ginisha/testing_file/check/tb_counter/check] DONE (ERROR, rc=16)

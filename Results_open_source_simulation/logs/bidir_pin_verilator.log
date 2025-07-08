@@ -1,0 +1,321 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/bidirectional_pin.v:11:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'pin'
+                                                                                                                             : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/bidirectional_pin.v:11:13: Unsupported tristate construct (not in propagation graph): VARREF 'pin'
+                                                                                                                 : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/bidirectional_pin.v:11:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'pin'
+                                                                                                                           : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/bidirectional_pin.v:11:13: Unsupported tristate construct (not in propagation graph): VARREF 'pin'
+                                                                                                               : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/bidirectional_pin.v:11:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'pin'
+                                                                                                                             : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/bidirectional_pin.v:11:13: Unsupported tristate construct (not in propagation graph): VARREF 'pin'
+                                                                                                                 : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/bidirectional_pin.v:2:19: Input/output/inout does not appear in port list: 'dir'
+    2 | input [WIDTH-1:0] dir;
+      |                   ^~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/bidirectional_pin.v:3:19: Input/output/inout does not appear in port list: 'pin'
+    3 | inout [WIDTH-1:0] pin;
+      |                   ^~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/bidirectional_pin.v:4:19: Input/output/inout does not appear in port list: 'data_out'
+    4 | input [WIDTH-1:0] data_out;
+      |                   ^~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/bidirectional_pin.v:5:24: Input/output/inout does not appear in port list: 'data_in'
+    5 | output reg [WIDTH-1:0] data_in;
+      |                        ^~~~~~~
+%Error: Exiting due to 4 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: Internal Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/bidirectional_pin.v:7:26: ../V3DfgPeephole.cpp:1391: Width mismatch
+    7 |     assign data_in = dir ? data_out : pin;
+      |                          ^
+                        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/bidirectional_pin.v:9:37: syntax error, unexpected negedge, expecting TYPE-IDENTIFIER
+    9 |     always @(posedge dir or posedge negedge pin)
+      |                                     ^~~~~~~
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/bidirectional_pin.v:6:2: syntax error, unexpected end of file
+    6 | );
+      |  ^
+%Error: Cannot continue
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/bidirectional_pin.v:10:17: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'data_in'
+                                                                                                                     : ... note: In instance 'bidir_pin'
+   10 |                 data_in <= data_out;
+      |                 ^~~~~~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/bidirectional_pin.v:12:17: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'pin'
+                                                                                                                     : ... note: In instance 'bidir_pin'
+   12 |                 pin <= data_in;
+      |                 ^~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/bidirectional_pin.v:12:17: Unsupported tristate construct (not in propagation graph): VARREF 'pin'
+                                                                                                         : ... note: In instance 'bidir_pin'
+   12 |                 pin <= data_in;
+      |                 ^~~
+%Error: Exiting due to 3 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/bidirectional_pin.v:11:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'pin'
+                                                                                                                     : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_in;
+      |             ^~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/bidirectional_pin.v:11:13: Unsupported tristate construct (not in propagation graph): VARREF 'pin'
+                                                                                                         : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_in;
+      |             ^~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/bidirectional_pin.v:11:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'pin'
+                                                                                                                          : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/bidirectional_pin.v:11:13: Unsupported tristate construct (not in propagation graph): VARREF 'pin'
+                                                                                                              : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/bidirectional_pin.v:12:17: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'pin'
+                                                                                                                        : ... note: In instance 'bidir_pin'
+   12 |                 pin <= data_out;
+      |                 ^~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/bidirectional_pin.v:12:17: Unsupported tristate construct (not in propagation graph): VARREF 'pin'
+                                                                                                            : ... note: In instance 'bidir_pin'
+   12 |                 pin <= data_out;
+      |                 ^~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-NEEDTIMINGOPT: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/bidirectional_pin.v:10:24: Use --timing or --no-timing to specify how timing controls should be handled
+                                                                                                                          : ... note: In instance 'bidir_pin'
+   10 |                 pin <= #1 data_out;
+      |                        ^
+                      ... For error description see https://verilator.org/warn/NEEDTIMINGOPT?v=5.025
+%Error-NEEDTIMINGOPT: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/bidirectional_pin.v:12:28: Use --timing or --no-timing to specify how timing controls should be handled
+                                                                                                                          : ... note: In instance 'bidir_pin'
+   12 |                 data_in <= #1 pin;
+      |                            ^
+%Error: Exiting due to 2 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:8:12: CONST '1'h1' unexpected in assignment to unpacked array
+    8 |     assign pin = dir ? pin : data_in;
+      |            ^~~
+%Warning-UNOPTFLAT: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:2:12: Signal unoptimizable: Circular combinational logic: 'pin'
+    2 |     inout  pin[WIDTH-1:0],
+      |            ^~~
+                    ... For warning description see https://verilator.org/warn/UNOPTFLAT?v=5.025
+                    ... Use "/* verilator lint_off UNOPTFLAT */" and lint_on around source to disable this message.
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:2:12:      Example path: pin
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:7:20:      Example path: ASSIGNW
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:5:12:      Example path: data_in
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:8:16:      Example path: ASSIGNW
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:8:12:      Example path: bidir_pin.pin__out__strong__out0
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:8:12:      Example path: ASSIGNW
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:8:12:      Example path: bidir_pin.pin__out__strong
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:2:12:      Example path: ASSIGNW
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:2:12:      Example path: pin__strong__out1
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:2:12:      Example path: ASSIGNW
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:2:12:      Example path: pin__strong
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:2:12:      Example path: ASSIGNW
+                    /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/bidirectional_pin.v:2:12:      Example path: pin
+%Error: Exiting due to 1 error(s), 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/bidirectional_pin.v:11:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'pin'
+                                                                                                                       : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/bidirectional_pin.v:11:13: Unsupported tristate construct (not in propagation graph): VARREF 'pin'
+                                                                                                           : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:9:33: syntax error, unexpected negedge, expecting TYPE-IDENTIFIER
+    9 | always @(posedge dir or posedge negedge pin)
+      |                                 ^~~~~~~
+%Error: Cannot continue
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/bidirectional_pin.v:11:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'pin'
+                                                                                                                       : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/bidirectional_pin.v:11:13: Unsupported tristate construct (not in propagation graph): VARREF 'pin'
+                                                                                                           : ... note: In instance 'bidir_pin'
+   11 |             pin <= data_out;
+      |             ^~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: Internal Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/bidirectional_pin.v:7:26: ../V3DfgPeephole.cpp:1391: Width mismatch
+    7 |     assign data_in = dir ? data_out : pin;
+      |                          ^
+                        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+

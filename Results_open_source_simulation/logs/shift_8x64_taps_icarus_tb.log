@@ -1,0 +1,146 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/8x64_shift_register_with_taps.v:7: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/8x64_shift_register_with_taps.v:10: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/8x64_shift_register_with_taps.v:14: error: 'sr_in' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/8x64_shift_register_with_taps.v:5:      : 'sr_in' is declared here as a wire.
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/8x64_shift_register_with_taps.v:10: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/8x64_shift_register_with_taps.v:8: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/8x64_shift_register_with_taps.v:5: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/8x64_shift_register_with_taps.v:25: error: 'sr_in' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/8x64_shift_register_with_taps.v:5:      : 'sr_in' is declared here as a wire.
+Elaboration failed
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/8x64_shift_register_with_taps.v:17: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/8x64_shift_register_with_taps.v:12: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/8x64_shift_register_with_taps.v:6: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/8x64_shift_register_with_taps.v:7: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/8x64_shift_register_with_taps.v:10: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/8x64_shift_register_with_taps.v:14: error: 'sr_in' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/8x64_shift_register_with_taps.v:5:      : 'sr_in' is declared here as a wire.
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/8x64_shift_register_with_taps.v:10: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/8x64_shift_register_with_taps.v:8: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/8x64_shift_register_with_taps.v:5: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/8x64_shift_register_with_taps.v:25: error: 'sr_in' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/8x64_shift_register_with_taps.v:5:      : 'sr_in' is declared here as a wire.
+Elaboration failed
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/8x64_shift_register_with_taps.v:17: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/8x64_shift_register_with_taps.v:12: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/8x64_shift_register_with_taps.v:6: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/8x64_shift_register_with_taps.v:9: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/8x64_shift_register_with_taps.v:12: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/8x64_shift_register_with_taps.v:6: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/8x64_shift_register_with_taps.v:9: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/8x64_shift_register_with_taps.v:9: error: Unknown module type: shift_8x64_taps
+2 error(s) during elaboration.
+*** These modules were missing:
+        shift_8x64_taps referenced 1 times.
+***
+

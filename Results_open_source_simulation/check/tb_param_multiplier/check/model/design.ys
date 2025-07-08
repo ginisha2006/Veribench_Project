@@ -1,0 +1,9 @@
+# running in /TVLSI_WORK/Ginisha/testing_file/check/tb_param_multiplier/check/src/
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_multiplier.v
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/parameterized_multiplier_converted.v
+prep -top tb_param_multiplier
+
+hierarchy -smtcheck
+rename -witness
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

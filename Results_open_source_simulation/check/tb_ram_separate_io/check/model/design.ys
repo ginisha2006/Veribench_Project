@@ -1,0 +1,9 @@
+# running in /TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check/src/
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/ram_with_separate_i_o_ports.v
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/ram_with_separate_i_o_ports_converted.v
+prep -top tb_ram_separate_io
+
+hierarchy -smtcheck
+rename -witness
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

@@ -1,0 +1,305 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/parameterized_counter_design_5_.v:21:15: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'count' generates 8 bits.
+                                                                                                                                             : ... note: In instance 'param_counter'
+   21 |     if (count == MAX_COUNT)
+      |               ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/parameterized_counter_design_5_.v:11:23: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'count' generates 8 bits.
+                                                                                                                                           : ... note: In instance 'param_counter'
+   11 |         else if(count == MAX_COUNT)
+      |                       ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_counter_design_5_.v:11:8: syntax error, unexpected always
+   11 | assign always @* begin
+      |        ^~~~~~
+%Error: Cannot continue
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_counter_design_5_.v:23:24: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'internal_count' generates 9 bits.
+                                                                                                                                             : ... note: In instance 'param_counter'
+   23 |     if (internal_count == MAX_COUNT)
+      |                        ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-MULTIDRIVEN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_counter_design_5_.v:9:11: Signal has multiple driving blocks with different clocking: 'param_counter.internal_count'
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_counter_design_5_.v:24:9: ... Location of first driving block
+   24 |         internal_count <= 9'b0;
+      |         ^~~~~~~~~~~~~~
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_counter_design_5_.v:14:9: ... Location of other driving block
+   14 |         internal_count <= 9'b0;
+      |         ^~~~~~~~~~~~~~
+%Error: Exiting due to 2 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:1:51: Input/output/inout declaration not found for port: 'clk'
+    1 | module param_counter #(parameter MAX_COUNT = 255)(clk, rst, count);
+      |                                                   ^~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:1:56: Input/output/inout declaration not found for port: 'rst'
+    1 | module param_counter #(parameter MAX_COUNT = 255)(clk, rst, count);
+      |                                                        ^~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:1:61: Input/output/inout declaration not found for port: 'count'
+    1 | module param_counter #(parameter MAX_COUNT = 255)(clk, rst, count);
+      |                                                             ^~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:3:18: Can't find definition of variable: 'clk'
+    3 | always @(posedge clk) begin
+      |                  ^~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:4:9: Can't find definition of variable: 'rst'
+    4 |     if (rst) cnt <= 8'b0;
+      |         ^~~
+%Warning-IMPLICIT: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:7:8: Signal definition not found, creating implicitly: 'count'
+                                                                                                                                 : ... Suggested alternative: 'cnt'
+    7 | assign count = cnt;
+      |        ^~~~~
+                   ... For warning description see https://verilator.org/warn/IMPLICIT?v=5.025
+                   ... Use "/* verilator lint_off IMPLICIT */" and lint_on around source to disable this message.
+%Error: Exiting due to 5 error(s), 1 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.379 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.375 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_counter_design_5_.v:13:20: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'count' generates 8 bits.
+                                                                                                                                             : ... note: In instance 'param_counter'
+   13 |     else if (count == MAX_COUNT)
+      |                    ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:1:51: Input/output/inout declaration not found for port: 'clk'
+    1 | module param_counter #(parameter MAX_COUNT = 255)(clk, rst, count); 
+      |                                                   ^~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:1:56: Input/output/inout declaration not found for port: 'rst'
+    1 | module param_counter #(parameter MAX_COUNT = 255)(clk, rst, count); 
+      |                                                        ^~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:1:61: Input/output/inout declaration not found for port: 'count'
+    1 | module param_counter #(parameter MAX_COUNT = 255)(clk, rst, count); 
+      |                                                             ^~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:5:18: Can't find definition of variable: 'clk'
+    5 | always @(posedge clk) begin 
+      |                  ^~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:6:9: Can't find definition of variable: 'rst'
+    6 |     if (rst) count_reg <= 8'h0; 
+      |         ^~~
+%Warning-IMPLICIT: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:10:8: Signal definition not found, creating implicitly: 'count'
+   10 | assign count = count_reg; 
+      |        ^~~~~
+                   ... For warning description see https://verilator.org/warn/IMPLICIT?v=5.025
+                   ... Use "/* verilator lint_off IMPLICIT */" and lint_on around source to disable this message.
+%Error: Exiting due to 5 error(s), 1 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.375 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/parameterized_counter_design_5_.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/parameterized_counter_design_5_.v:5:2: syntax error, unexpected end of file
+    5 | );
+      |  ^
+%Error: Cannot continue
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.383 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/parameterized_counter_design_5_.v:11:23: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'count' generates 8 bits.
+                                                                                                                                        : ... note: In instance 'param_counter'
+   11 |         else if(count == MAX_COUNT)
+      |                       ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_counter_design_5_.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_counter_design_5_.v:9:58: syntax error, unexpected end of file
+    9 |         else if (count < MAX_COUNT) count <= count + 1'b1;
+      |                                                          ^
+%Error: Cannot continue
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.383 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.383 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_counter_design_5_.v:13:18: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'count' generates 8 bits.
+                                                                                                                                        : ... note: In instance 'param_counter'
+   13 |         if(count == MAX_COUNT)
+      |                  ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.383 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.375 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+

@@ -1,0 +1,264 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/gray_counter_design_1_.v:17:19: Operator ASSIGNW expects 8 bits on the Assign RHS, but Assign RHS's REPLICATE generates 3 bits.
+                                                                                                                                    : ... note: In instance 'gray_count'
+   17 | assign gray_count = {binary_count[7], ^(binary_count[7:1]), binary_count[0]};
+      |                   ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s), 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/gray_counter_design_1_.v:3:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    3 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/gray_counter_design_1_.v:3:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    3 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/gray_counter_design_1_.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/gray_counter_design_1_.v:7:2: syntax error, unexpected end of file
+    7 | );
+      |  ^
+%Error: Cannot continue
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/gray_counter_design_1_.v:11:24: Operator ASSIGNDLY expects 8 bits on the Assign RHS, but Assign RHS's REPLICATE generates 9 bits.
+                                                                                                                             : ... note: In instance 'gray_count'
+   11 |             gray_count <= {gray_count[6:0], ~gray_count[6]^~gray_count[7], gray_count[7]};
+      |                        ^~
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s), 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as instance: 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/gray_counter_design_1_.v:5:22: Unsupported in C: Variable has same name as CELLINLINE 'gray_count': 'gray_count'
+    5 |     output reg [7:0] gray_count
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+

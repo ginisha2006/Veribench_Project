@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/YosysHQ/yosys/main/misc/jny.schema.json",
+  "generator": "Yosys 0.41+24 (git sha1 165791769, clang++ 14.0.0-1ubuntu1.1 -fPIC -Os)",
+  "version": "0.0.1",
+  "invocation": "write_jny -no-connections ../model/design.json ",
+  "features": ["attributes", "properties"],
+  "modules": [
+      {
+        "name": "tb_fft_module",
+        "cell_sorts": [
+
+        ],
+        "attributes": {
+            "hdlname": "tb_fft_module",
+            "dynports": "00000000000000000000000000000001",
+            "top": "00000000000000000000000000000001",
+            "src": "/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/fft_module_converted.v:1.1-45.10"
+        }
+      }
+  ]
+}

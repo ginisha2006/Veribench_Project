@@ -1,0 +1,24 @@
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/fft_module.v:32: error: No function named `all' found in this context (fft_module).
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/fft_module.v:32: error: Unable to elaborate condition expression.
+2 error(s) during elaboration.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/fft_module.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/fft_module.v:1: syntax error
+I give up.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/fft_module.v:1: syntax error
+I give up.
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+
+[options]
+mode bmc
+depth 20
+
+[engines]
+smtbmc
+
+[script]
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/32_bit_register_file.v
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/32_bit_register_file_converted_converted.v
+prep -top tb_reg_file_32bit
+
+[files]
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/32_bit_register_file.v
+/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/32_bit_register_file_converted_converted.v

@@ -1,0 +1,210 @@
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.387 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.395 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.014 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.402 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.395 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_shift_register.v:1:72: Input/output/inout declaration not found for port: 'data_out'
+    1 | module param_shift_reg #(parameter WIDTH = 8)(clk, rst, load, data_in, data_out);
+      |                                                                        ^~~~~~~~
+%Warning-IMPLICIT: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_shift_register.v:16:8: Signal definition not found, creating implicitly: 'data_out'
+   16 | assign data_out = reg_data;
+      |        ^~~~~~~~
+                   ... For warning description see https://verilator.org/warn/IMPLICIT?v=5.025
+                   ... Use "/* verilator lint_off IMPLICIT */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 error(s), 1 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.395 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.391 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.387 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.387 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.009 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.387 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.395 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.008 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.395 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.391 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.391 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.391 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.395 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.395 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+

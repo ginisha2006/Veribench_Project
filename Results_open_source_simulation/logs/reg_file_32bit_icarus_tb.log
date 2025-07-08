@@ -1,0 +1,204 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/32_bit_register_file.v:45: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/32_bit_register_file.v:44: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:33: error: Could not find variable ``write_addr'' in ``tb_reg_file_32bit''
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:37: error: Could not find variable ``write_addr'' in ``tb_reg_file_32bit''
+2 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/32_bit_register_file.v:47: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_llama3_8b/32_bit_register_file.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/32_bit_register_file.v:13: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_llama3_8b/32_bit_register_file.v:13: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/32_bit_register_file.v:12: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/32_bit_register_file.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/32_bit_register_file.v:17: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/32_bit_register_file.v:15: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/32_bit_register_file.v:12: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/32_bit_register_file.v:17: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/32_bit_register_file.v:17: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/32_bit_register_file.v:16: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/32_bit_register_file.v:12: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/32_bit_register_file.v:59: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/32_bit_register_file.v:59: warning: Numeric constant truncated to 32 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/32_bit_register_file.v:16: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/32_bit_register_file.v:17: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/32_bit_register_file.v:45: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/32_bit_register_file.v:44: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:33: error: Could not find variable ``write_addr'' in ``tb_reg_file_32bit''
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/32_bit_register_file.v:37: error: Could not find variable ``write_addr'' in ``tb_reg_file_32bit''
+2 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/32_bit_register_file.v:47: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_llama3_8b/32_bit_register_file.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/32_bit_register_file.v:13: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_llama3_8b/32_bit_register_file.v:13: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/32_bit_register_file.v:12: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/32_bit_register_file.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/32_bit_register_file.v:17: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/32_bit_register_file.v:15: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/32_bit_register_file.v:12: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/32_bit_register_file.v:17: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/32_bit_register_file.v:17: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/32_bit_register_file.v:16: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/32_bit_register_file.v:12: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/32_bit_register_file.v:59: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/32_bit_register_file.v:59: warning: Numeric constant truncated to 32 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/32_bit_register_file.v:16: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/32_bit_register_file.v:17: error: Unknown module type: reg_file_32bit
+2 error(s) during elaboration.
+*** These modules were missing:
+        reg_file_32bit referenced 1 times.
+***
+

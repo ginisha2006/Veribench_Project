@@ -1,0 +1,102 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/parameterized_shift_register.v:14: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/parameterized_shift_register.v:9: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/parameterized_shift_register.v:10: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/parameterized_shift_register.v:33: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_llama3_8b/parameterized_shift_register.v:10: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/parameterized_shift_register.v:12: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/parameterized_shift_register.v:10: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/parameterized_shift_register.v:15: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/parameterized_shift_register.v:15: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/parameterized_shift_register.v:12: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/parameterized_shift_register.v:9: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/parameterized_shift_register.v:14: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/parameterized_shift_register.v:12: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/parameterized_shift_register.v:15: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_shift_register.v:10: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/parameterized_shift_register.v:13: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/parameterized_shift_register.v:12: error: Unknown module type: param_shift_reg
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_shift_reg referenced 1 times.
+***
+

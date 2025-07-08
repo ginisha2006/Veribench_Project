@@ -1,0 +1,1034 @@
+=== Formal Check Summary ===
+
+Prompting Technique: chain_of_thought_float16_gemma2
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fft_module: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': True}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  param_subtractor: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  Total modules: 32
+    Icarus syntax passed: 14/32
+    Verilator lint passed: 14/32
+    Simulation passed: 13/32
+    Formal passed: 1/32
+
+Prompting Technique: chain_of_thought_float16_llama3
+  reg_file_32bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  alu_4bit: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fibonacci_gen: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  single_port_ram: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  Total modules: 27
+    Icarus syntax passed: 16/27
+    Verilator lint passed: 9/27
+    Simulation passed: 12/27
+    Formal passed: 0/27
+
+Prompting Technique: chain_of_thought_float16_qwen2_
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fft_module: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  full_adder: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  param_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  Total modules: 32
+    Icarus syntax passed: 29/32
+    Verilator lint passed: 23/32
+    Simulation passed: 20/32
+    Formal passed: 0/32
+
+Prompting Technique: chain_of_thought_int4_gemma2_9b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fft_module: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  param_subtractor: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  Total modules: 32
+    Icarus syntax passed: 13/32
+    Verilator lint passed: 10/32
+    Simulation passed: 9/32
+    Formal passed: 0/32
+
+Prompting Technique: chain_of_thought_int4_llama3_8b
+  reg_file_32bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  Total modules: 28
+    Icarus syntax passed: 13/28
+    Verilator lint passed: 10/28
+    Simulation passed: 2/28
+    Formal passed: 0/28
+
+Prompting Technique: chain_of_thought_int4_qwen2_5_1
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fft_module: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_divider: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  Total modules: 32
+    Icarus syntax passed: 28/32
+    Verilator lint passed: 20/32
+    Simulation passed: 19/32
+    Formal passed: 0/32
+
+Prompting Technique: chain_of_thought_int8_gemma2_9b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fft_module: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': True}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_divider: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  param_subtractor: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  Total modules: 32
+    Icarus syntax passed: 13/32
+    Verilator lint passed: 12/32
+    Simulation passed: 12/32
+    Formal passed: 1/32
+
+Prompting Technique: chain_of_thought_int8_llama3_8b
+  reg_file_32bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fibonacci_gen: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  single_port_ram: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  Total modules: 26
+    Icarus syntax passed: 10/26
+    Verilator lint passed: 6/26
+    Simulation passed: 6/26
+    Formal passed: 0/26
+
+Prompting Technique: chain_of_thought_int8_qwen2_5_1
+  reg_file_32bit: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fft_module: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fibonacci_gen: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  full_adder: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_counter: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_divider: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  uart_module: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  Total modules: 33
+    Icarus syntax passed: 28/33
+    Verilator lint passed: 23/33
+    Simulation passed: 22/33
+    Formal passed: 0/33
+
+Prompting Technique: few_shot_float16_gemma2_9b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fft_module: {'icarus': True, 'lint': True, 'sim': True, 'formal': True}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_divider: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  uart_module: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  Total modules: 33
+    Icarus syntax passed: 28/33
+    Verilator lint passed: 24/33
+    Simulation passed: 26/33
+    Formal passed: 1/33
+
+Prompting Technique: few_shot_float16_llama3_8b
+  reg_file_32bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fft_module: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fsm_1100: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_adder: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_counter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  uart_module: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  Total modules: 33
+    Icarus syntax passed: 14/33
+    Verilator lint passed: 9/33
+    Simulation passed: 12/33
+    Formal passed: 0/33
+
+Prompting Technique: few_shot_float16_qwen2_5_14b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fft_module: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_adder: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': True, 'lint': True, 'sim': True, 'formal': True}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  uart_module: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  Total modules: 33
+    Icarus syntax passed: 29/33
+    Verilator lint passed: 26/33
+    Simulation passed: 26/33
+    Formal passed: 1/33
+
+Prompting Technique: few_shot_int4_gemma2_9b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fft_module: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  uart_module: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  Total modules: 33
+    Icarus syntax passed: 24/33
+    Verilator lint passed: 20/33
+    Simulation passed: 23/33
+    Formal passed: 0/33
+
+Prompting Technique: few_shot_int4_llama3_8b
+  reg_file_32bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  shift_8x64_taps: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fft_module: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  uart_module: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  Total modules: 33
+    Icarus syntax passed: 17/33
+    Verilator lint passed: 13/33
+    Simulation passed: 12/33
+    Formal passed: 0/33
+
+Prompting Technique: few_shot_int4_qwen2_5_14b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  fft_module: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  param_divider: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  uart_module: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  Total modules: 33
+    Icarus syntax passed: 29/33
+    Verilator lint passed: 24/33
+    Simulation passed: 22/33
+    Formal passed: 0/33
+
+Prompting Technique: few_shot_int8_gemma2_9b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  fft_module: {'icarus': True, 'lint': True, 'sim': True, 'formal': True}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_divider: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  uart_module: {'icarus': True, 'lint': True, 'sim': True, 'formal': True}
+  Total modules: 33
+    Icarus syntax passed: 29/33
+    Verilator lint passed: 21/33
+    Simulation passed: 25/33
+    Formal passed: 2/33
+
+Prompting Technique: few_shot_int8_llama3_8b
+  reg_file_32bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fft_module: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_adder: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_counter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  uart_module: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  Total modules: 33
+    Icarus syntax passed: 16/33
+    Verilator lint passed: 12/33
+    Simulation passed: 14/33
+    Formal passed: 0/33
+
+Prompting Technique: few_shot_int8_qwen2_5_14b
+  reg_file_32bit: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fft_module: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  param_divider: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  uart_module: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  Total modules: 33
+    Icarus syntax passed: 27/33
+    Verilator lint passed: 26/33
+    Simulation passed: 22/33
+    Formal passed: 0/33
+
+Prompting Technique: zero_shot_float16_gemma2_9b
+  reg_file_32bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  alu_4bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_comparator: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_divider: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  param_subtractor: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  Total modules: 31
+    Icarus syntax passed: 13/31
+    Verilator lint passed: 16/31
+    Simulation passed: 12/31
+    Formal passed: 0/31
+
+Prompting Technique: zero_shot_float16_llama3_8b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  single_port_ram: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  Total modules: 27
+    Icarus syntax passed: 10/27
+    Verilator lint passed: 7/27
+    Simulation passed: 6/27
+    Formal passed: 0/27
+
+Prompting Technique: zero_shot_float16_qwen2_5_14b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fft_module: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  param_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_divider: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  Total modules: 32
+    Icarus syntax passed: 29/32
+    Verilator lint passed: 23/32
+    Simulation passed: 18/32
+    Formal passed: 0/32
+
+Prompting Technique: zero_shot_int4_gemma2_9b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fft_module: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  param_subtractor: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  Total modules: 32
+    Icarus syntax passed: 15/32
+    Verilator lint passed: 12/32
+    Simulation passed: 12/32
+    Formal passed: 0/32
+
+Prompting Technique: zero_shot_int4_llama3_8b
+  reg_file_32bit: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  alu_4bit: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_adder: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_subtractor: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  single_port_ram: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  Total modules: 30
+    Icarus syntax passed: 14/30
+    Verilator lint passed: 6/30
+    Simulation passed: 2/30
+    Formal passed: 0/30
+
+Prompting Technique: zero_shot_int4_qwen2_5_14b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  fft_module: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_divider: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_multiplier: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  Total modules: 32
+    Icarus syntax passed: 26/32
+    Verilator lint passed: 21/32
+    Simulation passed: 19/32
+    Formal passed: 0/32
+
+Prompting Technique: zero_shot_int8_gemma2_9b
+  reg_file_32bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fft_module: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_divider: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_multiplier: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_shift_reg: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  param_subtractor: {'icarus': False, 'lint': True, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  rom_simple: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  Total modules: 32
+    Icarus syntax passed: 13/32
+    Verilator lint passed: 11/32
+    Simulation passed: 12/32
+    Formal passed: 0/32
+
+Prompting Technique: zero_shot_int8_llama3_8b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  alu_4bit: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  seven_seg_display: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  bcd_to_gray: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  param_adder: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_comparator: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  param_divider: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  param_multiplier: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  single_port_ram: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ternary_adder_tree: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  Total modules: 25
+    Icarus syntax passed: 13/25
+    Verilator lint passed: 10/25
+    Simulation passed: 4/25
+    Formal passed: 0/25
+
+Prompting Technique: zero_shot_int8_qwen2_5_14b
+  reg_file_32bit: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  alu_4bit: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  seven_seg_display: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  shift_8x64_taps: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  bcd_to_gray: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  behav_counter: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  bidir_pin: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  binary_adder_tree: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  counter: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  digital_filter: {'icarus': False, 'lint': False, 'sim': False, 'formal': False}
+  ram_dual: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fft_module: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  fibonacci_gen: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  fsm_1100: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  full_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  gray_count: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  half_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  mod_demod: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_adder: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_comparator: {'icarus': True, 'lint': False, 'sim': False, 'formal': False}
+  param_counter: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  param_divider: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_multiplier: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_shift_reg: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  param_subtractor: {'icarus': True, 'lint': True, 'sim': False, 'formal': False}
+  ram_simple: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ram_separate_io: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  rom_simple: {'icarus': True, 'lint': False, 'sim': True, 'formal': False}
+  ram_infer: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  single_port_ram: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  ternary_adder_tree: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  true_dpram_sclk: {'icarus': True, 'lint': True, 'sim': True, 'formal': False}
+  Total modules: 32
+    Icarus syntax passed: 30/32
+    Verilator lint passed: 22/32
+    Simulation passed: 24/32
+    Formal passed: 0/32

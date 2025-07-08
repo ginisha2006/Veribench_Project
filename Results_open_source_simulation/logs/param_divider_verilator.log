@@ -1,0 +1,393 @@
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.009 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.379 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/parameterized_divider.v:10:18: Can't find definition of variable: 'clock'
+   10 | always @(posedge clock) begin
+      |                  ^~~~~
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/parameterized_divider.v:11:55: Operator DIVS expects 16 bits on the LHS, but LHS's SIGNED generates 8 bits.
+                                                                                                                                 : ... note: In instance 'param_divider'
+   11 |             {quotient, remainder} = $signed(dividend) / $signed(divisor);
+      |                                                       ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/parameterized_divider.v:11:55: Operator DIVS expects 16 bits on the RHS, but RHS's SIGNED generates 8 bits.
+                                                                                                                                 : ... note: In instance 'param_divider'
+   11 |             {quotient, remainder} = $signed(dividend) / $signed(divisor);
+      |                                                       ^
+%Error: Exiting due to 2 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:3:18: Can't find definition of variable: 'clock'
+    3 | always @(posedge clock) begin
+      |                  ^~~~~
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:31:7: Assigning to input/const variable: 'dividend'
+   31 |       dividend <= dividend - {1'b1, remainder};
+      |       ^~~~~~~~
+                 ... For error description see https://verilator.org/warn/ASSIGNIN?v=5.025
+%Error: Exiting due to 2 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_divider.v:17:5: Cannot find file containing module: 'your_dsp_divider_ip_core'
+   17 |     your_dsp_divider_ip_core uut (
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_divider.v:17:5: This may be because there's no search path specified with -I<dir>.
+   17 |     your_dsp_divider_ip_core uut (
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+        ... Looked in:
+             your_dsp_divider_ip_core
+             your_dsp_divider_ip_core.v
+             your_dsp_divider_ip_core.sv
+             obj_dir/your_dsp_divider_ip_core
+             obj_dir/your_dsp_divider_ip_core.v
+             obj_dir/your_dsp_divider_ip_core.sv
+%Error: Exiting due to 2 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_divider.v:2:19: Input/output/inout does not appear in port list: 'dividend'
+    2 | input [WIDTH-1:0] dividend;
+      |                   ^~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_divider.v:3:19: Input/output/inout does not appear in port list: 'divisor'
+    3 | input [WIDTH-1:0] divisor;
+      |                   ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_divider.v:4:24: Input/output/inout does not appear in port list: 'quotient'
+    4 | output reg [WIDTH-1:0] quotient;
+      |                        ^~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_divider.v:5:24: Input/output/inout does not appear in port list: 'remainder'
+    5 | output reg [WIDTH-1:0] remainder;
+      |                        ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_divider.v:10:18: Can't find definition of variable: 'clock'
+   10 | always @(posedge clock)
+      |                  ^~~~~
+%Error: Exiting due to 5 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/parameterized_divider.v:9:3: Cannot find file containing module: 'divarith'
+    9 |   divarith #(.WIDTH(WIDTH)) div_inst (
+      |   ^~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/parameterized_divider.v:9:3: This may be because there's no search path specified with -I<dir>.
+    9 |   divarith #(.WIDTH(WIDTH)) div_inst (
+      |   ^~~~~~~~
+        ... Looked in:
+             divarith
+             divarith.v
+             divarith.sv
+             obj_dir/divarith
+             obj_dir/divarith.v
+             obj_dir/divarith.sv
+%Error: Exiting due to 2 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_divider.v:15:46: Operator DIV expects 16 bits on the LHS, but LHS's VARREF 'dividend' generates 8 bits.
+                                                                                                                                   : ... note: In instance 'param_divider'
+   15 |             {quotient, remainder} = dividend / divisor;
+      |                                              ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_divider.v:15:46: Operator DIV expects 16 bits on the RHS, but RHS's VARREF 'divisor' generates 8 bits.
+                                                                                                                                   : ... note: In instance 'param_divider'
+   15 |             {quotient, remainder} = dividend / divisor;
+      |                                              ^
+%Error: Exiting due to 2 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_divider.v:11:18: Can't find definition of variable: 'clock'
+   11 | always @(posedge clock)
+      |                  ^~~~~
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/parameterized_divider.v:8:22: Number is missing value digits: 'c
+    8 |     always @(posedge 'clock)
+      |                      ^~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/parameterized_divider.v:8:24: syntax error, unexpected IDENTIFIER, expecting ')' or ',' or or
+    8 |     always @(posedge 'clock)
+      |                        ^~~~
+%Error: Exiting due to 2 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/parameterized_divider.v:8:22: Can't find definition of variable: 'clock'
+    8 |     always @(posedge clock) begin
+      |                      ^~~~~
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/parameterized_divider.v:10:18: Can't find definition of variable: 'clock'
+   10 | always @(posedge clock)
+      |                  ^~~~~
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHCONCAT: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/parameterized_divider.v:12:58: Unsized numbers/parameters not allowed in concatenations.
+                                                                                                                                : ... note: In instance 'param_divider'
+   12 |             {quotient, remainder} = dividend / {divisor, 0};
+      |                                                          ^
+                      ... For warning description see https://verilator.org/warn/WIDTHCONCAT?v=5.025
+                      ... Use "/* verilator lint_off WIDTHCONCAT */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/parameterized_divider.v:12:46: Operator DIV expects 40 or 16 bits on the LHS, but LHS's VARREF 'dividend' generates 8 bits.
+                                                                                                                                : ... note: In instance 'param_divider'
+   12 |             {quotient, remainder} = dividend / {divisor, 0};
+      |                                              ^
+%Warning-WIDTHCONCAT: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/parameterized_divider.v:12:56: Unsized numbers/parameters not allowed in replications.
+                                                                                                                                : ... note: In instance 'param_divider'
+   12 |             {quotient, remainder} = dividend / {divisor, 0};
+      |                                                        ^
+%Error: Exiting due to 3 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.014 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.477 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:12:19: Can't find definition of variable: 'W'
+   12 |             if (q[W+1] == 1'b1)
+      |                   ^
+%Error: Exiting due to 1 error(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.017 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.414 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/parameterized_divider.v:12:42: Operator DIV expects 16 bits on the LHS, but LHS's VARREF 'dividend' generates 8 bits.
+                                                                                                                             : ... note: In instance 'param_divider'
+   12 |         {quotient, remainder} = dividend / divisor;
+      |                                          ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/parameterized_divider.v:12:42: Operator DIV expects 16 bits on the RHS, but RHS's VARREF 'divisor' generates 8 bits.
+                                                                                                                             : ... note: In instance 'param_divider'
+   12 |         {quotient, remainder} = dividend / divisor;
+      |                                          ^
+%Error: Exiting due to 2 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_divider.v:12:45: Operator DIV expects 16 bits on the LHS, but LHS's VARREF 'dividend' generates 8 bits.
+                                                                                                                              : ... note: In instance 'param_divider'
+   12 |             {quotient,remainder} = dividend / divisor;
+      |                                             ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_divider.v:12:45: Operator DIV expects 16 bits on the RHS, but RHS's VARREF 'divisor' generates 8 bits.
+                                                                                                                              : ... note: In instance 'param_divider'
+   12 |             {quotient,remainder} = dividend / divisor;
+      |                                             ^
+%Error-BLKANDNBLK: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_divider.v:6:28: Unsupported: Blocked and non-blocking assignments to same variable: 'quotient'
+    6 |     output reg [WIDTH-1:0] quotient,
+      |                            ^~~~~~~~
+                   /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_divider.v:12:34: ... Location of blocking assignment
+   12 |             {quotient,remainder} = dividend / divisor;
+      |                                  ^
+                   /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_divider.v:14:22: ... Location of nonblocking assignment
+   14 |             quotient <= 0;
+      |                      ^~
+%Error-BLKANDNBLK: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_divider.v:7:28: Unsupported: Blocked and non-blocking assignments to same variable: 'remainder'
+    7 |     output reg [WIDTH-1:0] remainder
+      |                            ^~~~~~~~~
+                   /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_divider.v:12:34: ... Location of blocking assignment
+   12 |             {quotient,remainder} = dividend / divisor;
+      |                                  ^
+                   /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_divider.v:15:23: ... Location of nonblocking assignment
+   15 |             remainder <= dividend;
+      |                       ^~
+%Error: Exiting due to 2 error(s), 2 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_divider.v:12:46: Operator DIV expects 16 bits on the LHS, but LHS's VARREF 'dividend' generates 8 bits.
+                                                                                                                             : ... note: In instance 'param_divider'
+   12 |             {quotient, remainder} = dividend / divisor;
+      |                                              ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_divider.v:12:46: Operator DIV expects 16 bits on the RHS, but RHS's VARREF 'divisor' generates 8 bits.
+                                                                                                                             : ... note: In instance 'param_divider'
+   12 |             {quotient, remainder} = dividend / divisor;
+      |                                              ^
+%Error-BLKANDNBLK: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_divider.v:6:28: Unsupported: Blocked and non-blocking assignments to same variable: 'quotient'
+    6 |     output reg [WIDTH-1:0] quotient,
+      |                            ^~~~~~~~
+                   /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_divider.v:12:35: ... Location of blocking assignment
+   12 |             {quotient, remainder} = dividend / divisor;
+      |                                   ^
+                   /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_divider.v:14:22: ... Location of nonblocking assignment
+   14 |             quotient <= 0;
+      |                      ^~
+%Error-BLKANDNBLK: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_divider.v:7:28: Unsupported: Blocked and non-blocking assignments to same variable: 'remainder'
+    7 |     output reg [WIDTH-1:0] remainder
+      |                            ^~~~~~~~~
+                   /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_divider.v:12:35: ... Location of blocking assignment
+   12 |             {quotient, remainder} = dividend / divisor;
+      |                                   ^
+                   /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_divider.v:15:23: ... Location of nonblocking assignment
+   15 |             remainder <= dividend;
+      |                       ^~
+%Error: Exiting due to 2 error(s), 2 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_divider.v:12:25: Operator DIV expects 16 bits on the RHS, but RHS's VARREF 'divisor' generates 8 bits.
+                                                                                                                           : ... note: In instance 'param_divider'
+   12 |         quotient = temp / divisor;
+      |                         ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_divider.v:12:18: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's DIV generates 16 bits.
+                                                                                                                          : ... note: In instance 'param_divider'
+   12 |         quotient = temp / divisor;
+      |                  ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_divider.v:13:26: Operator MODDIV expects 16 bits on the RHS, but RHS's VARREF 'divisor' generates 8 bits.
+                                                                                                                           : ... note: In instance 'param_divider'
+   13 |         remainder = temp % divisor;
+      |                          ^
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_divider.v:13:19: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's MODDIV generates 16 bits.
+                                                                                                                          : ... note: In instance 'param_divider'
+   13 |         remainder = temp % divisor;
+      |                   ^
+%Error: Exiting due to 4 warning(s)
+

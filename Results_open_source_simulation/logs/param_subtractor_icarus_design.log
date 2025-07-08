@@ -1,0 +1,35 @@
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_subtractor.v:9: error: Unable to bind parameter `WIDHT' in `param_subtractor'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_subtractor.v:9: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_subtractor.v:9:      : The msb expression violates that rule: (WIDHT)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_subtractor.v:9: error: Unable to bind parameter `WIDHT' in `param_subtractor'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_subtractor.v:9: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_subtractor.v:9:      : The msb expression violates that rule: (WIDHT)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_subtractor.v:10: error: Unable to bind wire/reg/memory `WIDHT' in `param_subtractor'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_subtractor.v:10: error: Unable to elaborate r-value: A(temp[WIDHT])
+6 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/parameterized_subtractor.v:6: error: Unknown module type: dsp48
+2 error(s) during elaboration.
+*** These modules were missing:
+        dsp48 referenced 1 times.
+***
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/parameterized_subtractor.v:9: error: Unable to bind wire/reg/memory `WIDHT' in `param_subtractor'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/parameterized_subtractor.v:9: error: Unable to elaborate r-value: (~(temp[WIDHT]))&((temp)>=(b))
+2 error(s) during elaboration.
+
+
+
+
+
+
+
+
+
+

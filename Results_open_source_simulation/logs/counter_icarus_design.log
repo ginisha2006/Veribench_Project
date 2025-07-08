@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/counter_with_asynchronous_reset.v:1: error: Port clk (1) of module counter is not declared within module.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/counter_with_asynchronous_reset.v:1: error: Port reset (2) of module counter is not declared within module.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/counter_with_asynchronous_reset.v:1: error: Port ena (3) of module counter is not declared within module.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/counter_with_asynchronous_reset.v:1: error: Port result (4) of module counter has no direction declaration.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/counter_with_asynchronous_reset.v:1: error: no wire/reg clk in module counter.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/counter_with_asynchronous_reset.v:1: error: no wire/reg reset in module counter.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/counter_with_asynchronous_reset.v:1: error: no wire/reg ena in module counter.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/counter_with_asynchronous_reset.v:1: error: signal result in module counter is not a port.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/counter_with_asynchronous_reset.v:1:      : Are you missing an input/output/inout declaration?
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/counter_with_asynchronous_reset.v:4: error: Unable to bind wire/reg/memory `reset' in `counter'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/counter_with_asynchronous_reset.v:4: error: Unable to elaborate condition expression.
+Elaboration failed
+
+
+
+
+
+
+
+
+

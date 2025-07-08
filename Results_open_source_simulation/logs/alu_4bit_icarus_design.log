@@ -1,0 +1,278 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:17: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:25: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:26: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:34: error: Incomprehensible case expression.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:35: error: 'gate_not' has already been declared in this scope.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:34:      : It was declared here as an instance name.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:17: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:18: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:19: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:20: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:23: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:24: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:25: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:26: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:29: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:30: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:31: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:32: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:35: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:36: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:37: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:38: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:41: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:42: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:43: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:44: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:47: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:48: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:49: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:50: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:53: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:54: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:55: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:56: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+28 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/4_bit_alu.v:28: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/4_bit_alu.v:28: error: Malformed statement
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:10: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:11: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:12: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:13: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:14: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:15: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+6 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:14: error: 'Cout' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:10:      : 'Cout' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:14: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:15: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:16: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:17: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:18: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:19: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+7 error(s) during elaboration.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:14: error: 'Cout' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:10:      : 'Cout' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:14: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:15: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:16: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:17: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:18: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:19: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+7 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:16: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:17: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:18: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:19: error: Unknown module type: full_adder
+5 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 4 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:17: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:25: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:26: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:34: error: Incomprehensible case expression.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/4_bit_alu.v:33: syntax error
+I give up.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:17: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:25: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:26: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:34: error: Incomprehensible case expression.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:35: error: 'gate_not' has already been declared in this scope.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:34:      : It was declared here as an instance name.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:17: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:18: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:19: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:20: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:23: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:24: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:25: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:26: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:29: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:30: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:31: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:32: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:35: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:36: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:37: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:38: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:41: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:42: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:43: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:44: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:47: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:48: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:49: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:50: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:53: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:5:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:54: error: 'Carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:7:      : 'Carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:55: error: 'Zero' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:6:      : 'Zero' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:56: error: 'Overflow' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:8:      : 'Overflow' is declared here as a wire.
+28 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/4_bit_alu.v:28: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/4_bit_alu.v:28: error: Malformed statement
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:10: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:11: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:12: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:13: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:14: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:15: error: 'result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:7:      : 'result' is declared here as a wire.
+6 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:14: error: 'Cout' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:10:      : 'Cout' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:14: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:15: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:16: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:17: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:18: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:19: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+7 error(s) during elaboration.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:14: error: 'Cout' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:10:      : 'Cout' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:14: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:15: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:16: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:17: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:18: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:19: error: 'ALU_Result' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:4:      : 'ALU_Result' is declared here as a wire.
+7 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:16: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:17: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:18: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:19: error: Unknown module type: full_adder
+5 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 4 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:17: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:25: error: Incomprehensible case expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:26: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:34: error: Incomprehensible case expression.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/4_bit_alu.v:33: syntax error
+I give up.
+
+
+

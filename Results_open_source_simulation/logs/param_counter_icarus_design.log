@@ -1,0 +1,47 @@
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_counter_design_5_.v:11: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_counter_design_5_.v:11: error: Syntax error in continuous assignment
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_counter_design_5_.v:13: syntax error
+I give up.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:1: error: Port clk (1) of module param_counter is not declared within module.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:1: error: Port rst (2) of module param_counter is not declared within module.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:1: error: Port count (3) of module param_counter has no direction declaration.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:1: error: no wire/reg clk in module param_counter.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:1: error: no wire/reg rst in module param_counter.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:1: error: signal count in module param_counter is not a port.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:1:      : Are you missing an input/output/inout declaration?
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:4: error: Unable to bind wire/reg/memory `rst' in `param_counter'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_counter_design_5_.v:4: error: Unable to elaborate condition expression.
+Elaboration failed
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:1: error: Port clk (1) of module param_counter is not declared within module.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:1: error: Port rst (2) of module param_counter is not declared within module.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:1: error: Port count (3) of module param_counter has no direction declaration.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:1: error: no wire/reg clk in module param_counter.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:1: error: no wire/reg rst in module param_counter.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:1: error: signal count in module param_counter is not a port.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:1:      : Are you missing an input/output/inout declaration?
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:6: error: Unable to bind wire/reg/memory `rst' in `param_counter'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_counter_design_5_.v:6: error: Unable to elaborate condition expression.
+Elaboration failed
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/parameterized_counter_design_5_.v:1: syntax error
+I give up.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_counter_design_5_.v:1: syntax error
+I give up.
+
+
+
+
+
+

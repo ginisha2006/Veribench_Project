@@ -1,0 +1,234 @@
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.019 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.008 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.441 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-CASEINCOMPLETE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/fsm__1100_pattern_.v:16:10: Case values incompletely covered (example pattern 0x3)
+   16 |     else case(state)
+      |          ^~~~
+                         ... For warning description see https://verilator.org/warn/CASEINCOMPLETE?v=5.025
+                         ... Use "/* verilator lint_off CASEINCOMPLETE */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.019 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.438 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.028 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.014 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.508 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.017 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.430 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-CASEINCOMPLETE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/fsm__1100_pattern_.v:14:10: Case values incompletely covered (example pattern 0x3)
+   14 |     else case(state)
+      |          ^~~~
+                         ... For warning description see https://verilator.org/warn/CASEINCOMPLETE?v=5.025
+                         ... Use "/* verilator lint_off CASEINCOMPLETE */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/fsm__1100_pattern_.v:11:22: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's COND generates 32 or 2 bits.
+                                                                                                                       : ... note: In instance 'fsm_1100'
+   11 |             0: state <= (bit_in)? 1 : 2;
+      |                      ^~
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/fsm__1100_pattern_.v:12:22: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's COND generates 32 or 2 bits.
+                                                                                                                       : ... note: In instance 'fsm_1100'
+   12 |             1: state <= (bit_in)? 3 : 0;
+      |                      ^~
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/fsm__1100_pattern_.v:13:22: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's COND generates 32 or 3 bits.
+                                                                                                                       : ... note: In instance 'fsm_1100'
+   13 |             2: state <= (bit_in)? 4 : 0;
+      |                      ^~
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/fsm__1100_pattern_.v:14:22: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's COND generates 32 or 3 bits.
+                                                                                                                       : ... note: In instance 'fsm_1100'
+   14 |             3: state <= (bit_in)? 5 : 0;
+      |                      ^~
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/fsm__1100_pattern_.v:15:22: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's COND generates 32 or 3 bits.
+                                                                                                                       : ... note: In instance 'fsm_1100'
+   15 |             4: state <= (bit_in)? 6 : 0;
+      |                      ^~
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/fsm__1100_pattern_.v:17:22: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's CONST '?32?sh7' generates 32 or 3 bits.
+                                                                                                                       : ... note: In instance 'fsm_1100'
+   17 |             6: state <= 7;
+      |                      ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/fsm__1100_pattern_.v:10:14: Operator CASE expects 32 or 3 bits on the Case expression, but Case expression's VARREF 'state' generates 1 bits.
+                                                                                                                        : ... note: In instance 'fsm_1100'
+   10 |         else case (state)
+      |              ^~~~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/fsm__1100_pattern_.v:22:38: Operator EQ expects 32 or 3 bits on the LHS, but LHS's VARREF 'state' generates 1 bits.
+                                                                                                                        : ... note: In instance 'fsm_1100'
+   22 |     assign pattern_detected = (state == 7);  
+      |                                      ^~
+%Error: Exiting due to 8 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.016 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.426 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.014 MB sources in 2 modules, into 0.024 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.480 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.021 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.461 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/fsm__1100_pattern_.v:15:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'pattern_detected'
+                                                                                                                         : ... note: In instance 'fsm_1100'
+   15 |             3'b111: pattern_detected <= 1'b1;
+      |                     ^~~~~~~~~~~~~~~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error: Exiting due to 1 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.006 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.020 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.004, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.461 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.014 MB sources in 2 modules, into 0.021 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.008 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.453 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.019 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.473 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.406 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+

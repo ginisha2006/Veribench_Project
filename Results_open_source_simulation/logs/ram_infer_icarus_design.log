@@ -1,0 +1,32 @@
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/single_clock_synchronous_ram.v:9: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/single_clock_synchronous_ram.v:1: error: Syntax error in variable list.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/single_clock_synchronous_ram.v:15: error: 'q' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/single_clock_synchronous_ram.v:7:      : 'q' is declared here as a wire.
+1 error(s) during elaboration.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/single_clock_synchronous_ram.v:10: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/single_clock_synchronous_ram.v:1: error: Syntax error in variable list.
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/single_clock_synchronous_ram.v:1: syntax error
+I give up.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/single_clock_synchronous_ram.v:13: error: Unable to bind wire/reg/memory `mem[read_addr]' in `ram_infer'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/single_clock_synchronous_ram.v:16:      : A symbol with that name was declared here. Check for declaration after use.
+1 error(s) during elaboration.
+
+
+

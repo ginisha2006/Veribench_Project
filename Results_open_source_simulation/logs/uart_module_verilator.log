@@ -1,0 +1,168 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/uart__universal_asynchronous_receiver_transmitter_.v:59:12: Logical operator LOGNOT expects 1 bit on the LHS, but LHS's VARREF 'baud_counter' generates 32 bits.
+                                                                                                                                                               : ... note: In instance 'uart_module'
+   59 |         if(!baud_counter)
+      |            ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-MULTIDRIVEN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/uart__universal_asynchronous_receiver_transmitter_.v:12:12: Signal has multiple driving blocks with different clocking: 'uart_module.baud_counter'
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/uart__universal_asynchronous_receiver_transmitter_.v:53:9: ... Location of first driving block
+   53 |         baud_counter <= 0;
+      |         ^~~~~~~~~~~~
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/uart__universal_asynchronous_receiver_transmitter_.v:20:9: ... Location of other driving block
+   20 |         baud_counter <= 0;
+      |         ^~~~~~~~~~~~
+%Error: Exiting due to 2 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.395 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/uart__universal_asynchronous_receiver_transmitter_.v:23:32: Logical operator LOGAND expects 1 bit on the RHS, but RHS's NOT generates 8 bits.
+                                                                                                                                                       : ... note: In instance 'uart_module'
+   23 |                     if (~tx_en && ~rx) state <= 4'h1;
+      |                                ^~
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/uart__universal_asynchronous_receiver_transmitter_.v:26:21: Logical operator IF expects 1 bit on the If, but If's VARREF 'rx' generates 8 bits.
+                                                                                                                                                       : ... note: In instance 'uart_module'
+   26 |                     if (rx) state <= 4'h2;
+      |                     ^~
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/uart__universal_asynchronous_receiver_transmitter_.v:29:21: Logical operator IF expects 1 bit on the If, but If's NOT generates 8 bits.
+                                                                                                                                                       : ... note: In instance 'uart_module'
+   29 |                     if (~rx) state <= 4'h3;
+      |                     ^~
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/uart__universal_asynchronous_receiver_transmitter_.v:38:15: Operator ASSIGNW expects 1 bits on the Assign RHS, but Assign RHS's VARREF 'tx_data' generates 8 bits.
+                                                                                                                                                       : ... note: In instance 'uart_module'
+   38 |     assign tx = tx_data;
+      |               ^
+%Error-BLKANDNBLK: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/uart__universal_asynchronous_receiver_transmitter_.v:12:9: Unsupported: Blocked and non-blocking assignments to same variable: 'uart_module.tx_en'
+   12 |     reg tx_en;
+      |         ^~~~~
+                   /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/uart__universal_asynchronous_receiver_transmitter_.v:40:18: ... Location of blocking assignment
+   40 |     assign tx_en = (state == 4'h3);
+      |                  ^
+                   /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/uart__universal_asynchronous_receiver_transmitter_.v:19:19: ... Location of nonblocking assignment
+   19 |             tx_en <= 1'b0;
+      |                   ^~
+%Error: Exiting due to 1 error(s), 4 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/uart__universal_asynchronous_receiver_transmitter_.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/uart__universal_asynchronous_receiver_transmitter_.v:9:2: syntax error, unexpected end of file
+    9 | );
+      |  ^
+%Error: Cannot continue
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/uart__universal_asynchronous_receiver_transmitter_.v:76:34: syntax error, unexpected ';', expecting ',' or ':' or :-begin or :-fork
+   76 |                 tx <= ~data_in[0];
+      |                                  ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/uart__universal_asynchronous_receiver_transmitter_.v:85:13: syntax error, unexpected default
+   85 |             default: tx <= 1'bZ;
+      |             ^~~~~~~
+%Error: Cannot continue
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/uart__universal_asynchronous_receiver_transmitter_.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/uart__universal_asynchronous_receiver_transmitter_.v:9:2: syntax error, unexpected end of file
+    9 | );
+      |  ^
+%Error: Cannot continue
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.375 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.015 MB sources in 2 modules, into 0.016 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.477 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.014 MB sources in 2 modules, into 0.024 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.006 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.488 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.379 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+

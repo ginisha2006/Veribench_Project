@@ -1,0 +1,13 @@
+SBY  6:27:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check'.
+SBY  6:27:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/behavioral_counter_design_2_.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check/src/behavioral_counter_design_2_.v'.
+SBY  6:27:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/behavioral_counter_design_2__converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check/src/behavioral_counter_design_2__converted.v'.
+SBY  6:27:21 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] engine_0: smtbmc
+SBY  6:27:21 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] base: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  6:27:21 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/behavioral_counter_design_2__converted.v:28: ERROR: syntax error, unexpected '@'
+SBY  6:27:21 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] base: finished (returncode=1)
+SBY  6:27:21 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] base: task failed. ERROR.
+SBY  6:27:21 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:27:21 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:27:21 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:27:21 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] summary: engine_0 did not produce any traces
+SBY  6:27:21 [/TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check] DONE (ERROR, rc=16)

@@ -1,0 +1,47 @@
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_multiplier.v:5: error: 'product' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_multiplier.v:1:      : 'product' is declared here as a wire.
+Elaboration failed
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_multiplier.v:12: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_multiplier.v:12: error: Syntax error in left side of continuous assignment.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/parameterized_multiplier.v:10: error: Unknown module type: dsp48e1
+2 error(s) during elaboration.
+*** These modules were missing:
+        dsp48e1 referenced 1 times.
+***
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/parameterized_multiplier.v:13: error: 'product' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/parameterized_multiplier.v:4:      : 'product' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/parameterized_multiplier.v:11: error: Unable to bind wire/reg/memory `clock' in `param_multiplier'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/parameterized_multiplier.v:11: error: Failed to evaluate event expression 'posedge clock'.
+3 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/parameterized_multiplier.v:14: error: 'product' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/parameterized_multiplier.v:4:      : 'product' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/parameterized_multiplier.v:16: error: 'product' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/parameterized_multiplier.v:4:      : 'product' is declared here as a wire.
+2 error(s) during elaboration.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/parameterized_multiplier.v:24: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/parameterized_multiplier.v:6: error: Invalid module instantiation
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/parameterized_multiplier.v:15: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/parameterized_multiplier.v:15: error: Invalid module item.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_multiplier.v:9: error: Unable to bind parameter `true' in `param_multiplier'
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_multiplier.v:27: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_multiplier.v:6: error: Invalid module instantiation
+

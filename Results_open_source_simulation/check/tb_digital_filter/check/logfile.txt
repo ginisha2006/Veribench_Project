@@ -1,0 +1,13 @@
+SBY  6:30:59 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check'.
+SBY  6:30:59 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/digital_filter.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check/src/digital_filter.v'.
+SBY  6:30:59 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/digital_filter_converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check/src/digital_filter_converted.v'.
+SBY  6:30:59 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] engine_0: smtbmc
+SBY  6:31:00 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] base: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  6:31:00 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/digital_filter_converted.v:39: ERROR: Can not open file `coeffs.hex` for \$readmemh.
+SBY  6:31:00 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] base: finished (returncode=1)
+SBY  6:31:00 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] base: task failed. ERROR.
+SBY  6:31:00 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:31:00 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:31:00 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:31:00 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] summary: engine_0 did not produce any traces
+SBY  6:31:00 [/TVLSI_WORK/Ginisha/testing_file/check/tb_digital_filter/check] DONE (ERROR, rc=16)

@@ -1,0 +1,41 @@
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/modulation_and_demodulation__design_4_.v:21: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/modulation_and_demodulation__design_4_.v:21: error: Syntax error in continuous assignment
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/modulation_and_demodulation__design_4_.v:4: error: Unable to bind parameter `DATA_WIDTH' in `mod_demod'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/modulation_and_demodulation__design_4_.v:4: error: Dimensions must be constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/modulation_and_demodulation__design_4_.v:4       : This MSB expression violates the rule: (DATA_WIDTH)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/modulation_and_demodulation__design_4_.v:6: error: Unable to bind parameter `DATA_WIDTH' in `mod_demod'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/modulation_and_demodulation__design_4_.v:6: error: Dimensions must be constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/modulation_and_demodulation__design_4_.v:6       : This MSB expression violates the rule: (DATA_WIDTH)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/modulation_and_demodulation__design_4_.v:5: error: Unable to bind parameter `DATA_WIDTH' in `mod_demod'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/modulation_and_demodulation__design_4_.v:5: error: Dimensions must be constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/modulation_and_demodulation__design_4_.v:5       : This MSB expression violates the rule: (DATA_WIDTH)-('sd1)
+6 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/modulation_and_demodulation__design_4_.v:11: error: 'modulated_signal' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/modulation_and_demodulation__design_4_.v:5:      : 'modulated_signal' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/modulation_and_demodulation__design_4_.v:12: error: 'demodulated_data' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/modulation_and_demodulation__design_4_.v:6:      : 'demodulated_data' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/modulation_and_demodulation__design_4_.v:14: error: 'modulated_signal' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/modulation_and_demodulation__design_4_.v:5:      : 'modulated_signal' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/modulation_and_demodulation__design_4_.v:15: error: 'demodulated_data' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/modulation_and_demodulation__design_4_.v:6:      : 'demodulated_data' is declared here as a wire.
+4 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/modulation_and_demodulation__design_4_.v:1: syntax error
+I give up.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/modulation_and_demodulation__design_4_.v:1: syntax error
+I give up.
+
+
+
+
+
+

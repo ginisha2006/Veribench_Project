@@ -1,0 +1,9 @@
+# running in /TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check/src/
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/bidirectional_pin.v
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/bidirectional_pin_converted.v
+prep -top tb_bidir_pin
+
+hierarchy -smtcheck
+rename -witness
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

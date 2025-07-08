@@ -1,0 +1,9 @@
+# running in /TVLSI_WORK/Ginisha/testing_file/check/tb_behav_counter/check/src/
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/behavioral_counter_design_2_.v
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/behavioral_counter_design_2__converted.v
+prep -top tb_behav_counter
+
+hierarchy -smtcheck
+rename -witness
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

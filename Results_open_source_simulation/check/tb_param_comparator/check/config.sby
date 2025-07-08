@@ -1,0 +1,16 @@
+
+[options]
+mode bmc
+depth 20
+
+[engines]
+smtbmc
+
+[script]
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_comparator_design_3_.v
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/parameterized_comparator_design_3__converted.v
+prep -top tb_param_comparator
+
+[files]
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_comparator_design_3_.v
+/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/parameterized_comparator_design_3__converted.v

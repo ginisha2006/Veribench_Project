@@ -1,0 +1,13 @@
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check'.
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/ram_with_separate_i_o_ports.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check/src/ram_with_separate_i_o_ports.v'.
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/ram_with_separate_i_o_ports_converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check/src/ram_with_separate_i_o_ports_converted.v'.
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] engine_0: smtbmc
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] base: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/ram_with_separate_i_o_ports_converted.v:29: ERROR: syntax error, unexpected '(', expecting TOK_PROPERTY
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] base: finished (returncode=1)
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] base: task failed. ERROR.
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] summary: engine_0 did not produce any traces
+SBY  6:42:09 [/TVLSI_WORK/Ginisha/testing_file/check/tb_ram_separate_io/check] DONE (ERROR, rc=16)

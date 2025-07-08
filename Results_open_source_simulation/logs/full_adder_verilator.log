@@ -1,0 +1,264 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-MULTIDRIVEN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/full_adder.v:6:12: Bits [0:0] of signal 'cout' have multiple combinational drivers
+                                                                                                                       : ... note: In instance 'full_adder'
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/full_adder.v:15:5: ... Location of first driver
+   15 | and y2(cout, w1, a);
+      |     ^~
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/full_adder.v:16:4: ... Location of other driver
+   16 | or o1(cout, w2, cin);
+      |    ^~
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/full_adder.v:6:12: ... Only the first driver will be respected
+                      ... For warning description see https://verilator.org/warn/MULTIDRIVEN?v=5.025
+                      ... Use "/* verilator lint_off MULTIDRIVEN */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.015 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.406 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-MULTIDRIVEN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/full_adder.v:6:12: Bits [0:0] of signal 'cout' have multiple combinational drivers
+                                                                                                                       : ... note: In instance 'full_adder'
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/full_adder.v:13:9: ... Location of first driver
+   13 |     and u4 (cout, w2, cin);
+      |         ^~
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/full_adder.v:14:8: ... Location of other driver
+   14 |     or u5 (cout, w1, cout);
+      |        ^~
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/full_adder.v:6:12: ... Only the first driver will be respected
+                      ... For warning description see https://verilator.org/warn/MULTIDRIVEN?v=5.025
+                      ... Use "/* verilator lint_off MULTIDRIVEN */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.015 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/full_adder.v:11:21: Operator XOR expects 2 bits on the LHS, but LHS's VARREF 'a' generates 1 bits.
+                                                                                                                        : ... note: In instance 'full_adder'
+   11 | assign {w1,sum} = a ^ b ^ cin;
+      |                     ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/full_adder.v:11:21: Operator XOR expects 2 bits on the RHS, but RHS's VARREF 'b' generates 1 bits.
+                                                                                                                        : ... note: In instance 'full_adder'
+   11 | assign {w1,sum} = a ^ b ^ cin;
+      |                     ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/full_adder.v:11:25: Operator XOR expects 2 bits on the RHS, but RHS's VARREF 'cin' generates 1 bits.
+                                                                                                                        : ... note: In instance 'full_adder'
+   11 | assign {w1,sum} = a ^ b ^ cin;
+      |                         ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/full_adder.v:12:22: Operator AND expects 2 bits on the LHS, but LHS's VARREF 'a' generates 1 bits.
+                                                                                                                        : ... note: In instance 'full_adder'
+   12 | assign {w2,cout} = a & b | cin & (a ^ b);
+      |                      ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/full_adder.v:12:22: Operator AND expects 2 bits on the RHS, but RHS's VARREF 'b' generates 1 bits.
+                                                                                                                        : ... note: In instance 'full_adder'
+   12 | assign {w2,cout} = a & b | cin & (a ^ b);
+      |                      ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/full_adder.v:12:32: Operator AND expects 2 bits on the LHS, but LHS's VARREF 'cin' generates 1 bits.
+                                                                                                                        : ... note: In instance 'full_adder'
+   12 | assign {w2,cout} = a & b | cin & (a ^ b);
+      |                                ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/full_adder.v:12:37: Operator XOR expects 2 bits on the LHS, but LHS's VARREF 'a' generates 1 bits.
+                                                                                                                        : ... note: In instance 'full_adder'
+   12 | assign {w2,cout} = a & b | cin & (a ^ b);
+      |                                     ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/full_adder.v:12:37: Operator XOR expects 2 bits on the RHS, but RHS's VARREF 'b' generates 1 bits.
+                                                                                                                        : ... note: In instance 'full_adder'
+   12 | assign {w2,cout} = a & b | cin & (a ^ b);
+      |                                     ^
+%Error: Exiting due to 8 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.015 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.015 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.015 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.414 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.015 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.414 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.015 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.414 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.015 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.406 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/full_adder.v:10:17: Assigning to input/const variable: 'a'
+   10 |     xor int_sum(a, b, int_a);
+      |                 ^
+                 ... For error description see https://verilator.org/warn/ASSIGNIN?v=5.025
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/full_adder.v:13:20: Assigning to input/const variable: 'a'
+   13 |     and int_carry1(a, b, int_b);
+      |                    ^
+%Error: Exiting due to 2 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/full_adder.v:10:1: Cannot find file containing module: 'half_adder'
+   10 | half_adder ha1(a, b, w1, cout);
+      | ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/full_adder.v:10:1: This may be because there's no search path specified with -I<dir>.
+   10 | half_adder ha1(a, b, w1, cout);
+      | ^~~~~~~~~~
+        ... Looked in:
+             half_adder
+             half_adder.v
+             half_adder.sv
+             obj_dir/half_adder
+             obj_dir/half_adder.v
+             obj_dir/half_adder.sv
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/full_adder.v:11:1: Cannot find file containing module: 'half_adder'
+   11 | half_adder ha2(w1, cin, sum, w2);
+      | ^~~~~~~~~~
+%Error: Exiting due to 3 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/full_adder.v:11:5: Cannot find file containing module: 'half_adder'
+   11 |     half_adder ha_1 (.a(a), .b(b), .sum(sum), .cout(int_carry_a));
+      |     ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/full_adder.v:11:5: This may be because there's no search path specified with -I<dir>.
+   11 |     half_adder ha_1 (.a(a), .b(b), .sum(sum), .cout(int_carry_a));
+      |     ^~~~~~~~~~
+        ... Looked in:
+             half_adder
+             half_adder.v
+             half_adder.sv
+             obj_dir/half_adder
+             obj_dir/half_adder.v
+             obj_dir/half_adder.sv
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/full_adder.v:12:5: Cannot find file containing module: 'half_adder'
+   12 |     half_adder ha_2 (.a(int_carry_a), .b(cin), .sum(sum), .cout(cout));
+      |     ^~~~~~~~~~
+%Error: Exiting due to 3 error(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.015 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+

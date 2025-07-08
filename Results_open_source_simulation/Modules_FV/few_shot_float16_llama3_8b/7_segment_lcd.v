@@ -1,0 +1,42 @@
+module tb_seven_seg_display #(parameter DATA_WIDTH = 4);
+
+  // Inputs
+  reg [DATA_WIDTH-1:0] data;
+  reg clk;
+
+  // Outputs
+  wire [6:0] seg;
+
+  // Instantiate the DUT
+  seven_seg_display #(.DATA_WIDTH(DATA_WIDTH)) UUT (
+   .data(data),
+   .seg(seg)
+  );
+
+  // Clock generation for properties
+  initial clk = 0;
+  always #5 clk = ~clk;
+
+  // Property: Check if the segment values match the expected values for each digit
+  property p_segment_values;
+    @(posedge clk) ((data == 4'h0) => (seg == 7'b1000000));
+    @(posedge clk) ((data == 4'h1) => (seg == 7'b1111001));
+    @(posedge clk) ((data == 4'h2) => (seg == 7'b0100100));
+    @(posedge clk) ((data == 4'h3) => (seg == 7'b0110000));
+    @(posedge clk) ((data == 4'h4) => (seg == 7'b0011001));
+    @(posedge clk) ((data == 4'h5) => (seg == 7'b0010010));
+    @(posedge clk) ((data == 4'h6) => (seg == 7'b0000010));
+    @(posedge clk) ((data == 4'h7) => (seg == 7'b1111000));
+    @(posedge clk) ((data == 4'h8) => (seg == 7'b0000000));
+    @(posedge clk) ((data == 4'h9) => (seg == 7'b0011000));
+    @(posedge clk) ((data == 4'hA) => (seg == 7'b0001000));
+    @(posedge clk) ((data == 4'hB) => (seg == 7'b0000011));
+    @(posedge clk) ((data == 4'hC) => (seg == 7'b1000110));
+    @(posedge clk) ((data == 4'hD) => (seg == 7'b0100001));
+    @(posedge clk) ((data == 4'hE) => (seg == 7'b0000110));
+    @(posedge clk) ((data == 4'hF) => (seg == 7'b0001110));
+    @(posedge clk) ((data!= 4'h0 && data!= 4'h1 && data!= 4'h2 && data!= 4'h3 && data!= 4'h4 && data!= 4'h5 && data!= 4'h6 && data!= 4'h7 && data!= 4'h8 && data!= 4'h9 && data!= 4'hA && data!= 4'hB && data!= 4'hC && data!= 4'hD && data!= 4'hE && data!= 4'hF) => (seg == 7'b1111111));
+  endproperty
+  assert property (p_segment_values);
+
+endmodule

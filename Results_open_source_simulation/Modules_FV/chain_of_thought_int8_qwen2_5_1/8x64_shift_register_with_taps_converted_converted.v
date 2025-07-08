@@ -1,0 +1,36 @@
+module tb_shift_8x64_taps (
+    input clk,
+    input shift,
+    input [7:0] sr_in,
+    output reg [7:0] sr_out,
+    output reg [7:0] sr_tap_one,
+    output reg [7:0] sr_tap_two,
+    output reg [7:0] sr_tap_three
+);
+
+wire [7:0] sr [63:0];
+integer n;
+
+shift_8x64_taps dut (
+    .clk(clk),
+    .shift(shift),
+    .sr_in(sr_in),
+    .sr_out(sr_out),
+    .sr_tap_one(sr_tap_one),
+    .sr_tap_two(sr_tap_two),
+    .sr_tap_three(sr_tap_three)
+);
+
+always #5 clk =~clk;
+
+always @(*) begin always @(*) begin assert (@ (posedge clk) !$isunknown({<<{sr}}) |-> {<<{sr}} == 8'hZZZZZZZZZZZZZZZZ); end end
+
+always @(*) begin always @(*) begin assert (@ (posedge clk) disable iff (!shift) (sr[0] ##1 sr[1] ##1 ... ##1 sr[63])[*64] |-> ({<<{sr}} == <<{>>{sr}})); end end
+
+always @(*) begin always @(*) begin assert (@ (posedge clk) (sr[15] == sr_tap_one) && (sr[31] == sr_tap_two) && (sr[31] == sr_tap_three)); end end
+
+always @(*) begin always @(*) begin assert (@ (posedge clk) !($signed(sr[0]) < -128 || $signed(sr[0]) > 127)); end end
+
+always @(*) begin always @(*) begin assert (@ (posedge clk) !(shift && $past(!shift))); end end
+
+endmodule

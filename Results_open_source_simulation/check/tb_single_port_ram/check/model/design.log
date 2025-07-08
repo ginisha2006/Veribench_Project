@@ -1,0 +1,18 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.41+24 (git sha1 165791769, clang++ 14.0.0-1ubuntu1.1 -fPIC -Os)
+
+-- Executing script file `../model/design.ys' --
+
+1. Executing Verilog-2005 frontend: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/single_port_ram.v
+Parsing formal SystemVerilog input from `/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/single_port_ram.v' to AST representation.
+Storing AST representation for module `$abstract\single_port_ram'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/single_port_ram_converted.v
+Parsing formal SystemVerilog input from `/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/single_port_ram_converted.v' to AST representation.
+/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/single_port_ram_converted.v:26: ERROR: syntax error, unexpected '(', expecting TOK_PROPERTY

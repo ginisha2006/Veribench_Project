@@ -1,0 +1,13 @@
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check'.
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_shift_register.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check/src/parameterized_shift_register.v'.
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/parameterized_shift_register_converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check/src/parameterized_shift_register_converted.v'.
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] engine_0: smtbmc
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] base: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/parameterized_shift_register_converted.v:26: ERROR: syntax error, unexpected '(', expecting TOK_PROPERTY
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] base: finished (returncode=1)
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] base: task failed. ERROR.
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] summary: engine_0 did not produce any traces
+SBY  6:40:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_param_shift_reg/check] DONE (ERROR, rc=16)

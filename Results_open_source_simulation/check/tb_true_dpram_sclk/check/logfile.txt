@@ -1,0 +1,13 @@
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check'.
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/true_dual_port_ram_with_a_single_clock_design_6_.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check/src/true_dual_port_ram_with_a_single_clock_design_6_.v'.
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/true_dual_port_ram_with_a_single_clock_design_6__converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check/src/true_dual_port_ram_with_a_single_clock_design_6__converted.v'.
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] engine_0: smtbmc
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] base: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/true_dual_port_ram_with_a_single_clock_design_6__converted.v:30: ERROR: syntax error, unexpected '@'
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] base: finished (returncode=1)
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] base: task failed. ERROR.
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] summary: engine_0 did not produce any traces
+SBY  6:47:49 [/TVLSI_WORK/Ginisha/testing_file/check/tb_true_dpram_sclk/check] DONE (ERROR, rc=16)

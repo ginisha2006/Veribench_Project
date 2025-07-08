@@ -1,0 +1,111 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/single_clock_synchronous_ram.v:8: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_llama3/single_clock_synchronous_ram.v:8: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/single_clock_synchronous_ram.v:8: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/single_clock_synchronous_ram.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/single_clock_synchronous_ram.v:8: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_llama3_8b/single_clock_synchronous_ram.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/single_clock_synchronous_ram.v:9: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_llama3_8b/single_clock_synchronous_ram.v:15: error: Could not find variable ``we'' in ``tb_ram_infer''
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_llama3_8b/single_clock_synchronous_ram.v:19: error: Could not find variable ``we'' in ``tb_ram_infer''
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_llama3_8b/single_clock_synchronous_ram.v:28: error: Could not find variable ``we'' in ``tb_ram_infer''
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_llama3_8b/single_clock_synchronous_ram.v:32: error: Could not find variable ``we'' in ``tb_ram_infer''
+4 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/single_clock_synchronous_ram.v:7: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/single_clock_synchronous_ram.v:32: error: Unable to bind wire/reg/memory `clk' in `tb_ram_infer'
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/single_clock_synchronous_ram.v:36:      : A symbol with that name was declared here. Check for declaration after use.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/single_clock_synchronous_ram.v:32: error: Failed to evaluate event expression 'posedge clk'.
+2 error(s) during elaboration.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/single_clock_synchronous_ram.v:11: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/single_clock_synchronous_ram.v:43: warning: Numeric constant truncated to 6 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/single_clock_synchronous_ram.v:12: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/single_clock_synchronous_ram.v:34: warning: Numeric constant truncated to 6 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/single_clock_synchronous_ram.v:37: warning: Numeric constant truncated to 6 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/single_clock_synchronous_ram.v:9: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/single_clock_synchronous_ram.v:11: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/single_clock_synchronous_ram.v:9: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/single_clock_synchronous_ram.v:14: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/single_clock_synchronous_ram.v:7: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/single_clock_synchronous_ram.v:14: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/single_clock_synchronous_ram.v:9: error: Unknown module type: ram_infer
+2 error(s) during elaboration.
+*** These modules were missing:
+        ram_infer referenced 1 times.
+***
+

@@ -1,0 +1,90 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/gray_counter_design_1_.v:5: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/gray_counter_design_1_.v:7: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/gray_counter_design_1_.v:5: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/gray_counter_design_1_.v:7: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/gray_counter_design_1_.v:7: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/gray_counter_design_1_.v:9: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/gray_counter_design_1_.v:9: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/gray_counter_design_1_.v:9: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/gray_counter_design_1_.v:7: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/gray_counter_design_1_.v:11: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/gray_counter_design_1_.v:7: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/gray_counter_design_1_.v:9: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/gray_counter_design_1_.v:7: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/gray_counter_design_1_.v:9: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/gray_counter_design_1_.v:7: error: Unknown module type: gray_count
+2 error(s) during elaboration.
+*** These modules were missing:
+        gray_count referenced 1 times.
+***
+

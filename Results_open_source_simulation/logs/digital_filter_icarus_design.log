@@ -1,0 +1,48 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/digital_filter.v:43: error: A reference to a net or variable (`j') is not allowed in a constant expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/digital_filter.v:43: error: Array index expressions must be constant here.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/digital_filter.v:35: assert: elab_expr.cc:4555: failed assertion ntype->type_compatible(net->net_type())
+Aborted (core dumped)
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/digital_filter.v:29: error: Array cannot be indexed by a range.
+1 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/digital_filter.v:35: error: No function named `sum' found in this context (digital_filter).
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/digital_filter.v:35: error: Unable to elaborate r-value: sum(product)
+2 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/digital_filter.v:30: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/digital_filter.v:30: error: Syntax error in continuous assignment
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/digital_filter.v:10: error: Unable to bind parameter `NUM_Taps' in `digital_filter'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/digital_filter.v:10: error: Dimensions must be constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/digital_filter.v:10       : This MSB expression violates the rule: (NUM_Taps)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/digital_filter.v:21: error: can not select part of scalar: coeff
+3 error(s) during elaboration.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/digital_filter.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/digital_filter.v:38: sorry: Streaming concatenation not supported.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/digital_filter.v:38: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/digital_filter.v:37: error: Syntax error in continuous assignment
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/digital_filter.v:27: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/digital_filter.v:27: error: Syntax error in left side of continuous assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/digital_filter.v:27: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/digital_filter.v:27: error: Invalid module instantiation
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/digital_filter.v:27: error: Invalid module instantiation
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/digital_filter.v:1: syntax error
+I give up.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/digital_filter.v:10: error: Unable to bind parameter `NUM_TAP_S' in `digital_filter'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/digital_filter.v:10: error: Dimensions must be constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/digital_filter.v:10       : This MSB expression violates the rule: (NUM_TAP_S)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/digital_filter.v:30: error: can not select part of scalar: coeff
+3 error(s) during elaboration.
+
+
+

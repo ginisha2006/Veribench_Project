@@ -1,0 +1,41 @@
+Time	clk	shift	sr_in	sr_tap_one	sr_tap_two	sr_tap_three	sr_out
+0	0	0	xxxxxxxx	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+20	1	0	xxxxxxxx	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+30	1	1	xxxxxxxx	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+40	0	1	xxxxxxxx	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+50	1	1	xxxxxxxx	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+60	1	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+70	0	0	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+90	1	0	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+100	1	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+110	0	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+120	1	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+240	0	0	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+260	1	0	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+270	1	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+280	0	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+290	1	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+300	1	1	00000000	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/8x64_shift_register_with_taps.v:33: $finish called at 310 (1s)
+
+Time	clk	shift	sr_in	sr_tap_one	sr_tap_two	sr_tap_three	sr_out
+0	0	0	xxxxxxxx	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+20	1	0	xxxxxxxx	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+30	1	1	xxxxxxxx	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+40	0	1	xxxxxxxx	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+50	1	1	xxxxxxxx	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+60	1	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+70	0	0	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+90	1	0	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+100	1	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+110	0	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+120	1	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+240	0	0	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+260	1	0	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+270	1	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+280	0	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+290	1	1	10101010	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+300	1	1	00000000	zzzzzzzz	zzzzzzzz	zzzzzzzz  z
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/8x64_shift_register_with_taps.v:33: $finish called at 310 (1s)
+
+Simulation timed out after 30 seconds.

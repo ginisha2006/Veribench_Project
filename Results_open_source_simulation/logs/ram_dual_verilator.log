@@ -1,0 +1,302 @@
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.013 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/dual_clock_synchronous_ram.v:16:12: Bit extraction of array[31:0] requires 5 bit index, not 6 bits.
+                                                                                                                                       : ... note: In instance 'ram_dual'
+   16 |         mem[read_addr] <= data;
+      |            ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/dual_clock_synchronous_ram.v:19:15: Bit extraction of array[31:0] requires 5 bit index, not 6 bits.
+                                                                                                                                       : ... note: In instance 'ram_dual'
+   19 | assign q = mem[read_addr];
+      |               ^
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/dual_clock_synchronous_ram.v:22:4: Bit extraction of array[31:0] requires 5 bit index, not 6 bits.
+                                                                                                                                      : ... note: In instance 'ram_dual'
+   22 | mem[write_addr] <= data;
+      |    ^
+%Warning-MULTIDRIVEN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/dual_clock_synchronous_ram.v:11:11: Signal has multiple driving blocks with different clocking: 'ram_dual.mem'
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/dual_clock_synchronous_ram.v:22:1: ... Location of first driving block
+   22 | mem[write_addr] <= data;
+      | ^~~
+                      /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/dual_clock_synchronous_ram.v:16:9: ... Location of other driving block
+   16 |         mem[read_addr] <= data;
+      |         ^~~
+%Error: Exiting due to 4 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.012 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.006 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.014 MB sources in 2 modules, into 0.013 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.013 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.406 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/dual_clock_synchronous_ram.v:2:13: Input/output/inout does not appear in port list: 'data'
+    2 | input [7:0] data;
+      |             ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/dual_clock_synchronous_ram.v:3:13: Input/output/inout does not appear in port list: 'read_addr'
+    3 | input [5:0] read_addr, write_addr;
+      |             ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/dual_clock_synchronous_ram.v:3:24: Input/output/inout does not appear in port list: 'write_addr'
+    3 | input [5:0] read_addr, write_addr;
+      |                        ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/dual_clock_synchronous_ram.v:4:7: Input/output/inout does not appear in port list: 'we'
+    4 | input we, read_clock, write_clock;
+      |       ^~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/dual_clock_synchronous_ram.v:4:11: Input/output/inout does not appear in port list: 'read_clock'
+    4 | input we, read_clock, write_clock;
+      |           ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/dual_clock_synchronous_ram.v:4:23: Input/output/inout does not appear in port list: 'write_clock'
+    4 | input we, read_clock, write_clock;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/dual_clock_synchronous_ram.v:5:14: Input/output/inout does not appear in port list: 'q'
+    5 | output [7:0] q;
+      |              ^
+%Error: Exiting due to 7 error(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.010 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.379 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.013 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/dual_clock_synchronous_ram.v:16:12: Bit extraction of array[31:0] requires 5 bit index, not 6 bits.
+                                                                                                                                       : ... note: In instance 'ram_dual'
+   16 |         mem[read_addr] <= data;
+      |            ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/dual_clock_synchronous_ram.v:19:15: Bit extraction of array[31:0] requires 5 bit index, not 6 bits.
+                                                                                                                                       : ... note: In instance 'ram_dual'
+   19 | assign q = mem[read_addr];
+      |               ^
+%Error: Exiting due to 2 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/dual_clock_synchronous_ram.v:10:9: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'q'
+                                                                                                                             : ... note: In instance 'ram_dual'
+   10 |         q <= mem[read_addr];
+      |         ^
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error: Exiting due to 1 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/dual_clock_synchronous_ram.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/dual_clock_synchronous_ram.v:8:2: syntax error, unexpected end of file
+    8 | );
+      |  ^
+%Error: Cannot continue
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.012 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.402 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.012 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/dual_clock_synchronous_ram.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/dual_clock_synchronous_ram.v:8:2: syntax error, unexpected end of file
+    8 | );
+      |  ^
+%Error: Cannot continue
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/dual_clock_synchronous_ram.v:12:10: Bit extraction of array[31:0] requires 5 bit index, not 6 bits.
+                                                                                                                                  : ... note: In instance 'ram_dual'
+   12 |       mem[write_addr] <= data;
+      |          ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/dual_clock_synchronous_ram.v:17:13: Bit extraction of array[31:0] requires 5 bit index, not 6 bits.
+                                                                                                                                  : ... note: In instance 'ram_dual'
+   17 |     q <= mem[read_addr];
+      |             ^
+%Error: Exiting due to 2 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.012 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.012 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.406 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.013 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.414 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/dual_clock_synchronous_ram.v:15:21: Bit extraction of array[31:0] requires 5 bit index, not 6 bits.
+                                                                                                                               : ... note: In instance 'ram_dual'
+   15 |             q <= mem[read_addr];
+      |                     ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/dual_clock_synchronous_ram.v:21:16: Bit extraction of array[31:0] requires 5 bit index, not 6 bits.
+                                                                                                                               : ... note: In instance 'ram_dual'
+   21 |             mem[write_addr] <= data;
+      |                ^
+%Error: Exiting due to 2 warning(s)
+

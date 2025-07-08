@@ -1,0 +1,123 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/rom.v:8: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_llama3/rom.v:6: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/rom.v:8: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/rom.v:11: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/rom.v:11: Syntax in assignment statement l-value.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/rom.v:8: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_llama3_8b/rom.v:47: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/rom.v:13: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_llama3_8b/rom.v:11: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/rom.v:8: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/rom.v:6: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/rom.v:10: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/rom.v:10: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_llama3_8b/rom.v:6: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/rom.v:13: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/rom.v:8: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/rom.v:10: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/rom.v:13: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/rom.v:13: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/rom.v:8: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/rom.v:13: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/rom.v:13: error: Unknown module type: rom_simple
+2 error(s) during elaboration.
+*** These modules were missing:
+        rom_simple referenced 1 times.
+***
+

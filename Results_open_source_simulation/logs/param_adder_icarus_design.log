@@ -1,0 +1,75 @@
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/parameterized_adder.v:11: error: 'sum' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/parameterized_adder.v:4:      : 'sum' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/parameterized_adder.v:12: error: 'carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/parameterized_adder.v:5:      : 'carry' is declared here as a wire.
+2 error(s) during elaboration.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_adder.v:5: error: 'sum' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_adder.v:1:      : 'sum' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_adder.v:7: error: 'carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_adder.v:1:      : 'carry' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_adder.v:3: warning: @* found no sensitivities so it will never trigger.
+2 error(s) during elaboration.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/parameterized_adder.v:7: error: Unknown module type: dsp48
+2 error(s) during elaboration.
+*** These modules were missing:
+        dsp48 referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_adder.v:14: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_adder.v:14: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_adder.v:14: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_adder.v:14: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_adder.v:14: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_adder.v:14: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_adder.v:14: error: Variable 'carry' cannot have multiple drivers.
+14 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_adder.v:10: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_adder.v:9: error: Syntax error in continuous assignment
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/parameterized_adder.v:14: error: 'temp_sum' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/parameterized_adder.v:7:      : 'temp_sum' is declared here as a wire.
+Elaboration failed
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/parameterized_adder.v:11: error: 'sum' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/parameterized_adder.v:4:      : 'sum' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/parameterized_adder.v:12: error: 'carry' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/parameterized_adder.v:5:      : 'carry' is declared here as a wire.
+2 error(s) during elaboration.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/parameterized_adder.v:21: error: Unknown module type: dsp48e1
+2 error(s) during elaboration.
+*** These modules were missing:
+        dsp48e1 referenced 1 times.
+***
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:13: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:13: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:13: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:13: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:13: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:13: error: Variable 'carry' cannot have multiple drivers.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:13: error: Variable 'carry' cannot have multiple drivers.
+14 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_adder.v:15: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_adder.v:16: Syntax in assignment statement l-value.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_adder.v:22: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_adder.v:25: error: Invalid module item.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_adder.v:26: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_adder.v:21: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/parameterized_adder.v:6: error: Invalid module instantiation
+

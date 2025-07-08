@@ -1,0 +1,72 @@
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:13:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Unable to bind parameter `W' in `param_comparator'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:21:      : The msb expression violates that rule: (W)-('sd1)
+36 error(s) during elaboration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

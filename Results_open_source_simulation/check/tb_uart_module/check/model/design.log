@@ -1,0 +1,191 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.41+24 (git sha1 165791769, clang++ 14.0.0-1ubuntu1.1 -fPIC -Os)
+
+-- Executing script file `../model/design.ys' --
+
+1. Executing Verilog-2005 frontend: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter_.v
+Parsing formal SystemVerilog input from `/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter_.v' to AST representation.
+Storing AST representation for module `$abstract\uart_module'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v
+Parsing formal SystemVerilog input from `/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v' to AST representation.
+Storing AST representation for module `$abstract\tb_uart_module'.
+Successfully finished Verilog frontend.
+
+3. Executing PREP pass.
+
+3.1. Executing HIERARCHY pass (managing design hierarchy).
+
+3.2. Executing AST frontend in derive mode using pre-parsed AST for module `\tb_uart_module'.
+Generating RTLIL representation for module `\tb_uart_module'.
+
+3.2.1. Analyzing design hierarchy..
+Top module:  \tb_uart_module
+Parameter 1 (\BAUD_RATE) = 9600
+
+3.2.2. Executing AST frontend in derive mode using pre-parsed AST for module `\uart_module'.
+Parameter 1 (\BAUD_RATE) = 9600
+Generating RTLIL representation for module `$paramod\uart_module\BAUD_RATE=s32'00000000000000000010010110000000'.
+
+3.2.3. Analyzing design hierarchy..
+Top module:  \tb_uart_module
+
+3.2.4. Analyzing design hierarchy..
+Top module:  \tb_uart_module
+Removing unused module `$abstract\tb_uart_module'.
+Removing unused module `$abstract\uart_module'.
+Removed 2 unused modules.
+
+3.3. Executing PROC pass (convert processes to netlists).
+
+3.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+3.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+3.3.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 3 assignments to connections.
+
+3.3.4. Executing PROC_INIT pass (extract init attributes).
+Found init rule in `\tb_uart_module.$proc$/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v:0$3'.
+  Set init value: \clk = 1'0
+
+3.3.5. Executing PROC_ARST pass (detect async resets in processes).
+
+3.3.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+3.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\tb_uart_module.$proc$/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v:0$4'.
+Creating decoders for process `\tb_uart_module.$proc$/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v:0$3'.
+Creating decoders for process `\tb_uart_module.$proc$/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v:25$1'.
+
+3.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\tb_uart_module.\rst' from process `\tb_uart_module.$proc$/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v:0$4'.
+No latch inferred for signal `\tb_uart_module.\clk' from process `\tb_uart_module.$proc$/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v:25$1'.
+Removing init bit 1'0 for non-memory siginal `\tb_uart_module.\clk` in process `\tb_uart_module.$proc$/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v:25$1`.
+
+3.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+3.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+3.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `tb_uart_module.$proc$/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v:0$4'.
+Removing empty process `tb_uart_module.$proc$/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v:0$3'.
+Removing empty process `tb_uart_module.$proc$/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/uart_universal_asynchronous_receiver_transmitter__converted.v:25$1'.
+Cleaned up 0 empty switches.
+
+3.3.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tb_uart_module.
+<suppressed ~1 debug messages>
+
+3.4. Executing FUTURE pass.
+
+3.5. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tb_uart_module.
+
+3.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tb_uart_module..
+Removed 1 unused cells and 9 unused wires.
+<suppressed ~7 debug messages>
+
+3.7. Executing CHECK pass (checking for obvious problems).
+Checking module tb_uart_module...
+Found and reported 0 problems.
+
+3.8. Executing OPT pass (performing simple optimizations).
+
+3.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tb_uart_module.
+
+3.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tb_uart_module'.
+Removed a total of 0 cells.
+
+3.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \tb_uart_module..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+3.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \tb_uart_module.
+Performed a total of 0 changes.
+
+3.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tb_uart_module'.
+Removed a total of 0 cells.
+
+3.8.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tb_uart_module..
+
+3.8.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tb_uart_module.
+
+3.8.8. Finished OPT passes. (There is nothing left to do.)
+
+3.9. Executing WREDUCE pass (reducing word size of cells).
+
+3.10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tb_uart_module..
+
+3.11. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+3.12. Executing OPT pass (performing simple optimizations).
+
+3.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module tb_uart_module.
+
+3.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\tb_uart_module'.
+Removed a total of 0 cells.
+
+3.12.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \tb_uart_module..
+
+3.12.4. Finished fast OPT passes.
+
+3.13. Printing statistics.
+
+=== tb_uart_module ===
+
+   Number of wires:                  1
+   Number of wire bits:              1
+   Number of public wires:           1
+   Number of public wire bits:       1
+   Number of ports:                  0
+   Number of port bits:              0
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  0
+
+3.14. Executing CHECK pass (checking for obvious problems).
+Checking module tb_uart_module...
+Found and reported 0 problems.
+
+4. Executing HIERARCHY pass (managing design hierarchy).
+
+4.1. Analyzing design hierarchy..
+Top module:  \tb_uart_module
+
+4.2. Analyzing design hierarchy..
+Top module:  \tb_uart_module
+Removed 0 unused modules.
+
+5. Executing jny backend.
+
+6. Executing RTLIL backend.
+Output filename: ../model/design.il
+
+End of script. Logfile hash: 91409cdab6, CPU: user 0.01s system 0.01s, MEM: 14.36 MB peak
+Yosys 0.41+24 (git sha1 165791769, clang++ 14.0.0-1ubuntu1.1 -fPIC -Os)
+Time spent: 31% 5x opt_expr (0 sec), 25% 4x opt_clean (0 sec), ...

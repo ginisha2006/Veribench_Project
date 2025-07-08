@@ -1,0 +1,362 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/parameterized_comparator_design_3_.v:13:15: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   13 |         Equal <= 1;
+      |               ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/parameterized_comparator_design_3_.v:15:17: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   15 |         Greater <= 1;
+      |                 ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/parameterized_comparator_design_3_.v:17:14: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   17 |         Less <= 1;
+      |              ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/parameterized_comparator_design_3_.v:19:11: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   19 |     Equal <= ~Equal & ~(Greater | Less);
+      |           ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/parameterized_comparator_design_3_.v:20:13: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   20 |     Greater <= ~Greater & ~(Equal | Less);
+      |             ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/parameterized_comparator_design_3_.v:21:10: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   21 |     Less <= ~Less & ~(Equal | Greater);
+      |          ^~
+%Error: Exiting due to 6 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/parameterized_comparator_design_3_.v:12:19: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                          : ... This will be executed as a blocking assignment '='!
+   12 |             Equal <= 1'b1;
+      |                   ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/parameterized_comparator_design_3_.v:17:21: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                          : ... This will be executed as a blocking assignment '='!
+   17 |             Greater <= 1'b1;
+      |                     ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/parameterized_comparator_design_3_.v:22:18: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                          : ... This will be executed as a blocking assignment '='!
+   22 |             Less <= 1'b1;
+      |                  ^~
+%Error: Exiting due to 3 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_comparator_design_3_.v:5:9: Can't find definition of variable: 'W'
+    5 | if (~|A[W-1:0] & |B[W-1:0]) begin
+      |         ^
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_comparator_design_3_.v:13:15: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   13 |         Equal <= 1'b1;
+      |               ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_comparator_design_3_.v:18:17: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   18 |         Greater <= 1'b0;
+      |                 ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_comparator_design_3_.v:19:14: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   19 |         Less <= 1'b0;
+      |              ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_comparator_design_3_.v:22:17: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   22 |         Greater <= 1'b1;
+      |                 ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_comparator_design_3_.v:24:14: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   24 |         Less <= 1'b1;
+      |              ^~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_comparator_design_3_.v:11:1: Latch inferred for signal 'Greater' (not all control paths of combinational always assign a value)
+                                                                                                                                         : ... Suggest use of always_latch for intentional latches
+   11 | always @(*) begin
+      | ^~~~~~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_comparator_design_3_.v:11:1: Latch inferred for signal 'Less' (not all control paths of combinational always assign a value)
+                                                                                                                                         : ... Suggest use of always_latch for intentional latches
+   11 | always @(*) begin
+      | ^~~~~~
+%Error: Exiting due to 7 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_comparator_design_3_.v:2:19: Input/output/inout does not appear in port list: 'A'
+    2 | input [WIDTH-1:0] A;
+      |                   ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_comparator_design_3_.v:3:19: Input/output/inout does not appear in port list: 'B'
+    3 | input [WIDTH-1:0] B;
+      |                   ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_comparator_design_3_.v:4:14: Input/output/inout does not appear in port list: 'Equal'
+    4 | output logic Equal;
+      |              ^~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_comparator_design_3_.v:5:14: Input/output/inout does not appear in port list: 'Greater'
+    5 | output logic Greater;
+      |              ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_comparator_design_3_.v:6:14: Input/output/inout does not appear in port list: 'Less'
+    6 | output logic Less;
+      |              ^~~~
+%Error: Exiting due to 5 error(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.414 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_comparator_design_3_.v:13:15: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   13 |         Equal <= 1'b1;
+      |               ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_comparator_design_3_.v:18:17: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   18 |         Greater <= 1'b1;
+      |                 ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_comparator_design_3_.v:23:14: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   23 |         Less <= 1'b0;
+      |              ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_comparator_design_3_.v:25:14: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                            : ... This will be executed as a blocking assignment '='!
+   25 |         Less <= 1'b1;
+      |              ^~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/parameterized_comparator_design_3_.v:11:1: Latch inferred for signal 'Less' (not all control paths of combinational always assign a value)
+                                                                                                                                         : ... Suggest use of always_latch for intentional latches
+   11 | always @(*) begin
+      | ^~~~~~
+%Error: Exiting due to 5 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.418 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.418 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.422 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/parameterized_comparator_design_3_.v:12:19: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                       : ... This will be executed as a blocking assignment '='!
+   12 |             Equal <= 1;
+      |                   ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/parameterized_comparator_design_3_.v:17:21: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                       : ... This will be executed as a blocking assignment '='!
+   17 |             Greater <= 1;
+      |                     ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/parameterized_comparator_design_3_.v:22:18: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                       : ... This will be executed as a blocking assignment '='!
+   22 |             Less <= 1;
+      |                  ^~
+%Error: Exiting due to 3 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.414 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.414 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_comparator_design_3_.v:12:30: Operator ASSIGNDLY expects 3 bits on the Assign RHS, but Assign RHS's CONST '2'h0' generates 2 bits.
+                                                                                                                                           : ... note: In instance 'param_comparator'
+   12 |         {Greater,Less,Equal} <= 2'b0;
+      |                              ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_comparator_design_3_.v:12:30: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                       : ... This will be executed as a blocking assignment '='!
+   12 |         {Greater,Less,Equal} <= 2'b0;
+      |                              ^~
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_comparator_design_3_.v:14:30: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                       : ... This will be executed as a blocking assignment '='!
+   14 |         {Greater,Less,Equal} <= 3'b100;
+      |                              ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_comparator_design_3_.v:16:30: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                                       : ... This will be executed as a blocking assignment '='!
+   16 |         {Greater,Less,Equal} <= 3'b010;
+      |                              ^~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_comparator_design_3_.v:10:1: Latch inferred for signal 'Greater' (not all control paths of combinational always assign a value)
+                                                                                                                                    : ... Suggest use of always_latch for intentional latches
+   10 | always @(*) begin
+      | ^~~~~~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_comparator_design_3_.v:10:1: Latch inferred for signal 'Less' (not all control paths of combinational always assign a value)
+                                                                                                                                    : ... Suggest use of always_latch for intentional latches
+   10 | always @(*) begin
+      | ^~~~~~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/parameterized_comparator_design_3_.v:10:1: Latch inferred for signal 'Equal' (not all control paths of combinational always assign a value)
+                                                                                                                                    : ... Suggest use of always_latch for intentional latches
+   10 | always @(*) begin
+      | ^~~~~~
+%Error: Exiting due to 7 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_comparator_design_3_.v:10:41: Operator COND expects 3 bits on the Conditional True, but Conditional True's CONST '2'h2' generates 2 bits.
+                                                                                                                                          : ... note: In instance 'param_comparator'
+   10 |     assign {Greater,Equal,Less} = A > B ? 2'b10 : (A < B ? 2'b01 : 3'b010);
+      |                                         ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/parameterized_comparator_design_3_.v:10:58: Operator COND expects 3 bits on the Conditional True, but Conditional True's CONST '2'h1' generates 2 bits.
+                                                                                                                                          : ... note: In instance 'param_comparator'
+   10 |     assign {Greater,Equal,Less} = A > B ? 2'b10 : (A < B ? 2'b01 : 3'b010);
+      |                                                          ^
+%Error: Exiting due to 2 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.019 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.006 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.426 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+

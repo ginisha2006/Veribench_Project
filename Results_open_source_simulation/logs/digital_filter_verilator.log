@@ -1,0 +1,213 @@
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.014 MB sources in 2 modules, into 0.113 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.029 s (elab=0.002, cvt=0.023, bld=0.000); cpu 0.000 s on 1 threads; alloced 2.215 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/digital_filter.v:29:17: Operator ASSIGNW expects 16 bits on the Assign RHS, but Assign RHS's MUL generates 512 bits.
+                                                                                                                         : ... note: In instance 'digital_filter'
+   29 | assign data_out = {delay_line[NUM_TAPS-1:0]} * {coeff[NUM_TAPS-1:0]};
+      |                 ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/digital_filter.v:35:19: Can't find definition of task/function: 'sum'
+   35 | assign data_out = sum(product);
+      |                   ^~~
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/digital_filter.v:30:23: syntax error, unexpected +=, expecting '='
+   30 |       assign temp_sum += memory[i] * coeff[i];
+      |                       ^~
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/digital_filter.v:10:18: Can't find definition of variable: 'NUM_Taps'
+   10 |     input logic [NUM_Taps-1:0][COEFF_WIDTH-1:0] coeff
+      |                  ^~~~~~~~
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/digital_filter.v:14:20: Operator ASSIGNDLY expects 1 bits on the Assign RHS, but Assign RHS's AND generates 16 bits.
+                                                                                                                   : ... note: In instance 'digital_filter'
+   14 |             acc[0] <= data_in & coeff[acc[DATA_WIDTH-1]];
+      |                    ^~
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Error: Exiting due to 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/digital_filter.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/digital_filter.v:8:2: syntax error, unexpected end of file
+    8 | );
+      |  ^
+%Error: Cannot continue
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/digital_filter.v:38:48: syntax error, unexpected '['
+   38 |                    ({<<{product[NUM_TAPS-1:0]}}[DATA_WIDTH+COEFF_WIDTH-1:COEFF_WIDTH]))[DATA_WIDTH-1:0];
+      |                                                ^
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/digital_filter.v:27:40: syntax error, unexpected for, expecting ')'
+   27 | assign data_out = sum(taps[i]*coeff[i] for(i=0;i<NUM_TAPS;i));
+      |                                        ^~~
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/digital_filter.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/digital_filter.v:8:2: syntax error, unexpected end of file
+    8 | );
+      |  ^
+%Error: Cannot continue
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.046 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.010 s (elab=0.000, cvt=0.006, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.973 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.073 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.011 s (elab=0.000, cvt=0.007, bld=0.000); cpu 0.000 s on 1 threads; alloced 2.102 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/digital_filter.v:10:12: Can't find definition of variable: 'NUM_TAP_S'
+                                                                                                         : ... Suggested alternative: 'NUM_TAPS'
+   10 |     input [NUM_TAP_S-1:0][COEFF_WIDTH-1:0] coeff
+      |            ^~~~~~~~~
+%Error: Exiting due to 1 error(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.027 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.006 s (elab=0.000, cvt=0.003, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.551 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/digital_filter.v:30:14: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   30 |     data_out <= 0;
+      |              ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/digital_filter.v:32:16: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   32 |       data_out <= data_out + (shift_reg[i] * coeff[i]);
+      |                ^~
+%Error: Exiting due to 2 warning(s)
+

@@ -1,0 +1,9 @@
+# running in /TVLSI_WORK/Ginisha/testing_file/check/check/src/
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/32_bit_register_file.v
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_FV/zero_shot_int4_llama3_8b/32_bit_register_file_converted.v
+prep -top tb_reg_file_32bit
+
+hierarchy -smtcheck
+rename -witness
+write_jny -no-connections ../model/design.json
+write_rtlil ../model/design.il

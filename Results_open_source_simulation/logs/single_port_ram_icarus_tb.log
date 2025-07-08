@@ -1,0 +1,107 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/single_port_ram.v:35: warning: Numeric constant truncated to 6 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/single_port_ram.v:36: warning: Numeric constant truncated to 6 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/single_port_ram.v:51: warning: Numeric constant truncated to 6 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/single_port_ram.v:52: warning: Numeric constant truncated to 6 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/single_port_ram.v:7: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/single_port_ram.v:7: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/single_port_ram.v:12: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/single_port_ram.v:33: warning: Numeric constant truncated to 6 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/single_port_ram.v:37: warning: Numeric constant truncated to 6 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/single_port_ram.v:7: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_llama3_8b/single_port_ram.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/single_port_ram.v:13: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/single_port_ram.v:7: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/single_port_ram.v:28: error: Cannot perform procedural assignment to variable 'clk' because it is also continuously assigned.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/single_port_ram.v:29: error: Cannot perform procedural assignment to variable 'clk' because it is also continuously assigned.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/single_port_ram.v:30: error: Cannot perform procedural assignment to variable 'clk' because it is also continuously assigned.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/single_port_ram.v:31: error: Cannot perform procedural assignment to variable 'clk' because it is also continuously assigned.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/single_port_ram.v:32: error: Cannot perform procedural assignment to variable 'clk' because it is also continuously assigned.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/single_port_ram.v:33: error: Cannot perform procedural assignment to variable 'clk' because it is also continuously assigned.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/single_port_ram.v:34: error: Cannot perform procedural assignment to variable 'clk' because it is also continuously assigned.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/single_port_ram.v:35: error: Cannot perform procedural assignment to variable 'clk' because it is also continuously assigned.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/single_port_ram.v:36: error: Cannot perform procedural assignment to variable 'clk' because it is also continuously assigned.
+9 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/single_port_ram.v:10: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/single_port_ram.v:9: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/single_port_ram.v:29: warning: Numeric constant truncated to 6 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/single_port_ram.v:35: warning: Numeric constant truncated to 6 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/single_port_ram.v:7: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/single_port_ram.v:10: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/single_port_ram.v:9: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/single_port_ram.v:7: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/single_port_ram.v:9: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/single_port_ram.v:10: error: Unknown module type: single_port_ram
+2 error(s) during elaboration.
+*** These modules were missing:
+        single_port_ram referenced 1 times.
+***
+

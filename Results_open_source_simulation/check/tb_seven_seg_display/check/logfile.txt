@@ -1,0 +1,13 @@
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check'.
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check/src/7_segment_lcd.v'.
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/7_segment_lcd_converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check/src/7_segment_lcd_converted.v'.
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] engine_0: smtbmc
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] base: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/7_segment_lcd_converted.v:12: ERROR: syntax error, unexpected '@'
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] base: finished (returncode=1)
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] base: task failed. ERROR.
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] summary: engine_0 did not produce any traces
+SBY  6:26:20 [/TVLSI_WORK/Ginisha/testing_file/check/tb_seven_seg_display/check] DONE (ERROR, rc=16)

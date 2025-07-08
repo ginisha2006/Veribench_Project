@@ -1,0 +1,39 @@
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:4: error: Unable to bind parameter `ADDR_WIDTH' in `ram_separate_io'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:4: error: Dimensions must be constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:4       : This MSB expression violates the rule: (ADDR_WIDTH)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:5: error: Unable to bind parameter `DATA_WIDTH' in `ram_separate_io'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:5: error: Dimensions must be constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:5       : This MSB expression violates the rule: (DATA_WIDTH)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:6: error: Unable to bind parameter `DATA_WIDTH' in `ram_separate_io'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:6: error: Dimensions must be constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:6       : This MSB expression violates the rule: (DATA_WIDTH)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:9: error: Unable to bind parameter `DATA_WIDTH' in `ram_separate_io'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:9: error: Dimensions must be constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:9       : This MSB expression violates the rule: (DATA_WIDTH)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:9: error: Unable to bind parameter `ADDR_WIDTH' in `ram_separate_io'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:9: error: Dimensions must be constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ram_with_separate_i_o_ports.v:9       : This MSB expression violates the rule: (('sd2)**(ADDR_WIDTH))-('sd1)
+10 error(s) during elaboration.
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/ram_with_separate_i_o_ports.v:1: syntax error
+I give up.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/ram_with_separate_i_o_ports.v:1: syntax error
+I give up.
+
+
+
+
+
+

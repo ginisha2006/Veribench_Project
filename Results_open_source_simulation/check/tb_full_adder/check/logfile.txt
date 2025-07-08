@@ -1,0 +1,13 @@
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check'.
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/full_adder.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check/src/full_adder.v'.
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/full_adder_converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check/src/full_adder_converted.v'.
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] engine_0: smtbmc
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] base: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/full_adder_converted.v:24: ERROR: syntax error, unexpected '@'
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] base: finished (returncode=1)
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] base: task failed. ERROR.
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] summary: engine_0 did not produce any traces
+SBY  6:33:53 [/TVLSI_WORK/Ginisha/testing_file/check/tb_full_adder/check] DONE (ERROR, rc=16)

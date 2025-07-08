@@ -1,0 +1,372 @@
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.010 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.402 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.010 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.398 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:16:16: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h3' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   16 |     else if (A == 2'b11 || B == 2'b11 || C == 2'b11 || D == 2'b11 || E == 2'b11)
+      |                ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:16:30: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h3' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   16 |     else if (A == 2'b11 || B == 2'b11 || C == 2'b11 || D == 2'b11 || E == 2'b11)
+      |                              ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:16:44: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h3' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   16 |     else if (A == 2'b11 || B == 2'b11 || C == 2'b11 || D == 2'b11 || E == 2'b11)
+      |                                            ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:16:58: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h3' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   16 |     else if (A == 2'b11 || B == 2'b11 || C == 2'b11 || D == 2'b11 || E == 2'b11)
+      |                                                          ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:16:72: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h3' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   16 |     else if (A == 2'b11 || B == 2'b11 || C == 2'b11 || D == 2'b11 || E == 2'b11)
+      |                                                                        ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:14:16: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h2' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   14 |     else if (A == 2'b10 || B == 2'b10 || C == 2'b10 || D == 2'b10 || E == 2'b10)
+      |                ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:14:30: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h2' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   14 |     else if (A == 2'b10 || B == 2'b10 || C == 2'b10 || D == 2'b10 || E == 2'b10)
+      |                              ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:14:44: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h2' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   14 |     else if (A == 2'b10 || B == 2'b10 || C == 2'b10 || D == 2'b10 || E == 2'b10)
+      |                                            ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:14:58: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h2' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   14 |     else if (A == 2'b10 || B == 2'b10 || C == 2'b10 || D == 2'b10 || E == 2'b10)
+      |                                                          ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:14:72: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h2' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   14 |     else if (A == 2'b10 || B == 2'b10 || C == 2'b10 || D == 2'b10 || E == 2'b10)
+      |                                                                        ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:12:11: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h1' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   12 |     if (A == 2'b01 || B == 2'b01 || C == 2'b01 || D == 2'b01 || E == 2'b01)
+      |           ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:12:25: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h1' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   12 |     if (A == 2'b01 || B == 2'b01 || C == 2'b01 || D == 2'b01 || E == 2'b01)
+      |                         ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:12:39: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h1' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   12 |     if (A == 2'b01 || B == 2'b01 || C == 2'b01 || D == 2'b01 || E == 2'b01)
+      |                                       ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:12:53: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h1' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   12 |     if (A == 2'b01 || B == 2'b01 || C == 2'b01 || D == 2'b01 || E == 2'b01)
+      |                                                     ^~
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:12:67: Operator EQ expects 16 bits on the RHS, but RHS's CONST '2'h1' generates 2 bits.
+                                                                                                                                : ... note: In instance 'ternary_adder_tree'
+   12 |     if (A == 2'b01 || B == 2'b01 || C == 2'b01 || D == 2'b01 || E == 2'b01)
+      |                                                                   ^~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:13:9: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'OUT'
+                                                                                                                             : ... note: In instance 'ternary_adder_tree'
+   13 |         OUT <= A ^ B ^ C ^ D ^ E;
+      |         ^~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:15:9: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'OUT'
+                                                                                                                             : ... note: In instance 'ternary_adder_tree'
+   15 |         OUT <= A ^ B ^ C ^ D ^ E;
+      |         ^~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:17:9: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'OUT'
+                                                                                                                             : ... note: In instance 'ternary_adder_tree'
+   17 |         OUT <= A ^ B ^ C ^ D ^ E;
+      |         ^~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/ternary_adder_tree.v:19:9: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'OUT'
+                                                                                                                             : ... note: In instance 'ternary_adder_tree'
+   19 |         OUT <= 0;
+      |         ^~~
+%Error: Exiting due to 4 error(s), 15 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.010 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.398 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ternary_adder_tree.v:2:19: Input/output/inout does not appear in port list: 'A'
+    2 | input [WIDTH-1:0] A, B, C, D, E;
+      |                   ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ternary_adder_tree.v:2:22: Input/output/inout does not appear in port list: 'B'
+    2 | input [WIDTH-1:0] A, B, C, D, E;
+      |                      ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ternary_adder_tree.v:2:25: Input/output/inout does not appear in port list: 'C'
+    2 | input [WIDTH-1:0] A, B, C, D, E;
+      |                         ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ternary_adder_tree.v:2:28: Input/output/inout does not appear in port list: 'D'
+    2 | input [WIDTH-1:0] A, B, C, D, E;
+      |                            ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ternary_adder_tree.v:2:31: Input/output/inout does not appear in port list: 'E'
+    2 | input [WIDTH-1:0] A, B, C, D, E;
+      |                               ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ternary_adder_tree.v:3:7: Input/output/inout does not appear in port list: 'CLK'
+    3 | input CLK;
+      |       ^~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ternary_adder_tree.v:4:24: Input/output/inout does not appear in port list: 'OUT'
+    4 | output reg [WIDTH-1:0] OUT;
+      |                        ^~~
+%Warning-IMPLICIT: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/ternary_adder_tree.v:31:24: Signal definition not found, creating implicitly: 'i'
+   31 | assign OUT[i] = temp_A[i] ^ temp_B[i] ^ temp_C[i] ^ temp_D[i-1] ^ temp_E[i];
+      |                        ^
+                   ... For warning description see https://verilator.org/warn/IMPLICIT?v=5.025
+                   ... Use "/* verilator lint_off IMPLICIT */" and lint_on around source to disable this message.
+%Error: Exiting due to 7 error(s), 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/ternary_adder_tree.v:11:12: Operator ASSIGNDLY expects 16 bits on the Assign RHS, but Assign RHS's REPLICATE generates 3 bits.
+                                                                                                                        : ... note: In instance 'ternary_adder_tree'
+   11 |     stage1 <= {A[WIDTH-1], B[WIDTH-1], C[WIDTH-1]};
+      |            ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/ternary_adder_tree.v:12:12: Operator ASSIGNDLY expects 16 bits on the Assign RHS, but Assign RHS's REPLICATE generates 17 bits.
+                                                                                                                       : ... note: In instance 'ternary_adder_tree'
+   12 |     stage2 <= {stage1[WIDTH-1], stage1[WIDTH-2:0] + stage2};
+      |            ^~
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/ternary_adder_tree.v:13:12: Operator ASSIGNDLY expects 16 bits on the Assign RHS, but Assign RHS's REPLICATE generates 17 bits.
+                                                                                                                       : ... note: In instance 'ternary_adder_tree'
+   13 |     stage3 <= {stage2[WIDTH-1], stage2[WIDTH-2:0] + stage3};
+      |            ^~
+%Error: Exiting due to 3 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.010 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.402 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/ternary_adder_tree.v:12:18: Operator ASSIGNDLY expects 16 bits on the Assign RHS, but Assign RHS's REPLICATE generates 32 bits.
+                                                                                                                       : ... note: In instance 'ternary_adder_tree'
+   12 |             temp <= {C, sum};
+      |                  ^~
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/ternary_adder_tree.v:18:17: Operator ASSIGNDLY expects 16 bits on the Assign RHS, but Assign RHS's REPLICATE generates 32 bits.
+                                                                                                                       : ... note: In instance 'ternary_adder_tree'
+   18 |             OUT <= {E, sum};
+      |                 ^~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/ternary_adder_tree.v:12:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'temp'
+                                                                                                                      : ... note: In instance 'ternary_adder_tree'
+   12 |             temp <= {C, sum};
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/ternary_adder_tree.v:18:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'OUT'
+                                                                                                                      : ... note: In instance 'ternary_adder_tree'
+   18 |             OUT <= {E, sum};
+      |             ^~~
+%Error: Exiting due to 2 error(s), 2 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/ternary_adder_tree.v:11:26: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's REPLICATE generates 48 bits.
+                                                                                                                       : ... note: In instance 'ternary_adder_tree'
+   11 |             {carry,temp} = {C,D,E};
+      |                          ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.025
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/ternary_adder_tree.v:16:24: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's REPLICATE generates 48 bits.
+                                                                                                                       : ... note: In instance 'ternary_adder_tree'
+   16 |             {OUT,temp} = {temp,A,B};
+      |                        ^
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/ternary_adder_tree.v:19:19: Operator ASSIGNW expects 1 bits on the Assign RHS, but Assign RHS's VARREF 'carry' generates 16 bits.
+                                                                                                                       : ... note: In instance 'ternary_adder_tree'
+   19 |     assign OUT[0] = carry;
+      |                   ^
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/ternary_adder_tree.v:11:20: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'temp'
+                                                                                                                      : ... note: In instance 'ternary_adder_tree'
+   11 |             {carry,temp} = {C,D,E};
+      |                    ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/ternary_adder_tree.v:16:14: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'OUT'
+                                                                                                                      : ... note: In instance 'ternary_adder_tree'
+   16 |             {OUT,temp} = {temp,A,B};
+      |              ^~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/ternary_adder_tree.v:16:18: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'temp'
+                                                                                                                      : ... note: In instance 'ternary_adder_tree'
+   16 |             {OUT,temp} = {temp,A,B};
+      |                  ^~~~
+%Error: Exiting due to 3 error(s), 3 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.010 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.402 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.010 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.398 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/ternary_adder_tree.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/ternary_adder_tree.v:6:2: syntax error, unexpected end of file
+    6 | );
+      |  ^
+%Error: Cannot continue
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.011 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.010 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.402 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.012 MB sources in 2 modules, into 0.010 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.398 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.010 MB in 4 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.410 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/ternary_adder_tree.v:11:12: Operator ASSIGNDLY expects 16 bits on the Assign RHS, but Assign RHS's REPLICATE generates 3 bits.
+                                                                                                                        : ... note: In instance 'ternary_adder_tree'
+   11 |     stage1 <= {A[WIDTH-1], B[WIDTH-1], C[WIDTH-1]};
+      |            ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/ternary_adder_tree.v:12:51: Operator ADD expects 32 bits on the LHS, but LHS's SEL generates 15 bits.
+                                                                                                                        : ... note: In instance 'ternary_adder_tree'
+   12 |     stage2 <= {stage1[WIDTH-1], stage1[WIDTH-2:0] + {D[WIDTH-1:0], E[WIDTH-1:0]}};
+      |                                                   ^
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/ternary_adder_tree.v:12:12: Operator ASSIGNDLY expects 16 bits on the Assign RHS, but Assign RHS's REPLICATE generates 33 bits.
+                                                                                                                       : ... note: In instance 'ternary_adder_tree'
+   12 |     stage2 <= {stage1[WIDTH-1], stage1[WIDTH-2:0] + {D[WIDTH-1:0], E[WIDTH-1:0]}};
+      |            ^~
+%Error: Exiting due to 3 warning(s)
+

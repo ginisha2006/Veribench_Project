@@ -1,0 +1,43 @@
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/8x64_shift_register_with_taps.v:39: syntax error
+I give up.
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/8x64_shift_register_with_taps.v:16: error: Array cannot be indexed by a range.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/8x64_shift_register_with_taps.v:17: error: Array cannot be indexed by a range.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/8x64_shift_register_with_taps.v:18: error: Array cannot be indexed by a range.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/8x64_shift_register_with_taps.v:14: internal error: I don't know how to elaborate(ivl_type_t) this expression: {sr_in, sr_reg['sd62:'sd1]}
+3 error(s) during elaboration.
+
+
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/8x64_shift_register_with_taps.v:39: syntax error
+I give up.
+
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/8x64_shift_register_with_taps.v:16: error: Array cannot be indexed by a range.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/8x64_shift_register_with_taps.v:17: error: Array cannot be indexed by a range.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/8x64_shift_register_with_taps.v:18: error: Array cannot be indexed by a range.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/8x64_shift_register_with_taps.v:14: internal error: I don't know how to elaborate(ivl_type_t) this expression: {sr_in, sr_reg['sd62:'sd1]}
+3 error(s) during elaboration.
+
+
+
+
+
+
+
+
+
+

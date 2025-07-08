@@ -1,0 +1,13 @@
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check'.
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/bidirectional_pin.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check/src/bidirectional_pin.v'.
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/bidirectional_pin_converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check/src/bidirectional_pin_converted.v'.
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] engine_0: smtbmc
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] base: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/bidirectional_pin.v:2: ERROR: syntax error, unexpected '[', expecting ',' or '=' or ')'
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] base: finished (returncode=1)
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] base: task failed. ERROR.
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] summary: engine_0 did not produce any traces
+SBY  6:27:29 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bidir_pin/check] DONE (ERROR, rc=16)

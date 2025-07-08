@@ -1,0 +1,32 @@
+module tb_counter();
+
+  // Inputs
+  reg clk;
+  reg reset;
+  reg ena;
+
+  // Output
+  wire [7:0] result;
+
+  // Instantiate the DUT
+  counter UUT (
+   .clk(clk),
+   .reset(reset),
+   .result(result),
+   .ena(ena)
+  );
+
+  // Clock generation for properties
+  initial clk = 0;
+  always #5 clk = ~clk;
+
+  // Property: Check if counter resets correctly
+  always @(*) begin assert (@(posedge clk) ($rose(reset) |=> result == 0)); end
+
+  // Property: Check if counter increments when enabled
+  always @(*) begin assert (@(posedge clk) ((ena &&!reset) |=> result == result + 1)); end
+
+  // Property: Check if counter does not increment when disabled
+  always @(*) begin assert (@(posedge clk) (!ena |=> result == result)); end
+
+endmodule

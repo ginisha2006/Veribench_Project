@@ -1,0 +1,150 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/bidirectional_pin.v:60: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/bidirectional_pin.v:63: Syntax in assignment statement l-value.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/bidirectional_pin.v:70: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/bidirectional_pin.v:9: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/bidirectional_pin.v:30: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/bidirectional_pin.v:30: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/bidirectional_pin.v:35: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/bidirectional_pin.v:35: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/bidirectional_pin.v:40: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/bidirectional_pin.v:40: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/bidirectional_pin.v:45: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/bidirectional_pin.v:45: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/bidirectional_pin.v:13: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_llama3_8b/bidirectional_pin.v:9: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/bidirectional_pin.v:10: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/bidirectional_pin.v:24: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/bidirectional_pin.v:24: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/bidirectional_pin.v:26: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/bidirectional_pin.v:26: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/bidirectional_pin.v:27: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/bidirectional_pin.v:9: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/bidirectional_pin.v:11: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/bidirectional_pin.v:11: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/bidirectional_pin.v:11: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/bidirectional_pin.v:55: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/bidirectional_pin.v:55: Syntax in assignment statement l-value.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/bidirectional_pin.v:60: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/bidirectional_pin.v:60: Syntax in assignment statement l-value.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/bidirectional_pin.v:13: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/bidirectional_pin.v:12: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/bidirectional_pin.v:11: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:32: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:34: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:34: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:38: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:46: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:46: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:48: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:48: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:50: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:50: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:54: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:56: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:56: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:58: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:58: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:60: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:60: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:62: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:62: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:64: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:64: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:66: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:66: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:68: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:68: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:70: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:70: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:72: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:72: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:74: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:74: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:76: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:76: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:78: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:78: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:80: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:80: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:82: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:82: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:84: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:84: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:86: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:86: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:88: warning: Extra digits given for sized hex constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:88: warning: Numeric constant truncated to 21 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bidirectional_pin.v:88: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/bidirectional_pin.v:12: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/bidirectional_pin.v:12: error: Unknown module type: bidir_pin
+2 error(s) during elaboration.
+*** These modules were missing:
+        bidir_pin referenced 1 times.
+***
+

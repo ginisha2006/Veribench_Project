@@ -1,0 +1,1090 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:17:13: syntax error, unexpected if, expecting endcase
+   17 |             if ((a[3]^b[3]) == 0 && (a[3]^ALU_Result[3])) 
+      |             ^~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:25:15: syntax error, unexpected ':'
+   25 |         3'b100: ALU_Result = a - b;  
+      |               ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:34:9: syntax error, unexpected default
+   34 |         default: ALU_Result = 4'bxxxx;  
+      |         ^~~~~~~
+%Error: Exiting due to 3 error(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.006 s (elab=0.000, cvt=0.003, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.504 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.017 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.461 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.014 MB sources in 2 modules, into 0.019 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.009 s (elab=0.000, cvt=0.003, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.582 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:31:19: Assigning to input/const variable: 'a'
+   31 |     and gate_and (a, b, and_result);
+      |                   ^
+                 ... For error description see https://verilator.org/warn/ASSIGNIN?v=5.025
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:32:17: Assigning to input/const variable: 'a'
+   32 |     or gate_or (a, b, or_result);
+      |                 ^
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:33:19: Assigning to input/const variable: 'a'
+   33 |     xor gate_xor (a, b, xor_result);
+      |                   ^
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:34:19: Assigning to input/const variable: 'a'
+   34 |     not gate_not (a, not_a);
+      |                   ^
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:35:19: Assigning to input/const variable: 'b'
+   35 |     not gate_not (b, not_b);
+      |                   ^
+%Error: Exiting due to 5 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:17:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   17 |             ALU_Result = a + b;
+      |             ^~~~~~~~~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:18:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   18 |             Carry = (a[3] & ~b[3]) | (~a[3] & b[3]);
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:19:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   19 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:20:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   20 |             Overflow = (a[3] ^ b[3]) & ~ALU_Result[3];
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:23:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   23 |             ALU_Result = a & b;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:24:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   24 |             Carry = 0;
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:25:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   25 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:26:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   26 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:29:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   29 |             ALU_Result = a | b;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:30:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   30 |             Carry = 0;
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:31:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   31 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:32:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   32 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:35:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   35 |             ALU_Result = ~a;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:36:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   36 |             Carry = 0;
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:37:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   37 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:38:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   38 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:41:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   41 |             ALU_Result = a << 1;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:42:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   42 |             Carry = a[3];
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:43:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   43 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:44:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   44 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:47:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   47 |             ALU_Result = a >> 1;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:48:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   48 |             Carry = a[3];
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:49:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   49 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:50:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   50 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:53:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   53 |             ALU_Result = 0;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:54:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   54 |             Carry = 0;
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:55:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   55 |             Zero = 1;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:56:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   56 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error: Exiting due to 28 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/4_bit_alu.v:28:47: syntax error, unexpected '['
+   28 |             Carry = a[3]&b[3]|a[3]^b[3]&((a^b)[3]^a[3]);
+      |                                               ^
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:10:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   10 |             3'b000: result = a + b;  
+      |                     ^~~~~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:11:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   11 |             3'b001: result = a & b;  
+      |                     ^~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:12:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   12 |             3'b010: result = a | b;  
+      |                     ^~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:13:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   13 |             3'b011: result = ~a;  
+      |                     ^~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:14:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   14 |             3'b100: result = ~b;  
+      |                     ^~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:15:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   15 |             default: result = 'x;  
+      |                      ^~~~~~
+%Error: Exiting due to 6 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:25:28: Operator AND expects 4 bits on the LHS, but LHS's VARREF 'Cout' generates 1 bits.
+                                                                                                               : ... note: In instance 'alu_4bit'
+   25 |     assign Overflow = Cout & (~a ^ ~b);
+      |                            ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:25:21: Operator ASSIGNW expects 1 bits on the Assign RHS, but Assign RHS's AND generates 4 bits.
+                                                                                                              : ... note: In instance 'alu_4bit'
+   25 |     assign Overflow = Cout & (~a ^ ~b);
+      |                     ^
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:14:23: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Cout'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   14 |             3'b000 : {Cout, ALU_Result} = a + b;  
+      |                       ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:14:29: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   14 |             3'b000 : {Cout, ALU_Result} = a + b;  
+      |                             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:15:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   15 |             3'b001 : ALU_Result = a & b;  
+      |                      ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:16:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   16 |             3'b010 : ALU_Result = a | b;  
+      |                      ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:17:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   17 |             3'b011 : ALU_Result = ~a & b;  
+      |                      ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:18:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   18 |             3'b100 : ALU_Result = a | ~b;  
+      |                      ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:19:23: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   19 |             default : ALU_Result = 'x;  
+      |                       ^~~~~~~~~~
+%Error: Exiting due to 7 error(s), 2 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:19:29: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   19 |         default: ALU_Result <= 4'b0;
+      |                             ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:23:14: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   23 |         Zero <= 1;
+      |              ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:29:19: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   29 |             Carry <= a[3]&b[3]|a[3]&ALU_Result[3]^b[3]&ALU_Result[3];
+      |                   ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:30:22: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   30 |             Overflow <= ~(a[3]^b[3])&(a[3]^ALU_Result[3]);
+      |                      ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:33:19: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   33 |             Carry <= ~a[3]&~b[3]|~a[3]&ALU_Result[3]^~b[3]&ALU_Result[3];
+      |                   ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:34:22: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   34 |             Overflow <= ~(a[3]^~b[3])&(a[3]^ALU_Result[3]);
+      |                      ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:37:19: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   37 |             Carry <= 0;
+      |                   ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:38:22: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   38 |             Overflow <= 0;
+      |                      ^~
+%Error: Exiting due to 8 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:20:29: Operator ADD expects 8 bits on the LHS, but LHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   20 |             if({a[3],a[2:0]}+{b[3],b[2:0]}<8'b10000000 && ({a[3],a[2:0]}+{b[3],b[2:0]}>8'b01111111)) Overflow = 1;
+      |                             ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:20:29: Operator ADD expects 8 bits on the RHS, but RHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   20 |             if({a[3],a[2:0]}+{b[3],b[2:0]}<8'b10000000 && ({a[3],a[2:0]}+{b[3],b[2:0]}>8'b01111111)) Overflow = 1;
+      |                             ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:20:73: Operator ADD expects 8 bits on the LHS, but LHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   20 |             if({a[3],a[2:0]}+{b[3],b[2:0]}<8'b10000000 && ({a[3],a[2:0]}+{b[3],b[2:0]}>8'b01111111)) Overflow = 1;
+      |                                                                         ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:20:73: Operator ADD expects 8 bits on the RHS, but RHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   20 |             if({a[3],a[2:0]}+{b[3],b[2:0]}<8'b10000000 && ({a[3],a[2:0]}+{b[3],b[2:0]}>8'b01111111)) Overflow = 1;
+      |                                                                         ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:27:30: Operator SUB expects 7 bits on the LHS, but LHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   27 |             if(({a[3],a[2:0]}-{b[3],b[2:0]})>7'b0111111 && ({a[3],a[2:0]}-{b[3],b[2:0]})<7'b1000000) Overflow = 1;
+      |                              ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:27:30: Operator SUB expects 7 bits on the RHS, but RHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   27 |             if(({a[3],a[2:0]}-{b[3],b[2:0]})>7'b0111111 && ({a[3],a[2:0]}-{b[3],b[2:0]})<7'b1000000) Overflow = 1;
+      |                              ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:27:74: Operator SUB expects 7 bits on the LHS, but LHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   27 |             if(({a[3],a[2:0]}-{b[3],b[2:0]})>7'b0111111 && ({a[3],a[2:0]}-{b[3],b[2:0]})<7'b1000000) Overflow = 1;
+      |                                                                          ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:27:74: Operator SUB expects 7 bits on the RHS, but RHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   27 |             if(({a[3],a[2:0]}-{b[3],b[2:0]})>7'b0111111 && ({a[3],a[2:0]}-{b[3],b[2:0]})<7'b1000000) Overflow = 1;
+      |                                                                          ^
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:10:1: Latch inferred for signal 'Carry' (not all control paths of combinational always assign a value)
+                                                                                                           : ... Suggest use of always_latch for intentional latches
+   10 | always @(a,b,ALU_Sel)
+      | ^~~~~~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:10:1: Latch inferred for signal 'Zero' (not all control paths of combinational always assign a value)
+                                                                                                           : ... Suggest use of always_latch for intentional latches
+   10 | always @(a,b,ALU_Sel)
+      | ^~~~~~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:10:1: Latch inferred for signal 'Overflow' (not all control paths of combinational always assign a value)
+                                                                                                           : ... Suggest use of always_latch for intentional latches
+   10 | always @(a,b,ALU_Sel)
+      | ^~~~~~
+%Error: Exiting due to 11 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:14:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Cout'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   14 |             3'b000: {Cout, ALU_Result} = a + b;  
+      |                      ^~~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:14:28: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   14 |             3'b000: {Cout, ALU_Result} = a + b;  
+      |                            ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:15:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   15 |             3'b001: ALU_Result = a & b;  
+      |                     ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:16:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   16 |             3'b010: ALU_Result = a | b;  
+      |                     ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:17:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   17 |             3'b011: ALU_Result = ~a & b;  
+      |                     ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:18:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   18 |             3'b100: ALU_Result = ~a;  
+      |                     ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:19:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   19 |             default: ALU_Result = 4'bxxxx;  
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 7 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:16:5: Cannot find file containing module: 'full_adder'
+   16 |     full_adder fa0 (a[0], b[0], ALU_Sel[0], add_result[0], Carry);
+      |     ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:16:5: This may be because there's no search path specified with -I<dir>.
+   16 |     full_adder fa0 (a[0], b[0], ALU_Sel[0], add_result[0], Carry);
+      |     ^~~~~~~~~~
+        ... Looked in:
+             full_adder
+             full_adder.v
+             full_adder.sv
+             obj_dir/full_adder
+             obj_dir/full_adder.v
+             obj_dir/full_adder.sv
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:17:5: Cannot find file containing module: 'full_adder'
+   17 |     full_adder fa1 (a[1], b[1], ALU_Sel[1], add_result[1], Carry);
+      |     ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:18:5: Cannot find file containing module: 'full_adder'
+   18 |     full_adder fa2 (a[2], b[2], ALU_Sel[2], add_result[2], Carry);
+      |     ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:19:5: Cannot find file containing module: 'full_adder'
+   19 |     full_adder fa3 (a[3], b[3], ALU_Sel[2], add_result[3], Carry);
+      |     ^~~~~~~~~~
+%Error: Exiting due to 5 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:17:13: syntax error, unexpected if, expecting endcase
+   17 |             if ((a[3]^b[3]) == 0 && (a[3]^ALU_Result[3]) == 1) 
+      |             ^~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:25:15: syntax error, unexpected ':'
+   25 |         3'b100: ALU_Result <= a - b;  
+      |               ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:34:9: syntax error, unexpected default
+   34 |         default: ALU_Result <= 4'bxxxx;  
+      |         ^~~~~~~
+%Error: Exiting due to 3 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/4_bit_alu.v:33:22: syntax error, unexpected '=', expecting ',' or ':' or :-begin or :-fork
+   33 |             Overflow = 0;
+      |                      ^
+%Error: Cannot continue
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/4_bit_alu.v:11:1: Latch inferred for signal 'Carry' (not all control paths of combinational always assign a value)
+                                                                                                          : ... Suggest use of always_latch for intentional latches
+   11 | always @(*) begin
+      | ^~~~~~
+                ... For warning description see https://verilator.org/warn/LATCH?v=5.025
+                ... Use "/* verilator lint_off LATCH */" and lint_on around source to disable this message.
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/4_bit_alu.v:11:1: Latch inferred for signal 'Overflow' (not all control paths of combinational always assign a value)
+                                                                                                          : ... Suggest use of always_latch for intentional latches
+   11 | always @(*) begin
+      | ^~~~~~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/4_bit_alu.v:11:1: Latch inferred for signal 'Zero' (not all control paths of combinational always assign a value)
+                                                                                                          : ... Suggest use of always_latch for intentional latches
+   11 | always @(*) begin
+      | ^~~~~~
+%Error: Exiting due to 3 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.017 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.461 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:17:13: syntax error, unexpected if, expecting endcase
+   17 |             if ((a[3]^b[3]) == 0 && (a[3]^ALU_Result[3])) 
+      |             ^~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:25:15: syntax error, unexpected ':'
+   25 |         3'b100: ALU_Result = a - b;  
+      |               ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/4_bit_alu.v:34:9: syntax error, unexpected default
+   34 |         default: ALU_Result = 4'bxxxx;  
+      |         ^~~~~~~
+%Error: Exiting due to 3 error(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.006 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.500 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.017 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.469 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.014 MB sources in 2 modules, into 0.019 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.006 s (elab=0.001, cvt=0.003, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.578 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:31:19: Assigning to input/const variable: 'a'
+   31 |     and gate_and (a, b, and_result);
+      |                   ^
+                 ... For error description see https://verilator.org/warn/ASSIGNIN?v=5.025
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:32:17: Assigning to input/const variable: 'a'
+   32 |     or gate_or (a, b, or_result);
+      |                 ^
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:33:19: Assigning to input/const variable: 'a'
+   33 |     xor gate_xor (a, b, xor_result);
+      |                   ^
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:34:19: Assigning to input/const variable: 'a'
+   34 |     not gate_not (a, not_a);
+      |                   ^
+%Error-ASSIGNIN: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/4_bit_alu.v:35:19: Assigning to input/const variable: 'b'
+   35 |     not gate_not (b, not_b);
+      |                   ^
+%Error: Exiting due to 5 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:17:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   17 |             ALU_Result = a + b;
+      |             ^~~~~~~~~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:18:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   18 |             Carry = (a[3] & ~b[3]) | (~a[3] & b[3]);
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:19:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   19 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:20:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   20 |             Overflow = (a[3] ^ b[3]) & ~ALU_Result[3];
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:23:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   23 |             ALU_Result = a & b;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:24:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   24 |             Carry = 0;
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:25:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   25 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:26:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   26 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:29:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   29 |             ALU_Result = a | b;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:30:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   30 |             Carry = 0;
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:31:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   31 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:32:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   32 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:35:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   35 |             ALU_Result = ~a;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:36:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   36 |             Carry = 0;
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:37:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   37 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:38:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   38 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:41:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   41 |             ALU_Result = a << 1;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:42:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   42 |             Carry = a[3];
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:43:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   43 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:44:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   44 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:47:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   47 |             ALU_Result = a >> 1;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:48:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   48 |             Carry = a[3];
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:49:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   49 |             Zero = ~|ALU_Result;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:50:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   50 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:53:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   53 |             ALU_Result = 0;
+      |             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:54:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Carry'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   54 |             Carry = 0;
+      |             ^~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:55:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Zero'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   55 |             Zero = 1;
+      |             ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_llama3_8b/4_bit_alu.v:56:13: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Overflow'
+                                                                                                              : ... note: In instance 'alu_4bit'
+   56 |             Overflow = 0;
+      |             ^~~~~~~~
+%Error: Exiting due to 28 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/4_bit_alu.v:28:47: syntax error, unexpected '['
+   28 |             Carry = a[3]&b[3]|a[3]^b[3]&((a^b)[3]^a[3]);
+      |                                               ^
+%Error: Exiting due to 1 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:10:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   10 |             3'b000: result = a + b;  
+      |                     ^~~~~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:11:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   11 |             3'b001: result = a & b;  
+      |                     ^~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:12:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   12 |             3'b010: result = a | b;  
+      |                     ^~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:13:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   13 |             3'b011: result = ~a;  
+      |                     ^~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:14:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   14 |             3'b100: result = ~b;  
+      |                     ^~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/4_bit_alu.v:15:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   15 |             default: result = 'x;  
+      |                      ^~~~~~
+%Error: Exiting due to 6 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:25:28: Operator AND expects 4 bits on the LHS, but LHS's VARREF 'Cout' generates 1 bits.
+                                                                                                               : ... note: In instance 'alu_4bit'
+   25 |     assign Overflow = Cout & (~a ^ ~b);
+      |                            ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:25:21: Operator ASSIGNW expects 1 bits on the Assign RHS, but Assign RHS's AND generates 4 bits.
+                                                                                                              : ... note: In instance 'alu_4bit'
+   25 |     assign Overflow = Cout & (~a ^ ~b);
+      |                     ^
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:14:23: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Cout'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   14 |             3'b000 : {Cout, ALU_Result} = a + b;  
+      |                       ^~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:14:29: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   14 |             3'b000 : {Cout, ALU_Result} = a + b;  
+      |                             ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:15:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   15 |             3'b001 : ALU_Result = a & b;  
+      |                      ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:16:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   16 |             3'b010 : ALU_Result = a | b;  
+      |                      ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:17:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   17 |             3'b011 : ALU_Result = ~a & b;  
+      |                      ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:18:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   18 |             3'b100 : ALU_Result = a | ~b;  
+      |                      ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/4_bit_alu.v:19:23: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                             : ... note: In instance 'alu_4bit'
+   19 |             default : ALU_Result = 'x;  
+      |                       ^~~~~~~~~~
+%Error: Exiting due to 7 error(s), 2 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:19:29: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   19 |         default: ALU_Result <= 4'b0;
+      |                             ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:23:14: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   23 |         Zero <= 1;
+      |              ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:29:19: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   29 |             Carry <= a[3]&b[3]|a[3]&ALU_Result[3]^b[3]&ALU_Result[3];
+      |                   ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:30:22: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   30 |             Overflow <= ~(a[3]^b[3])&(a[3]^ALU_Result[3]);
+      |                      ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:33:19: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   33 |             Carry <= ~a[3]&~b[3]|~a[3]&ALU_Result[3]^~b[3]&ALU_Result[3];
+      |                   ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:34:22: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   34 |             Overflow <= ~(a[3]^~b[3])&(a[3]^ALU_Result[3]);
+      |                      ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:37:19: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   37 |             Carry <= 0;
+      |                   ^~
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/4_bit_alu.v:38:22: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                : ... This will be executed as a blocking assignment '='!
+   38 |             Overflow <= 0;
+      |                      ^~
+%Error: Exiting due to 8 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:20:29: Operator ADD expects 8 bits on the LHS, but LHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   20 |             if({a[3],a[2:0]}+{b[3],b[2:0]}<8'b10000000 && ({a[3],a[2:0]}+{b[3],b[2:0]}>8'b01111111)) Overflow = 1;
+      |                             ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.025
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:20:29: Operator ADD expects 8 bits on the RHS, but RHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   20 |             if({a[3],a[2:0]}+{b[3],b[2:0]}<8'b10000000 && ({a[3],a[2:0]}+{b[3],b[2:0]}>8'b01111111)) Overflow = 1;
+      |                             ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:20:73: Operator ADD expects 8 bits on the LHS, but LHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   20 |             if({a[3],a[2:0]}+{b[3],b[2:0]}<8'b10000000 && ({a[3],a[2:0]}+{b[3],b[2:0]}>8'b01111111)) Overflow = 1;
+      |                                                                         ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:20:73: Operator ADD expects 8 bits on the RHS, but RHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   20 |             if({a[3],a[2:0]}+{b[3],b[2:0]}<8'b10000000 && ({a[3],a[2:0]}+{b[3],b[2:0]}>8'b01111111)) Overflow = 1;
+      |                                                                         ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:27:30: Operator SUB expects 7 bits on the LHS, but LHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   27 |             if(({a[3],a[2:0]}-{b[3],b[2:0]})>7'b0111111 && ({a[3],a[2:0]}-{b[3],b[2:0]})<7'b1000000) Overflow = 1;
+      |                              ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:27:30: Operator SUB expects 7 bits on the RHS, but RHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   27 |             if(({a[3],a[2:0]}-{b[3],b[2:0]})>7'b0111111 && ({a[3],a[2:0]}-{b[3],b[2:0]})<7'b1000000) Overflow = 1;
+      |                              ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:27:74: Operator SUB expects 7 bits on the LHS, but LHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   27 |             if(({a[3],a[2:0]}-{b[3],b[2:0]})>7'b0111111 && ({a[3],a[2:0]}-{b[3],b[2:0]})<7'b1000000) Overflow = 1;
+      |                                                                          ^
+%Warning-WIDTHEXPAND: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:27:74: Operator SUB expects 7 bits on the RHS, but RHS's REPLICATE generates 4 bits.
+                                                                                                                  : ... note: In instance 'alu_4bit'
+   27 |             if(({a[3],a[2:0]}-{b[3],b[2:0]})>7'b0111111 && ({a[3],a[2:0]}-{b[3],b[2:0]})<7'b1000000) Overflow = 1;
+      |                                                                          ^
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:10:1: Latch inferred for signal 'Carry' (not all control paths of combinational always assign a value)
+                                                                                                           : ... Suggest use of always_latch for intentional latches
+   10 | always @(a,b,ALU_Sel)
+      | ^~~~~~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:10:1: Latch inferred for signal 'Zero' (not all control paths of combinational always assign a value)
+                                                                                                           : ... Suggest use of always_latch for intentional latches
+   10 | always @(a,b,ALU_Sel)
+      | ^~~~~~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/4_bit_alu.v:10:1: Latch inferred for signal 'Overflow' (not all control paths of combinational always assign a value)
+                                                                                                           : ... Suggest use of always_latch for intentional latches
+   10 | always @(a,b,ALU_Sel)
+      | ^~~~~~
+%Error: Exiting due to 11 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:14:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'Cout'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   14 |             3'b000: {Cout, ALU_Result} = a + b;  
+      |                      ^~~~
+                    ... For error description see https://verilator.org/warn/PROCASSWIRE?v=5.025
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:14:28: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   14 |             3'b000: {Cout, ALU_Result} = a + b;  
+      |                            ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:15:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   15 |             3'b001: ALU_Result = a & b;  
+      |                     ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:16:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   16 |             3'b010: ALU_Result = a | b;  
+      |                     ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:17:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   17 |             3'b011: ALU_Result = ~a & b;  
+      |                     ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:18:21: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   18 |             3'b100: ALU_Result = ~a;  
+      |                     ^~~~~~~~~~
+%Error-PROCASSWIRE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/4_bit_alu.v:19:22: Procedural assignment to wire, perhaps intended var (IEEE 1800-2023 6.5): 'ALU_Result'
+                                                                                                                : ... note: In instance 'alu_4bit'
+   19 |             default: ALU_Result = 4'bxxxx;  
+      |                      ^~~~~~~~~~
+%Error: Exiting due to 7 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:16:5: Cannot find file containing module: 'full_adder'
+   16 |     full_adder fa0 (a[0], b[0], ALU_Sel[0], add_result[0], Carry);
+      |     ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:16:5: This may be because there's no search path specified with -I<dir>.
+   16 |     full_adder fa0 (a[0], b[0], ALU_Sel[0], add_result[0], Carry);
+      |     ^~~~~~~~~~
+        ... Looked in:
+             full_adder
+             full_adder.v
+             full_adder.sv
+             obj_dir/full_adder
+             obj_dir/full_adder.v
+             obj_dir/full_adder.sv
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:17:5: Cannot find file containing module: 'full_adder'
+   17 |     full_adder fa1 (a[1], b[1], ALU_Sel[1], add_result[1], Carry);
+      |     ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:18:5: Cannot find file containing module: 'full_adder'
+   18 |     full_adder fa2 (a[2], b[2], ALU_Sel[2], add_result[2], Carry);
+      |     ^~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_gemma2_9b/4_bit_alu.v:19:5: Cannot find file containing module: 'full_adder'
+   19 |     full_adder fa3 (a[3], b[3], ALU_Sel[2], add_result[3], Carry);
+      |     ^~~~~~~~~~
+%Error: Exiting due to 5 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:17:13: syntax error, unexpected if, expecting endcase
+   17 |             if ((a[3]^b[3]) == 0 && (a[3]^ALU_Result[3]) == 1) 
+      |             ^~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:25:15: syntax error, unexpected ':'
+   25 |         3'b100: ALU_Result <= a - b;  
+      |               ^
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/4_bit_alu.v:34:9: syntax error, unexpected default
+   34 |         default: ALU_Result <= 4'bxxxx;  
+      |         ^~~~~~~
+%Error: Exiting due to 3 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/4_bit_alu.v:33:22: syntax error, unexpected '=', expecting ',' or ':' or :-begin or :-fork
+   33 |             Overflow = 0;
+      |                      ^
+%Error: Cannot continue
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/4_bit_alu.v:11:1: Latch inferred for signal 'Carry' (not all control paths of combinational always assign a value)
+                                                                                                          : ... Suggest use of always_latch for intentional latches
+   11 | always @(*) begin
+      | ^~~~~~
+                ... For warning description see https://verilator.org/warn/LATCH?v=5.025
+                ... Use "/* verilator lint_off LATCH */" and lint_on around source to disable this message.
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/4_bit_alu.v:11:1: Latch inferred for signal 'Overflow' (not all control paths of combinational always assign a value)
+                                                                                                          : ... Suggest use of always_latch for intentional latches
+   11 | always @(*) begin
+      | ^~~~~~
+%Warning-LATCH: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_qwen2_5_14b/4_bit_alu.v:11:1: Latch inferred for signal 'Zero' (not all control paths of combinational always assign a value)
+                                                                                                          : ... Suggest use of always_latch for intentional latches
+   11 | always @(*) begin
+      | ^~~~~~
+%Error: Exiting due to 3 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.017 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.465 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+

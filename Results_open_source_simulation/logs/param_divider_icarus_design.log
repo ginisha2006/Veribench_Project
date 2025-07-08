@@ -1,0 +1,87 @@
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/parameterized_divider.v:13: error: 'q' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/parameterized_divider.v:8:      : 'q' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/parameterized_divider.v:16: error: 'q' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/parameterized_divider.v:8:      : 'q' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/parameterized_divider.v:10: error: Unable to bind wire/reg/memory `clock' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_llama3/parameterized_divider.v:10: error: Failed to evaluate event expression 'posedge clock'.
+4 error(s) during elaboration.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:13: error: 'quotient' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:1:      : 'quotient' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:15: error: 'remainder' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:1:      : 'remainder' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:3: error: Unable to bind wire/reg/memory `clock' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:3: error: Failed to evaluate event expression 'posedge clock'.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:31: error: 'dividend' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:1:      : 'dividend' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:21: error: Unable to bind wire/reg/memory `clock' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_llama3_8b/parameterized_divider.v:21: error: Failed to evaluate event expression 'posedge clock'.
+7 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_float16_qwen2_/parameterized_divider.v:17: error: Unknown module type: your_dsp_divider_ip_core
+2 error(s) during elaboration.
+*** These modules were missing:
+        your_dsp_divider_ip_core referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_divider.v:10: error: Unable to bind wire/reg/memory `clock' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_divider.v:10: error: Failed to evaluate event expression 'posedge clock'.
+2 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/parameterized_divider.v:9: error: Unknown module type: divarith
+2 error(s) during elaboration.
+*** These modules were missing:
+        divarith referenced 1 times.
+***
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_divider.v:15: error: 'temp' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_divider.v:8:      : 'temp' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_divider.v:18: error: 'temp' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_divider.v:8:      : 'temp' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_divider.v:11: error: Unable to bind wire/reg/memory `clock' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/parameterized_divider.v:11: error: Failed to evaluate event expression 'posedge clock'.
+4 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/parameterized_divider.v:8: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/parameterized_divider.v:8: error: Malformed event control expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/parameterized_divider.v:8: error: Invalid event control.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/parameterized_divider.v:8: error: Unable to bind wire/reg/memory `clock' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/parameterized_divider.v:8: error: Failed to evaluate event expression 'posedge clock'.
+2 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/parameterized_divider.v:10: error: Unable to bind wire/reg/memory `clock' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_llama3_8b/parameterized_divider.v:10: error: Failed to evaluate event expression 'posedge clock'.
+2 error(s) during elaboration.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/parameterized_divider.v:12: error: Concatenation operand "'sd0" has indefinite width.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_qwen2_5_14b/parameterized_divider.v:7: assert: net_assign.cc:72: failed assertion more == 0
+Aborted (core dumped)
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:18: error: Unable to bind parameter `W' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:18: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:18:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:18: error: Unable to bind parameter `W' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:18: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:18:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:19: error: Unable to bind parameter `W' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:19: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:19:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:19: error: Unable to bind parameter `W' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:19: error: Part select expressions must be constant integral values.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:19:      : The msb expression violates that rule: (W)-('sd1)
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:12: error: Unable to bind wire/reg/memory `W' in `param_divider'
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:12: error: Unable to elaborate condition expression.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:16: error: 'temp' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/parameterized_divider.v:7:      : 'temp' is declared here as a wire.
+11 error(s) during elaboration.
+
+
+
+
+
+

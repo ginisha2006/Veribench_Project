@@ -1,0 +1,90 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/full_adder.v:8: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/full_adder.v:5: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/full_adder.v:5: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/full_adder.v:10: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/full_adder.v:8: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/full_adder.v:10: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/full_adder.v:10: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/full_adder.v:10: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/full_adder.v:5: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/full_adder.v:10: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/full_adder.v:10: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/full_adder.v:10: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/full_adder.v:8: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/full_adder.v:10: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/full_adder.v:10: error: Unknown module type: full_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 1 times.
+***
+

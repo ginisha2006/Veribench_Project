@@ -1,0 +1,21 @@
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_shift_register.v:1: error: Port data_out (5) of module param_shift_reg has no direction declaration.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_shift_register.v:1: error: signal data_out in module param_shift_reg is not a port.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_llama3_8b/parameterized_shift_register.v:1:      : Are you missing an input/output/inout declaration?
+2 error(s) during elaboration.
+
+
+
+
+
+
+
+
+
+
+
+
+

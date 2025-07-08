@@ -1,0 +1,16 @@
+
+[options]
+mode bmc
+depth 20
+
+[engines]
+smtbmc
+
+[script]
+read -formal testing/adder.v
+read -formal testing/adder_fv.v
+prep -top tb_full_adder
+
+[files]
+testing/adder.v
+testing/adder_fv.v

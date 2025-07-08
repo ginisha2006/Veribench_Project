@@ -1,0 +1,23 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/fibonacci_number_generator.v:38: error: 'start' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_qwen2_5_1/fibonacci_number_generator.v:6:      : 'start' is declared here as a wire.
+1 error(s) during elaboration.
+
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/fibonacci_number_generator.v:21: warning: A for statement must compare against a constant value to be synthesized in an always_ff process.
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/fibonacci_number_generator.v:1: syntax error
+I give up.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/fibonacci_number_generator.v:1: syntax error
+I give up.
+
+
+
+
+
+

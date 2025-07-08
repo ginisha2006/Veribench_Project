@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2025-06-30T06:27:10" hostname="c12d3109af80" package="check" id="0" name="default" tests="1" errors="1" failures="0" time="0" skipped="0">
+<properties>
+<property name="os" value="Linux"/>
+<property name="expect" value="PASS"/>
+<property name="status" value="ERROR"/>
+</properties>
+<testcase classname="default" name="default" time="0">
+<error type="ERROR"/>
+</testcase>
+<system-out>SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check'.
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/bcd_to_gray_converter.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check/src/bcd_to_gray_converter.v'.
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/bcd_to_gray_converter_converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check/src/bcd_to_gray_converter_converted.v'.
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] engine_0: smtbmc
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] base: starting process &quot;cd /TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/bcd_to_gray_converter_converted.v:24: ERROR: syntax error, unexpected '(', expecting TOK_PROPERTY
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] base: finished (returncode=1)
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] base: task failed. ERROR.
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] summary: engine_0 did not produce any traces
+SBY  6:27:10 [/TVLSI_WORK/Ginisha/testing_file/check/tb_bcd_to_gray/check] DONE (ERROR, rc=16)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

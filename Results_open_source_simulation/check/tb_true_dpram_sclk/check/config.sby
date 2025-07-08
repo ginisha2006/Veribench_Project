@@ -1,0 +1,16 @@
+
+[options]
+mode bmc
+depth 20
+
+[engines]
+smtbmc
+
+[script]
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/true_dual_port_ram_with_a_single_clock_design_6_.v
+read -formal /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/true_dual_port_ram_with_a_single_clock_design_6__converted.v
+prep -top tb_true_dpram_sclk
+
+[files]
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/true_dual_port_ram_with_a_single_clock_design_6_.v
+/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/true_dual_port_ram_with_a_single_clock_design_6__converted.v

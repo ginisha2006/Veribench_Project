@@ -1,0 +1,61 @@
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:10: error: Unknown module type: half_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:11: error: Unknown module type: half_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:12: error: Unknown module type: half_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:15: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:16: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:17: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:20: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:21: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:22: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:25: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:26: error: Unknown module type: full_adder
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_gemma2_9b/binary_adder_tree.v:27: error: Unknown module type: full_adder
+13 error(s) during elaboration.
+*** These modules were missing:
+        full_adder referenced 9 times.
+        half_adder referenced 3 times.
+***
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/binary_adder_tree.v:9: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/binary_adder_tree.v:9: error: Syntax error in left side of continuous assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/binary_adder_tree.v:12: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/binary_adder_tree.v:12: error: Invalid module instantiation
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/binary_adder_tree.v:13: error: Invalid module instantiation
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/binary_adder_tree.v:14: error: Invalid module instantiation
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/binary_adder_tree.v:17: error: Invalid module item.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/binary_adder_tree.v:10: error: 's1' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/binary_adder_tree.v:6:      : 's1' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/binary_adder_tree.v:11: error: 's2' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/binary_adder_tree.v:6:      : 's2' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/binary_adder_tree.v:12: error: 's3' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/binary_adder_tree.v:6:      : 's3' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/binary_adder_tree.v:13: error: 'out' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/binary_adder_tree.v:4:      : 'out' is declared here as a wire.
+4 error(s) during elaboration.
+
+
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:10: error: 's1' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:6:      : 's1' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:10: error: 's2' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:6:      : 's2' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:15: error: 's3' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:6:      : 's3' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:15: error: 's4' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:6:      : 's4' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:20: error: 'out' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:4:      : 'out' is declared here as a wire.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:25: error: 'out' is not a valid l-value for a procedural assignment.
+/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/binary_adder_tree.v:4:      : 'out' is declared here as a wire.
+Elaboration failed
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/parameterized_adder.v:9: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_llama3/parameterized_adder.v:8: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/parameterized_adder.v:8: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_llama3_8b/parameterized_adder.v:1: syntax error
+I give up.
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/parameterized_adder.v:8: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_llama3_8b/parameterized_adder.v:8: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/parameterized_adder.v:11: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/parameterized_adder.v:9: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/parameterized_adder.v:14: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/parameterized_adder.v:14: warning: Numeric constant truncated to 5 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/parameterized_adder.v:15: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/parameterized_adder.v:15: warning: Numeric constant truncated to 5 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/parameterized_adder.v:10: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/parameterized_adder.v:11: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/parameterized_adder.v:11: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_llama3_8b/parameterized_adder.v:14: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_llama3_8b/parameterized_adder.v:14: warning: Numeric constant truncated to 5 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_llama3_8b/parameterized_adder.v:15: warning: Extra digits given for sized binary constant.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_llama3_8b/parameterized_adder.v:15: warning: Numeric constant truncated to 5 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_llama3_8b/parameterized_adder.v:10: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/parameterized_adder.v:9: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/parameterized_adder.v:8: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/parameterized_adder.v:11: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/parameterized_adder.v:11: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/parameterized_adder.v:9: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:39: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:39: error: Malformed statement
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:43: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:43: error: Malformed statement
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:43: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:43: error: Malformed statement
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:47: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:47: error: Malformed statement
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:47: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:47: error: Malformed statement
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:51: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:51: error: Malformed statement
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:51: syntax error
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/parameterized_adder.v:51: error: Malformed statement
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/parameterized_adder.v:11: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/parameterized_adder.v:11: error: Unknown module type: param_adder
+2 error(s) during elaboration.
+*** These modules were missing:
+        param_adder referenced 1 times.
+***
+

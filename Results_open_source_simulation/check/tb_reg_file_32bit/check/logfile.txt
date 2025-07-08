@@ -1,0 +1,13 @@
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] Removing directory '/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check'.
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/32_bit_register_file.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check/src/32_bit_register_file.v'.
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] Copy '/TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/32_bit_register_file_converted_converted.v' to '/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check/src/32_bit_register_file_converted_converted.v'.
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] engine_0: smtbmc
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] base: starting process "cd /TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] base: /TVLSI_WORK/Ginisha/testing_file/Modules_FV/few_shot_int8_gemma2_9b/32_bit_register_file_converted_converted.v:37: ERROR: syntax error, unexpected TOK_ALWAYS
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] base: finished (returncode=1)
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] base: task failed. ERROR.
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] summary: engine_0 (smtbmc) did not return a status
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] summary: engine_0 did not produce any traces
+SBY  6:25:40 [/TVLSI_WORK/Ginisha/testing_file/check/tb_reg_file_32bit/check] DONE (ERROR, rc=16)

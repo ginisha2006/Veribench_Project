@@ -1,0 +1,113 @@
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_qwen2_5_1/bcd_to_gray_converter.v:5: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_llama3/bcd_to_gray_converter.v:11: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_float16_qwen2_5_14b/bcd_to_gray_converter.v:5: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_float16_qwen2_/bcd_to_gray_converter.v:5: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_gemma2_9b/bcd_to_gray_converter.v:10: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_llama3_8b/bcd_to_gray_converter.v:8: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int4_qwen2_5_1/bcd_to_gray_converter.v:5: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/chain_of_thought_int8_llama3_8b/bcd_to_gray_converter.v:11: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_llama3_8b/bcd_to_gray_converter.v:10: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_llama3_8b/bcd_to_gray_converter.v:10: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_qwen2_5_14b/bcd_to_gray_converter.v:12: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int8_qwen2_5_14b/bcd_to_gray_converter.v:5: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_llama3_8b/bcd_to_gray_converter.v:10: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_float16_gemma2_9b/bcd_to_gray_converter.v:13: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_qwen2_5_14b/bcd_to_gray_converter.v:12: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/zero_shot_int4_qwen2_5_14b/bcd_to_gray_converter.v:5: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/bcd_to_gray_converter.v:32: warning: Numeric constant truncated to 4 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/bcd_to_gray_converter.v:33: warning: Numeric constant truncated to 4 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/bcd_to_gray_converter.v:34: warning: Numeric constant truncated to 4 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/bcd_to_gray_converter.v:35: warning: Numeric constant truncated to 4 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/bcd_to_gray_converter.v:36: warning: Numeric constant truncated to 4 bits.
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int4_qwen2_5_14b/bcd_to_gray_converter.v:15: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+
+/TVLSI_WORK/Ginisha/testing_file/Modules_TB/few_shot_int8_gemma2_9b/bcd_to_gray_converter.v:13: error: Unknown module type: bcd_to_gray
+2 error(s) during elaboration.
+*** These modules were missing:
+        bcd_to_gray referenced 1 times.
+***
+

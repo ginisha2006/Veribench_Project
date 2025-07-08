@@ -1,0 +1,776 @@
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.457 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/7_segment_lcd.v:24:26: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                     : ... This will be executed as a blocking assignment '='!
+   24 |             4'b1111: seg <= 7'b0111000;  
+      |                          ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Error: Exiting due to 1 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.453 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.004 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.457 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/7_segment_lcd.v:25:22: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                       : ... This will be executed as a blocking assignment '='!
+   25 |         4'b1111: seg <= 7'b0000000;  
+      |                      ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Error: Exiting due to 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:7:23: Too many digits for 7 bit number: 7'b11000000
+    7 |         8'h0 : seg <= 7'b11000000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:8:23: Too many digits for 7 bit number: 7'b11110010
+    8 |         8'h1 : seg <= 7'b11110010;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:9:23: Too many digits for 7 bit number: 7'b10100100
+    9 |         8'h2 : seg <= 7'b10100100;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:10:23: Too many digits for 7 bit number: 7'b10101110
+   10 |         8'h3 : seg <= 7'b10101110;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:11:23: Too many digits for 7 bit number: 7'b10011000
+   11 |         8'h4 : seg <= 7'b10011000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:12:23: Too many digits for 7 bit number: 7'b10011100
+   12 |         8'h5 : seg <= 7'b10011100;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:13:23: Too many digits for 7 bit number: 7'b10011110
+   13 |         8'h6 : seg <= 7'b10011110;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:14:23: Too many digits for 7 bit number: 7'b10000010
+   14 |         8'h7 : seg <= 7'b10000010;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:15:23: Too many digits for 7 bit number: 7'b10000000
+   15 |         8'h8 : seg <= 7'b10000000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:16:23: Too many digits for 7 bit number: 7'b10001000
+   16 |         8'h9 : seg <= 7'b10001000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:17:23: Too many digits for 7 bit number: 7'b10010000
+   17 |         8'ha : seg <= 7'b10010000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:18:23: Too many digits for 7 bit number: 7'b10011000
+   18 |         8'hb : seg <= 7'b10011000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:19:23: Too many digits for 7 bit number: 7'b10011010
+   19 |         8'hc : seg <= 7'b10011010;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:20:23: Too many digits for 7 bit number: 7'b10011110
+   20 |         8'hd : seg <= 7'b10011110;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:21:23: Too many digits for 7 bit number: 7'b10001110
+   21 |         8'he : seg <= 7'b10001110;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:22:23: Too many digits for 7 bit number: 7'b10001111
+   22 |         8'hf : seg <= 7'b10001111;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:23:26: Too many digits for 7 bit number: 7'bxxxxxxx0
+   23 |         default : seg <= 7'bxxxxxxx0;  
+      |                          ^~~~~~~~~~~
+%Error: Exiting due to 17 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:7:28: Too many digits for 7 bit number: 7'b11101110
+    7 |             3'b0000: seg = 7'b11101110;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:9:28: Too many digits for 7 bit number: 7'b11001100
+    9 |             3'b0010: seg = 7'b11001100;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:10:28: Too many digits for 7 bit number: 7'b10110010
+   10 |             3'b0100: seg = 7'b10110010;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:11:28: Too many digits for 7 bit number: 7'b10011100
+   11 |             3'b0101: seg = 7'b10011100;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:12:28: Too many digits for 7 bit number: 7'b10000011
+   12 |             3'b0110: seg = 7'b10000011;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:13:28: Too many digits for 7 bit number: 7'b11100001
+   13 |             3'b0111: seg = 7'b11100001;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14:13: Too many digits for 3 bit number: 3'b1000
+   14 |             3'b1000: seg = 7'b10011111;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14:28: Too many digits for 7 bit number: 7'b10011111
+   14 |             3'b1000: seg = 7'b10011111;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15:13: Too many digits for 3 bit number: 3'b1001
+   15 |             3'b1001: seg = 7'b10000000;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15:28: Too many digits for 7 bit number: 7'b10000000
+   15 |             3'b1001: seg = 7'b10000000;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16:13: Too many digits for 3 bit number: 3'b1010
+   16 |             3'b1010: seg = 7'b11111110;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16:28: Too many digits for 7 bit number: 7'b11111110
+   16 |             3'b1010: seg = 7'b11111110;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17:13: Too many digits for 3 bit number: 3'b1011
+   17 |             3'b1011: seg = 7'b10000001;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17:28: Too many digits for 7 bit number: 7'b10000001
+   17 |             3'b1011: seg = 7'b10000001;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18:13: Too many digits for 3 bit number: 3'b1100
+   18 |             3'b1100: seg = 7'b11111111;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18:28: Too many digits for 7 bit number: 7'b11111111
+   18 |             3'b1100: seg = 7'b11111111;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19:13: Too many digits for 3 bit number: 3'b1101
+   19 |             3'b1101: seg = 7'b10001110;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19:28: Too many digits for 7 bit number: 7'b10001110
+   19 |             3'b1101: seg = 7'b10001110;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20:13: Too many digits for 3 bit number: 3'b1110
+   20 |             3'b1110: seg = 7'b10010011;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20:28: Too many digits for 7 bit number: 7'b10010011
+   20 |             3'b1110: seg = 7'b10010011;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21:13: Too many digits for 3 bit number: 3'b1111
+   21 |             3'b1111: seg = 7'b10011111;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21:28: Too many digits for 7 bit number: 7'b10011111
+   21 |             3'b1111: seg = 7'b10011111;  
+      |                            ^~~~~~~~~~~
+%Error: Exiting due to 22 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/7_segment_lcd.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/7_segment_lcd.v:5:2: syntax error, unexpected end of file
+    5 | );
+      |  ^
+%Error: Cannot continue
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.017 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.453 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/7_segment_lcd.v:24:26: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                  : ... This will be executed as a blocking assignment '='!
+   24 |             default: seg <= 7'b0111000;  
+      |                          ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Error: Exiting due to 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/7_segment_lcd.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/7_segment_lcd.v:5:2: syntax error, unexpected end of file
+    5 | );
+      |  ^
+%Error: Cannot continue
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.010 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.445 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:12:9: Illegal character in binary constant: 2
+   12 |         4'b2: seg = 7'b0100100;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:13:9: Illegal character in binary constant: 3
+   13 |         4'b3: seg = 7'b0110000;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:14:9: Illegal character in binary constant: 4
+   14 |         4'b4: seg = 7'b0011001;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:15:9: Illegal character in binary constant: 5
+   15 |         4'b5: seg = 7'b0010010;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:16:9: Illegal character in binary constant: 6
+   16 |         4'b6: seg = 7'b0000010;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:17:9: Illegal character in binary constant: 7
+   17 |         4'b7: seg = 7'b1111000;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:18:9: Illegal character in binary constant: 8
+   18 |         4'b8: seg = 7'b0000000;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:19:9: Illegal character in binary constant: 9
+   19 |         4'b9: seg = 7'b0011000;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:22:9: Illegal character in binary constant: 2
+   22 |         4'b12: seg = 7'b1000110;  
+      |         ^~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:23:9: Illegal character in binary constant: 3
+   23 |         4'b13: seg = 7'b0100001;  
+      |         ^~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:24:9: Illegal character in binary constant: 4
+   24 |         4'b14: seg = 7'b0000110;  
+      |         ^~~~~
+%Error: Exiting due to 11 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/7_segment_lcd.v:24:23: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                  : ... This will be executed as a blocking assignment '='!
+   24 |         default : seg <= 7'b0000111;  
+      |                       ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Error: Exiting due to 1 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.017 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.008 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.453 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-SELRANGE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:11:23: Selection index out of range: 4 outside 3:0
+                                                                                                                : ... note: In instance 'seven_seg_display'
+   11 |     assign digit_codes[4] = 7'b0111001;
+      |                       ^
+                   ... For warning description see https://verilator.org/warn/SELRANGE?v=5.025
+                   ... Use "/* verilator lint_off SELRANGE */" and lint_on around source to disable this message.
+%Warning-SELRANGE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:12:23: Selection index out of range: 5 outside 3:0
+                                                                                                                : ... note: In instance 'seven_seg_display'
+   12 |     assign digit_codes[5] = 7'b0010011;
+      |                       ^
+%Warning-SELRANGE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:13:23: Selection index out of range: 6 outside 3:0
+                                                                                                                : ... note: In instance 'seven_seg_display'
+   13 |     assign digit_codes[6] = 7'b0111110;
+      |                       ^
+%Warning-SELRANGE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:14:23: Selection index out of range: 7 outside 3:0
+                                                                                                                : ... note: In instance 'seven_seg_display'
+   14 |     assign digit_codes[7] = 7'b0000000;
+      |                       ^
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:16:29: Bit extraction of array[3:0] requires 2 bit index, not 4 bits.
+                                                                                                                  : ... note: In instance 'seven_seg_display'
+   16 |     assign seg = digit_codes[data[3:0]];
+      |                             ^
+%Error: Exiting due to 5 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.007 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.453 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_float16_qwen2_5_14b/7_segment_lcd.v:24:26: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                     : ... This will be executed as a blocking assignment '='!
+   24 |             4'b1111: seg <= 7'b0111000;  
+      |                          ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Error: Exiting due to 1 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.453 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.453 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int4_qwen2_5_1/7_segment_lcd.v:25:22: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                       : ... This will be executed as a blocking assignment '='!
+   25 |         4'b1111: seg <= 7'b0000000;  
+      |                      ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Error: Exiting due to 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:7:23: Too many digits for 7 bit number: 7'b11000000
+    7 |         8'h0 : seg <= 7'b11000000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:8:23: Too many digits for 7 bit number: 7'b11110010
+    8 |         8'h1 : seg <= 7'b11110010;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:9:23: Too many digits for 7 bit number: 7'b10100100
+    9 |         8'h2 : seg <= 7'b10100100;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:10:23: Too many digits for 7 bit number: 7'b10101110
+   10 |         8'h3 : seg <= 7'b10101110;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:11:23: Too many digits for 7 bit number: 7'b10011000
+   11 |         8'h4 : seg <= 7'b10011000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:12:23: Too many digits for 7 bit number: 7'b10011100
+   12 |         8'h5 : seg <= 7'b10011100;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:13:23: Too many digits for 7 bit number: 7'b10011110
+   13 |         8'h6 : seg <= 7'b10011110;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:14:23: Too many digits for 7 bit number: 7'b10000010
+   14 |         8'h7 : seg <= 7'b10000010;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:15:23: Too many digits for 7 bit number: 7'b10000000
+   15 |         8'h8 : seg <= 7'b10000000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:16:23: Too many digits for 7 bit number: 7'b10001000
+   16 |         8'h9 : seg <= 7'b10001000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:17:23: Too many digits for 7 bit number: 7'b10010000
+   17 |         8'ha : seg <= 7'b10010000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:18:23: Too many digits for 7 bit number: 7'b10011000
+   18 |         8'hb : seg <= 7'b10011000;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:19:23: Too many digits for 7 bit number: 7'b10011010
+   19 |         8'hc : seg <= 7'b10011010;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:20:23: Too many digits for 7 bit number: 7'b10011110
+   20 |         8'hd : seg <= 7'b10011110;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:21:23: Too many digits for 7 bit number: 7'b10001110
+   21 |         8'he : seg <= 7'b10001110;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:22:23: Too many digits for 7 bit number: 7'b10001111
+   22 |         8'hf : seg <= 7'b10001111;
+      |                       ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/chain_of_thought_int8_llama3_8b/7_segment_lcd.v:23:26: Too many digits for 7 bit number: 7'bxxxxxxx0
+   23 |         default : seg <= 7'bxxxxxxx0;  
+      |                          ^~~~~~~~~~~
+%Error: Exiting due to 17 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:7:28: Too many digits for 7 bit number: 7'b11101110
+    7 |             3'b0000: seg = 7'b11101110;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:9:28: Too many digits for 7 bit number: 7'b11001100
+    9 |             3'b0010: seg = 7'b11001100;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:10:28: Too many digits for 7 bit number: 7'b10110010
+   10 |             3'b0100: seg = 7'b10110010;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:11:28: Too many digits for 7 bit number: 7'b10011100
+   11 |             3'b0101: seg = 7'b10011100;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:12:28: Too many digits for 7 bit number: 7'b10000011
+   12 |             3'b0110: seg = 7'b10000011;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:13:28: Too many digits for 7 bit number: 7'b11100001
+   13 |             3'b0111: seg = 7'b11100001;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14:13: Too many digits for 3 bit number: 3'b1000
+   14 |             3'b1000: seg = 7'b10011111;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:14:28: Too many digits for 7 bit number: 7'b10011111
+   14 |             3'b1000: seg = 7'b10011111;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15:13: Too many digits for 3 bit number: 3'b1001
+   15 |             3'b1001: seg = 7'b10000000;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:15:28: Too many digits for 7 bit number: 7'b10000000
+   15 |             3'b1001: seg = 7'b10000000;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16:13: Too many digits for 3 bit number: 3'b1010
+   16 |             3'b1010: seg = 7'b11111110;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:16:28: Too many digits for 7 bit number: 7'b11111110
+   16 |             3'b1010: seg = 7'b11111110;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17:13: Too many digits for 3 bit number: 3'b1011
+   17 |             3'b1011: seg = 7'b10000001;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:17:28: Too many digits for 7 bit number: 7'b10000001
+   17 |             3'b1011: seg = 7'b10000001;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18:13: Too many digits for 3 bit number: 3'b1100
+   18 |             3'b1100: seg = 7'b11111111;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:18:28: Too many digits for 7 bit number: 7'b11111111
+   18 |             3'b1100: seg = 7'b11111111;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19:13: Too many digits for 3 bit number: 3'b1101
+   19 |             3'b1101: seg = 7'b10001110;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:19:28: Too many digits for 7 bit number: 7'b10001110
+   19 |             3'b1101: seg = 7'b10001110;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20:13: Too many digits for 3 bit number: 3'b1110
+   20 |             3'b1110: seg = 7'b10010011;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:20:28: Too many digits for 7 bit number: 7'b10010011
+   20 |             3'b1110: seg = 7'b10010011;  
+      |                            ^~~~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21:13: Too many digits for 3 bit number: 3'b1111
+   21 |             3'b1111: seg = 7'b10011111;  
+      |             ^~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int4_llama3_8b/7_segment_lcd.v:21:28: Too many digits for 7 bit number: 7'b10011111
+   21 |             3'b1111: seg = 7'b10011111;  
+      |                            ^~~~~~~~~~~
+%Error: Exiting due to 22 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/7_segment_lcd.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_llama3_8b/7_segment_lcd.v:5:2: syntax error, unexpected end of file
+    5 | );
+      |  ^
+%Error: Cannot continue
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.017 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.453 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int8_qwen2_5_14b/7_segment_lcd.v:24:26: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                  : ... This will be executed as a blocking assignment '='!
+   24 |             default: seg <= 7'b0111000;  
+      |                          ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Error: Exiting due to 1 warning(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/7_segment_lcd.v:1:1: syntax error, unexpected IDENTIFIER
+    1 | timescale 1ns / 1ps
+      | ^~~~~~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_float16_llama3_8b/7_segment_lcd.v:5:2: syntax error, unexpected end of file
+    5 | );
+      |  ^
+%Error: Cannot continue
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.018 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.001, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.449 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:12:9: Illegal character in binary constant: 2
+   12 |         4'b2: seg = 7'b0100100;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:13:9: Illegal character in binary constant: 3
+   13 |         4'b3: seg = 7'b0110000;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:14:9: Illegal character in binary constant: 4
+   14 |         4'b4: seg = 7'b0011001;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:15:9: Illegal character in binary constant: 5
+   15 |         4'b5: seg = 7'b0010010;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:16:9: Illegal character in binary constant: 6
+   16 |         4'b6: seg = 7'b0000010;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:17:9: Illegal character in binary constant: 7
+   17 |         4'b7: seg = 7'b1111000;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:18:9: Illegal character in binary constant: 8
+   18 |         4'b8: seg = 7'b0000000;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:19:9: Illegal character in binary constant: 9
+   19 |         4'b9: seg = 7'b0011000;  
+      |         ^~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:22:9: Illegal character in binary constant: 2
+   22 |         4'b12: seg = 7'b1000110;  
+      |         ^~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:23:9: Illegal character in binary constant: 3
+   23 |         4'b13: seg = 7'b0100001;  
+      |         ^~~~~
+%Error: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_qwen2_5_14b/7_segment_lcd.v:24:9: Illegal character in binary constant: 4
+   24 |         4'b14: seg = 7'b0000110;  
+      |         ^~~~~
+%Error: Exiting due to 11 error(s)
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-COMBDLY: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/zero_shot_int4_qwen2_5_14b/7_segment_lcd.v:24:23: Non-blocking assignment '<=' in combinational logic process
+                                                                                                                  : ... This will be executed as a blocking assignment '='!
+   24 |         default : seg <= 7'b0000111;  
+      |                       ^~
+                  ... For warning description see https://verilator.org/warn/COMBDLY?v=5.025
+                  ... Use "/* verilator lint_off COMBDLY */" and lint_on around source to disable this message.
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.
+%Error: Exiting due to 1 warning(s)
+
+- V e r i l a t i o n   R e p o r t: Verilator 5.025 devel rev v5.024-47-gce5cad17a
+- Verilator: Built from 0.013 MB sources in 2 modules, into 0.017 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.005 s (elab=0.000, cvt=0.002, bld=0.000); cpu 0.000 s on 1 threads; alloced 1.449 MB
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "C.UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+%Warning-SELRANGE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:11:23: Selection index out of range: 4 outside 3:0
+                                                                                                                : ... note: In instance 'seven_seg_display'
+   11 |     assign digit_codes[4] = 7'b0111001;
+      |                       ^
+                   ... For warning description see https://verilator.org/warn/SELRANGE?v=5.025
+                   ... Use "/* verilator lint_off SELRANGE */" and lint_on around source to disable this message.
+%Warning-SELRANGE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:12:23: Selection index out of range: 5 outside 3:0
+                                                                                                                : ... note: In instance 'seven_seg_display'
+   12 |     assign digit_codes[5] = 7'b0010011;
+      |                       ^
+%Warning-SELRANGE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:13:23: Selection index out of range: 6 outside 3:0
+                                                                                                                : ... note: In instance 'seven_seg_display'
+   13 |     assign digit_codes[6] = 7'b0111110;
+      |                       ^
+%Warning-SELRANGE: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:14:23: Selection index out of range: 7 outside 3:0
+                                                                                                                : ... note: In instance 'seven_seg_display'
+   14 |     assign digit_codes[7] = 7'b0000000;
+      |                       ^
+%Warning-WIDTHTRUNC: /TVLSI_WORK/Ginisha/testing_file/Modules_Design/few_shot_int8_gemma2_9b/7_segment_lcd.v:16:29: Bit extraction of array[3:0] requires 2 bit index, not 4 bits.
+                                                                                                                  : ... note: In instance 'seven_seg_display'
+   16 |     assign seg = digit_codes[data[3:0]];
+      |                             ^
+%Error: Exiting due to 5 warning(s)
+

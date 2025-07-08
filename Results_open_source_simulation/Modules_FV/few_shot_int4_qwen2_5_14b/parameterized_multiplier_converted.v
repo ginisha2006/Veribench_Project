@@ -1,0 +1,19 @@
+module tb_param_multiplier #(parameter WIDTH = 8)();
+
+  // Inputs
+  reg [WIDTH-1:0] a, b;
+
+  // Output
+  wire [2*WIDTH-1:0] product;
+
+  // Instantiate the DUT
+  param_multiplier #(.WIDTH(WIDTH)) UUT (
+    .a(a),
+    .b(b),
+    .product(product)
+  );
+
+  // Properties
+  always @(*) begin assert (@(posedge $rose($changed(a | b))) (product === a * b)); end
+
+endmodule
